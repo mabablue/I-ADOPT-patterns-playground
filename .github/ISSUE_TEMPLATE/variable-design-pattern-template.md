@@ -6,6 +6,9 @@ labels: ''
 assignees: ''
 
 ---
+_Type:_ Variable Design pattern
+
+_ID_
 
 _Name:_
 
