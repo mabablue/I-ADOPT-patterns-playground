@@ -6,11 +6,11 @@ labels: ''
 assignees: ''
 
 ---
-_Type:_ Pattern
+_type:_ pattern
 
 _ID:_
 
-_Name:_
+_name:_
 
 _decision node:_ no
 
