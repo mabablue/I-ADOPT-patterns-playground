@@ -1,6 +1,6 @@
 type: "variable design pattern" 
 id: VDP1
-name: "property: specific"
+name: "Property: specific"
 decision_node: "yes"
 - condition: "specific property exists in target vocabulary"
 - decision_tree: "complex property"
