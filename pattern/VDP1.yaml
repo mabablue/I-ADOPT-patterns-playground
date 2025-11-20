@@ -1,21 +1,14 @@
 type: "variable design pattern" 
-id: VDP1
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP1.yaml
 name: "Property: specific"
-decision_node: "yes"
-- condition: "specific property exists in target vocabulary"
-- decision_tree: "complex property"
-- decision rule: "specific property"
-components_dependency: "no"
-- determining_component: null
-- affected_component 1: "property"
-- connector: null
-- affected_component 2: null
-dependent_pattern: "no"
-- associated_pattern: null
-mapping: "yes"
+rule: "no_decomposition"
+components_dependency: false
+  component_1: "property"
+patterns_dependency: false
+mapping: true
 - mapping rule: "specific property exactMatch base property plus constraint"
 shacl_shape: null
 llm_prompt: null
 instruction: null
 example: "number density"
-gh_issue: "https://github.com/mabablue/I-ADOPT-examples-playground/issues/7"
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/7
