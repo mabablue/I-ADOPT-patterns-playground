@@ -1,0 +1,30 @@
+root: 
+  - question: "Is the property a composed term?"
+  - branches: 
+      - response: true
+        question: "Does the composed property exist as concept in your defined semantic space?"
+		- branches:
+              - response: true
+                question: "Does the composed property exist as fundamental physical quantity?"
+                - branches: 
+					- response: true
+					  pattern: "generic property"
+					  rule: "no_decomposition"
+                      affected component: "Property"
+					- response: false
+					  rule: "decomposition"
+					  decomposition: "Constraint ON Property"
+					  affected_component_1: "Property"
+					  affected_component_2: "Constraint"
+					  connector_12: "ON"
+			  - response: false
+			    rule: "decomposition"
+				decomposition: "Constraint ON Property"
+				affected_component_1: "Property"
+				affected_component_2: "Constraint"
+				connector_12: "ON"				
+  - question: "Is there a dependency to other patterns?"
+  - branches:
+		- response: false
+  - example: "number density"
+  - gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/7
