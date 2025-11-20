@@ -1,0 +1,10 @@
+type: "Variable Design Pattern" 
+id: 
+name: ""
+rule: "decomposition/no_decomposition"
+decomposition: Component_n AND/ON Component_n
+Component_1: ""
+Component_2: ""
+connector_12: AND/ON
+example: ""
+gh_issue: URL
