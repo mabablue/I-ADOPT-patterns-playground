@@ -19,8 +19,8 @@ root:
 			  response: false
 					pattern: ""
 					pattern_rule: ""
-  - question: ""
+  question: ""
 	branches:
 		response: false
-  - example: ""
-  - gh_issue: URL
+  example: ""
+  gh_issue: URL
