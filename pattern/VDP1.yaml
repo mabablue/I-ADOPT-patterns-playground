@@ -6,7 +6,7 @@ components_dependency: false
   component_1: "property"
 patterns_dependency: false
 mapping: true
-- mapping rule: "property:specific exactMatch constraint ON property:base"
+  mapping rule: "property:specific exactMatch constraint ON property:base"
 shacl_shape: null
 llm_prompt: null
 instruction: null
