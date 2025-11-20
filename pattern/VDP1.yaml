@@ -1,4 +1,4 @@
-type: "variable design pattern" 
+type: "Variable Design Pattern" 
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP1.yaml
 name: "Property: specific"
 rule: "no_decomposition"
