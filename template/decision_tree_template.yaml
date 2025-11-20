@@ -1,26 +1,23 @@
-type: "Decistion tree" 
+type: "Decision tree"
 id: 
 name: ""
-root: 
+root:
   question: ""
-  branches: 
-      response: true/false
-        question: ""
-        branches:
-              response: true
-              question: ""
-              branches: 
-					response: true
-						pattern: URL
-						pattern_rule: ""
-					response: false
-						pattern: URL
-						pattern_rule: ""
-			  response: false
-					pattern: ""
-					pattern_rule: ""
+  branches:
+    - response: true
+      question: ""
+      branches:
+        - response: true
+          pattern: URL
+          pattern_rule: ""
+        - response: false
+          pattern: URL
+          pattern_rule: ""
+    - response: false
+      pattern: ""
+      pattern_rule: ""
   question: ""
-	branches:
-		response: false
+  branches:
+    - response: false
   example: ""
   gh_issue: URL
