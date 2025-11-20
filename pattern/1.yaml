@@ -1,4 +1,4 @@
-type: variable design pattern
+type: "variable design pattern" 
 id: VDP1
 name: "property: specific"
 decision_node: "yes"
