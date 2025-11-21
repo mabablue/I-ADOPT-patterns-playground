@@ -1,0 +1,8 @@
+type: Mapping_rule
+id: l
+title: composed vs base property
+mapping predicate: skos:exactMatch
+source: "composed property"
+target: "constraint" constrains "base property"
+rule: "composed property" skos:exactMatch "constraint" constrains "base property"
+
