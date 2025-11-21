@@ -1,15 +1,15 @@
-type: "Decision tree"
-id: "https://github.com/mabablue/I-ADOPT-patterns-playground/edit/main/Decisition_trees/DT1.yaml"
+type: Decision tree
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/edit/main/Decisition_trees/DT1.yaml
 name: "DT1 Property"
 
 root:
-  question: "Is the property a composed term?"
+  question: Is the property a composed term?
   branches:
     - response: true
-      question: "Does the composed property exist as concept in your defined semantic space?"
+      question: Does the composed property exist as concept in your defined semantic space?
       branches:
         - response: true
-          question: "Does the composed property exist as fundamental physical quantity?"
+          question: Does the composed property exist as fundamental physical quantity?
           branches:
             - response: true
               pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP1.yaml
@@ -28,5 +28,5 @@ root:
         - response: false
 
 example: "number density"
-gh_issue: "https://github.com/mabablue/I-ADOPT-examples-playground/issues/7"
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/7
 
