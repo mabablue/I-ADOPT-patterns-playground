@@ -1,5 +1,5 @@
 type: Mapping_rule
-id: l
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR1.yaml
 title: composed vs base property
 mapping predicate: skos:exactMatch
 source: "composed property"
