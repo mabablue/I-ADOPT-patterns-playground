@@ -1,15 +1,20 @@
-type: "Variable Design Pattern" 
+type: Variable Design Pattern
 id: URI
-name: ""
-root: 
-  rule: "decomposition/no_decomposition"
-  components_dependency: true/false
-    decomposition: Component_n AND/ON Component_n
-    Component_n: ""
-    connector_12: AND/ON
-  patterns_dependency: true/false
-    associated pattern: URI
-  mapping: true/false
-    associated_pattern: URI
-  example: ""
-  gh_issue: URL
+name: "..."
+rules:
+  decomposition: true/false
+affected:
+  components:
+    - OoI / ...
+    - OoI / ...
+  constrained:
+    - OoI / ...
+    - OoI / ...
+associated_pattern: 
+  - URI
+  - URI
+associated_mapping: 
+  - URI
+  - URI
+example: ""
+gh_issue: URL
