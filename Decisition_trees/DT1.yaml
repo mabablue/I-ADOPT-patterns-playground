@@ -1,4 +1,4 @@
-type: Decision tree
+otype: Decision tree
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/edit/main/Decisition_trees/DT1.yaml
 name: "DT1 Property"
 
@@ -13,10 +13,10 @@ root:
           branches:
             - response: true
               pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP1.yaml
-              pattern_rule: "no_decomposition"
+              decomposition: false
             - response: false
               pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP2.yaml
-              pattern_rule: "decomposition"
+              decomposition: true
         - response: false
           pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP1.yaml
           pattern_rule: "decomposition"
@@ -26,7 +26,3 @@ root:
       question: "Is there a dependency to other patterns?"
       branches:
         - response: false
-
-example: "number density"
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/7
-
