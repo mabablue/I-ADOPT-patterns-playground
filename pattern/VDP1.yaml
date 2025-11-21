@@ -9,8 +9,7 @@ affected:
   constrained:
 associated_pattern: 
 associated_mapping: 
-  - URI
-  - URI
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR1.yaml
 example: number density
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/7
 
