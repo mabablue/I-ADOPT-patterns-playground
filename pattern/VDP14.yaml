@@ -1,0 +1,16 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml
+name: Property: density
+comment: Density requires a reference extent, which is expressed in the matrix. Density must be specified.
+rules:
+  decomposition: false
+affected:
+  components:
+    - Property
+    - Matrix
+  constrained:
+associated_pattern: 
+https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
+associated_mapping: 
+example: NumberDensity
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/7
