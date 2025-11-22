@@ -2,7 +2,7 @@ type: Mapping Rule
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR2.yaml
 title: generic qualitative vs specific qualitatitve property
 mapping_predicate: skos:exactMatch
-source: "generic qualitative property"
-target: "specific qualitative property"
+source: generic qualitative property
+target: specific qualitative property
 rule: source mapping_predicate target
 example: generic: condition, specific: condition of pipe connection (faulty, cracked, undamaged,...)
