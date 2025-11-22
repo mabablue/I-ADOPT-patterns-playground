@@ -1,0 +1,15 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml
+name: Property: base
+rules:
+  decomposition: false
+affected:
+  components:
+    - Property
+  constrained:
+    - Property
+associated_pattern: 
+associated_mapping: 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR1.yaml
+example: radial velocity
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/61
