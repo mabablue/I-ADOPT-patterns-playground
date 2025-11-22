@@ -8,5 +8,5 @@ affected:
     - Statistical modifier
 associated_pattern: 
 associated_mapping: 
-example: frequency: daily
+example: frequency: daily ON maximum
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/8
