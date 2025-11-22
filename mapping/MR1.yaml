@@ -2,7 +2,7 @@ type: Mapping Rule
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR1.yaml
 title: composed vs base property
 mapping_predicate: skos:exactMatch
-source: "composed property"
-target: "constraint" constrains "base property"
+source: property: specific
+target: constraint ON property: base"
 rule: source mapping_predicate target
 
