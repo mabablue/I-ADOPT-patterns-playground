@@ -5,3 +5,4 @@ mapping_predicate: skos:exactMatch
 source: "generic qualitative property"
 target: "specific qualitative property"
 rule: source mapping_predicate target
+example: generic: condition, specific: condition of pipe connection (faulty, cracked, undamaged,...)
