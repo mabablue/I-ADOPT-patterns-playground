@@ -1,0 +1,14 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP12.yaml
+name: Property: qualitative
+comment: The values should be defined in a controlled list
+rules:
+  decomposition: false
+affected:
+  components:
+    - Property
+  constrained:
+associated_pattern: 
+associated_mapping: 
+example: condition
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/1
