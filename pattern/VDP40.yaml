@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
 name: context: environment
-comment: Can be a natural or artificial environment, which is not the matrix itself.
+comment: Can be a natural or artificial environment, which is not the matrix itself. Sometimes it is required to distinguish it from another environment.
 affected:
   components:
     - Context Object
