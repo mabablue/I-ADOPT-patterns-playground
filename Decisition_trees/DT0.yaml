@@ -16,13 +16,13 @@ root:
               decomposition: false
             - response: false
               pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP12.yaml
-              decomposition: true
+              pattern_rule: generate parent and value terms
+              decomposition: false
         - response: false
-          pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP1.yaml
-          pattern_rule: decomposition
-          decomposition: Constraint ON Property
-
+          pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP12.yaml
+          pattern_rule: generate parent and value terms
+          decomposition: false
     - response: false
-      question: Is there a dependency to other patterns?
+      pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
       branches:
         - response: false
