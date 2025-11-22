@@ -1,0 +1,11 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
+name: Matrix: embedding material
+comment: The matrix must be of another material than the object of interest. 
+affected:
+  components:
+    - Matrix
+associated_pattern: 
+associated_mapping: 
+example: soil
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/26
