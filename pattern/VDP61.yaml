@@ -8,6 +8,10 @@ affected:
   components:
     - Constraint
   constrained: 
+associated_constraint_types:
+  - size
+  - material type
+  - condition
 associated_pattern: 
 associated_mapping: 
 example: size: diameter of 30
