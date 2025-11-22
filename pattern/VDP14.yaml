@@ -10,7 +10,7 @@ affected:
     - Matrix
   constrained:
 associated_pattern: 
-https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
+   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
 associated_mapping: 
 example: NumberDensity
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/7
