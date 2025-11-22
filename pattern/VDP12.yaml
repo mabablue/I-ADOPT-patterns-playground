@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP12.yaml
 name: Property: qualitative, new
-comment: The property should be annotated with the parent term of a semantic controlled list. The property values should be defined as skos:narrower of this parent term. 
+comment: The property should be annotated with the parent term of a semantic controlled list. This parent term must include sufficient information to be unambiguous. The property values should be defined as skos:narrower of this parent term. 
 rules:
   decomposition: false
 affected:
