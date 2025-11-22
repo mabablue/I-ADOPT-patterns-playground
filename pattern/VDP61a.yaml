@@ -1,0 +1,16 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP61.yaml
+name: Constraint: single
+comment: A constraint must use exactly one constraint type; constraint types must not be mixed within a single constraint.
+rules:
+  decomposition: false
+affected:
+  components:
+    - Constraint
+  constrained: 
+associated_pattern: 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP62.yaml
+associated_mapping: 
+example: size: diameter of 30
+example: material type: plastic
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/1
