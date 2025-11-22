@@ -12,17 +12,14 @@ root:
           question: Does the composed property exist as fundamental physical quantity?
           branches:
             - response: true
-              pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP1.yaml
+              pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
               decomposition: false
             - response: false
-              pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP2.yaml
+              pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml
               decomposition: true
         - response: false
-          pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP1.yaml
+          pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml
           pattern_rule: decomposition
           decomposition: Constraint ON Property
-
     - response: false
-      question: Is there a dependency to other patterns?
-      branches:
-        - response: false
+      pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml
