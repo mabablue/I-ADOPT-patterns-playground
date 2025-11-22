@@ -1,0 +1,28 @@
+type: Decision Tree
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/edit/main/Decisition_trees/DT0.yaml
+name: "DT0 Property"
+
+root:
+  question: Is the property a qualitative property?
+  branches:
+    - response: true
+      question: Does the composed property exist as concept in your defined semantic space?
+      branches:
+        - response: true
+          question: Does the composed property exist as parent of a controlled list?
+          branches:
+            - response: true
+              pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP1.yaml
+              decomposition: false
+            - response: false
+              pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP2.yaml
+              decomposition: true
+        - response: false
+          pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP1.yaml
+          pattern_rule: decomposition
+          decomposition: Constraint ON Property
+
+    - response: false
+      question: Is there a dependency to other patterns?
+      branches:
+        - response: false
