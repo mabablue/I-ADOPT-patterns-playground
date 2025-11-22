@@ -1,0 +1,13 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP67.yaml
+name: Constraint: location
+affected:
+  components:
+    - Constraint
+  constrained: 
+    - Object of Interest
+    - Matrix
+associated_pattern: 
+associated_mapping: 
+example: location: in height of 1.7 m abovoe ground
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/8
