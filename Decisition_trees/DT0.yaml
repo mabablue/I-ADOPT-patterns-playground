@@ -24,5 +24,3 @@ root:
           decomposition: false
     - response: false
       pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
-      branches:
-        - response: false
