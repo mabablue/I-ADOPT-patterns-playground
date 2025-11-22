@@ -12,7 +12,7 @@ root:
           question: Does the composed property exist as parent of a controlled list?
           branches:
             - response: true
-              pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP1.yaml
+              pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP12.yaml
               decomposition: false
             - response: false
               pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP2.yaml
