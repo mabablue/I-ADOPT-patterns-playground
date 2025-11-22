@@ -23,4 +23,4 @@ root:
           pattern_rule: generate parent and value terms
           decomposition: false
     - response: false
-      node: DT1.ml
+      node: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.yaml
