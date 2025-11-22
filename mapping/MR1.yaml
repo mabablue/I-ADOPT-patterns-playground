@@ -3,6 +3,6 @@ id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR
 title: composed vs base property
 mapping_predicate: skos:exactMatch
 source: property: specific
-target: constraint ON property: base"
+target: constraint ON property: base
 rule: source mapping_predicate target
 
