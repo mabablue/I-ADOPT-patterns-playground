@@ -1,0 +1,12 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP66.yaml
+name: Constraint: frequency
+affected:
+  components:
+    - Constraint
+  constrained: 
+    - Statistical modifier
+associated_pattern: 
+associated_mapping: 
+example: frequency: daily
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/8
