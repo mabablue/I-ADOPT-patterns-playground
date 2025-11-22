@@ -7,7 +7,7 @@ affected:
   components:
     - Constraint
   constrained: 
-  - Object of Interest
+    - Object of Interest
 associated_pattern: 
 associated_mapping: 
 example: diameter of 30 cm ON connection type
