@@ -23,4 +23,4 @@ root:
           pattern_rule: generate parent and value terms
           decomposition: false
     - response: false
-      pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
+      node: DT1.ml
