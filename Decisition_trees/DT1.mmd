@@ -1,0 +1,14 @@
+flowchart TD
+    A[Quantitative Property] --> B(Is it a composed term?)
+    B --> C{true}
+    B --> D{false}
+    C --> E(Does the property exist as a semantic concept?) 
+    E --> F{true}
+    E --> G{false}
+    F --> H(Does the property exist as a fundamental physical quantity?)
+    D --> I{VDP1} 
+    G --> J(VDP2)
+    H --> L{true}
+    L --> M(VDP1)
+    H --> N{false}
+    N --> O(VDP2)
