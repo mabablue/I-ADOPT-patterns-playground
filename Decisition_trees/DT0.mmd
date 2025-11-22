@@ -1,0 +1,14 @@
+flowchart TD
+    A[Property] --> B(Is it qualitative?)
+    B --> C{true}
+    B --> D{false}
+    C --> E(Does the property exist as a semantic concept?) 
+    E --> F{true}
+    E --> G{false}
+    F --> H(Does the property exist as parent of a controlled list?)
+    D --> I{VDP2} 
+    G --> J(VDP2)
+    H --> L{true}
+    L --> M(VDP1)
+    H --> N{false}
+    N --> O(VDP2)
