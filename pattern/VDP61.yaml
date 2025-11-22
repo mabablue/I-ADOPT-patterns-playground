@@ -1,5 +1,5 @@
 type: Variable Design Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP61.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP62.yaml
 name: Constraint: type-labeled
 comment: The constraint must be type-labeled, following this naming convention - [type:]constraint
 rules:
@@ -13,6 +13,7 @@ associated_constraint_types:
   - material type
   - condition
 associated_pattern: 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP62.yaml
 associated_mapping: 
 example: size: diameter of 30
 example: material type: plastic
