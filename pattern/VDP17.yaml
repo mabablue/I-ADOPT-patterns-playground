@@ -1,0 +1,15 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml
+name: Property: concentration
+comment: Concentration implies the presence of a solute (object of interest) in a solvent (matrix).
+affected:
+  components:
+    - Property
+    - Constraint
+    - Matrix
+  constrained:
+associated_pattern: 
+https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
+associated_mapping: 
+example: height of atmospheric boundary layer
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/33
