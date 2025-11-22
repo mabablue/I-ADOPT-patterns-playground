@@ -11,6 +11,7 @@ affected:
   constrained:
     - Property
 associated_pattern: 
+https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP68.yaml
 associated_mapping: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR1.yaml
 example: height of atmospheric boundary layer
