@@ -1,0 +1,13 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP68.yaml
+name: Constraint: datum
+affected:
+  components:
+    - Constraint
+  constrained: 
+    - Property
+associated_pattern: 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP16.yaml
+associated_mapping: 
+example: datum: above ground
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/10
