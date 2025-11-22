@@ -5,7 +5,7 @@ rules:
   decomposition: false
 affected:
   components:
-    - Property
+    - Constraint
   constrained: 
   - Object of Interest
 associated_pattern: 
