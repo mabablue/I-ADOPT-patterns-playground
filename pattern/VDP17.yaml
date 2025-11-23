@@ -14,6 +14,7 @@ Affected:
 associated_pattern: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/edit/main/pattern/VDP71.yaml
 associated_mapping: 
 example: mass concentration of isobutylene in chloroform
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/27
