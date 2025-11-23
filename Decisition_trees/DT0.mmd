@@ -2,10 +2,10 @@ flowchart TD
     A[Property] --> B(Is it qualitative?)
     B --> C{true}
     B --> D{false}
-    C --> E(Does the property exist as a semantic concept?) 
+    C --> E(Does a concept exist?) 
     E --> F{true}
     E --> G{false}
-    F --> H(Does the property exist as parent of a controlled list?)
+    F --> H(Is it a parent of a controlled list?)
     D --> I{DT1} 
     G --> J(VDP12)
     H --> L{true}
