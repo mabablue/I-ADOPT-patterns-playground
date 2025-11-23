@@ -11,6 +11,7 @@ Affected:
     - Constraint
     - Matrix
   constrained:
+    - Property  
 associated_pattern: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
