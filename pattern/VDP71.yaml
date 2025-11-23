@@ -8,7 +8,11 @@ affected:
     - Constraint
   constrained: 
     - Property
+associated_rules:
+   - reference quantity in kg, g: per unit mass
+   - reference quantity in l, ml: per unit volume
 associated_pattern: 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml
 associated_mapping: 
 example: normalization: per unit volume
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/33
