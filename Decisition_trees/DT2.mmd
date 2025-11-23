@@ -1,0 +1,15 @@
+flowchart T2
+    A[Physical Quantity] --> B(Is it a ratio?)
+    B --> B1{check the unit}
+    B1 --> C{true}
+    B1 --> D{false}
+    C --> E(Amount of substance in a medium?) 
+    E --> F{true}
+    E --> G{false}
+    F --> H(A physical quantity?)
+    D --> I{VDP13} 
+    G --> J(VDP13)
+    H --> L{true}
+    L --> M(VDP10)
+    H --> N{false}
+    N --> O(VDP13)
