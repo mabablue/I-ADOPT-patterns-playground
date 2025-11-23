@@ -1,7 +1,10 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml
 name: Property: concentration
-comment: Concentration describes how much of one substance (the solute) or object of interest) is present in another substance (the solvent). Thus, using a concentration property always implies the existence of both a solute (Object of Interest) and a solvent (Matrix of type embedding material). In addition the property must be specific and include also the type (mass, molar, volume). The normalization (per unit mass, per unit volume) is added as a constraint.
+comment: Concentration describes how much of one substance (the solute) is present in another substance (the solvent). 
+Thus, using a concentration property always implies the existence of both a solute (Object of Interest) and a solvent (Matrix of type embedding material). 
+In addition, the property must be specific and include also the type (mass, molar, volume). 
+The normalization (per unit mass, per unit volume) is added as a constraint.
 Affected:
   components:
     - Property
@@ -9,7 +12,8 @@ Affected:
     - Matrix
   constrained:
 associated_pattern: 
-https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
 associated_mapping: 
-example: height of atmospheric boundary layer
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/33
+example: mass concentration of isobutylene in chloroform
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/27
