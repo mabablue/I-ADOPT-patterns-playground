@@ -1,7 +1,8 @@
 flowchart TD
     A[Property] --> B(Is it qualitative?)
-    B --> C{true}
-    B --> D{false}
+B --> B1 (check units)
+    B1 --> C{true}
+    B1 --> D{false}
     C --> E(Does a concept exist?) 
     E --> F{true}
     E --> G{false}
