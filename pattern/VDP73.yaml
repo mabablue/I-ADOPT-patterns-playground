@@ -1,0 +1,13 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP69.yaml
+name: Constraint: interpretation
+comment: Required to correctly interprete the value of the property measured.
+affected:
+  components:
+    - Constraint
+  constrained: 
+    - Property
+associated_pattern: 
+associated_mapping: 
+example: interpretation: dip direction of inclined bedding must be to the right when facing in the azimuth direction
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/17
