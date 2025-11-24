@@ -12,7 +12,7 @@ affected:
     - Target
   constrained: 
 associated_pattern: 
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP25.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml
 associated_mapping: 
 example: distance to nearest neighbour habitat patch
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/19
