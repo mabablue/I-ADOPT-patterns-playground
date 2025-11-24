@@ -1,6 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP25.yaml
 name: Object Of interest: symmetric system
+comment: A system with two parts having the same role in the description.
 affected:
   components:
     - Object of Interest
