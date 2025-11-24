@@ -1,0 +1,16 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP34.yaml
+name: Matrix: asymmetric system
+comment: A matrix as asymmetric system is required for a flux property. The components associated with to the system are source and target, via the respective properties hasSource and hasTarget.
+affected:
+  components:
+    - Matrix
+    - Asymmetric System
+    - Source
+    - Target
+    - Property
+associated_pattern: 
+- https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP71.yaml
+associated_mapping: 
+example: mass flux of carbon into soil from vegetation
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/12
