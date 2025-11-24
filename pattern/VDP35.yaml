@@ -9,5 +9,6 @@ affected:
     - Matrix
 associated_pattern: 
 associated_mapping: 
-example: pipe
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/14
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP15.yaml
+example: foliage cover
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/15
