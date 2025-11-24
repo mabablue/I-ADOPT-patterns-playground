@@ -1,8 +1,7 @@
 flowchart TD
     A[Quantitative Property] --> B(Is it a composed term?)
-    B --> C{true}
+    B --> |true|E(Does concept exist?)
     B --> D{false}
-    C --> E(Does concept exist?) 
     E --> F{true}
     E --> G{false}
     F --> H(Numerator a mass unit?)
