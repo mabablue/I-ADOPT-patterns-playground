@@ -9,5 +9,5 @@ affected:
     - Property
 associated_pattern: 
 associated_mapping: 
-example: interpretation: Angle measured such that, when facing in the azimuth direction, the dip direction of the inclined bedding is to the right
+example: interpretation: Angle measured with the dip direction to the right
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/17
