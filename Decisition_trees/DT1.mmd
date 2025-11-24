@@ -1,10 +1,10 @@
 flowchart TD
     A[Quantitative Property] --> B(Is it a composed term?)
     B --> |true|E(Does concept exist?)
-    B --> |false|D[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml'>VDP13</a>]
-    E -->|true|F(A funhdamental <br> physical quantity?)
-    E --> |false|I
+    B --> |false|D[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml'>VDP13</a> <br> base property]
+    E -->|true|F(A fundamental <br> physical quantity?)
+    E --> |false|D
     F --> |true|H[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml'>VDP10</a> <br> keep property specific]
-    D --> I[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml'>VDP13</a>]
-    F --> |false|I
+    F --> |false|D
+
 
