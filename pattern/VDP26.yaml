@@ -1,0 +1,14 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP25.yaml
+name: Object Of interest: asymmetric system
+affected:
+  components:
+    - Object of Interest
+    - Asymmetric System
+    - Source
+    - Target
+  constrained: 
+associated_pattern: 
+https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP19.yaml
+associated_mapping:  
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/18
