@@ -1,14 +1,13 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP69.yaml
-name: Constraint: due to
+name: Constraint: layer
 affected:
   components:
     - Constraint
   constrained: 
-    - Property
     - Object of Interest
     - Matrix
 associated_pattern: 
 associated_mapping: 
 example: due to: temperature inversion
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/10
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/15
