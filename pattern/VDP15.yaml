@@ -11,6 +11,7 @@ affected:
     - Matrix
   constrained: 
 associated_pattern: 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP35.yaml
 associated_mapping: 
 example: cloud cover
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/9
