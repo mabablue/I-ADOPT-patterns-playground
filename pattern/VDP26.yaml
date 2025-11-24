@@ -9,6 +9,6 @@ affected:
     - Target
   constrained: 
 associated_pattern: 
-https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP19.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP19.yaml
 associated_mapping:  
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/18
