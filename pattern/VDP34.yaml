@@ -10,7 +10,7 @@ affected:
     - Target
     - Property
 associated_pattern: 
-- https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP71.yaml
+- https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP18.yaml
 associated_mapping: 
 example: mass flux of carbon into soil from vegetation
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/12
