@@ -15,6 +15,7 @@ associated_rules:
    - reference quantity in m², ha: per unit area
 associated_pattern: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP18.yaml
 associated_mapping: 
 example: normalization: per unit volume
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/33
