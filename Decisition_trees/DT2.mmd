@@ -1,15 +1,8 @@
 flowchart TD
-    A[Physical Quantity] --> B(Is it a ratio?)
-    B --> B1{Check the unit}
-    B1 --> C{true}
-    B1 --> D{false}
-    C --> E[Amount of substance <br> in a medium?] 
-    E --> F{true}
-    E --> G{false}
-    F --> H(A physical quantity?)
-    D --> I{VDP13} 
-    G --> J(VDP13)
-    H --> L{true}
-    L --> M(VDP10)
-    H --> N{false}
-    N --> O(VDP13)
+    A[Physical Quantity] --> B(Is it a ratio?<br>check the unit)
+    B --> |true|C(Amount of substance <br> in a medium?) 
+    B --> |false|D[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml'>VDP13</a>]
+    C --> |true|E(A fundamental physical quantity?)
+    C --> D
+    E --> |true|F[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml'>VDP10</a>]
+    E --> D
