@@ -2,7 +2,7 @@ flowchart TD
     A[Quantitative Property] --> B(Is it a composed term?)
     B --> |true|E(Does concept exist?)
     B --> D{false}
-    E --> F{true}
+    E -->|true|F(Numerator a mass unit?)
     E --> G{false}
     F --> H(Numerator a mass unit?)
     D --> I[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml'>VDP13</a>]
