@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP15.yaml
 name: Property: cover
-comment: Cover expresses the fraction of a reference area (the matrix) that is occupied by the Object of Interest.
+comment: Cover expresses the fraction (portion) of a total reference area (the matrix) that is occupied by the Object of Interest.
 rules:
   decomposition: false
 affected:
