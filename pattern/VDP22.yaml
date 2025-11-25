@@ -1,0 +1,15 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP22.yaml
+name: Property: boolean
+comment: A boolean property allows exactly two values: true/false, good/bad. Quality flags are boolean. A threshold constraint should be added to explain when the quality flag holds.
+affected:
+  components:
+    - Property 
+    - Constraint
+  constrained: 
+    - Property
+associated_pattern: 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP82.yaml
+associated_mapping: 
+example: quality flag
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/77
