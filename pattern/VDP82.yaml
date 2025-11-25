@@ -1,12 +1,12 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP74.yaml
 name: Constraint: threshold
-comment: Defines under which conditions a quality flag holds
+comment: Defines under which conditions a quality flag holds. A quality flag is a boolean qualitative property.
 affected:
   components:
     - Constraint
   constrained: 
-    - Property
+    - Property (boolean)
 associated_pattern: 
 associated_mapping: 
 example: good if under threshold value
