@@ -1,0 +1,16 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP76.yaml
+name: Constraint: state
+comment: The state of an organism.
+affected:
+  components:
+    - Constraint
+  constrained: 
+    - Object of Interest
+    - Matrix
+    - Source
+    - Target
+associated_pattern: 
+associated_mapping: 
+example: dry
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/25
