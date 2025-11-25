@@ -9,5 +9,5 @@ affected:
     - Property
 associated_pattern: 
 associated_mapping: 
-example: posititve away from the instrument
+example: good if under threshold value
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/77
