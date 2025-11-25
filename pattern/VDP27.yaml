@@ -1,0 +1,14 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml
+name: Object Of interest: property
+comment: When there is a property of the property of Interest 
+affected:
+  components:
+    - Object of Interest
+    - Symmetric System
+    - part
+  constrained: 
+associated_pattern: 
+associated_mapping:  
+example: dilution of precision of relative position
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/44
