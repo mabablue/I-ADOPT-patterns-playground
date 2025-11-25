@@ -1,7 +1,7 @@
 type: Variable Design Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP15.yaml
-name: Property: cover
-comment: Cover expresses the fraction (portion) of a total reference area (the matrix) that is occupied by the Object of Interest.
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP77.yaml
+name: Property: procedure
+comment: A method
 rules:
   decomposition: false
 affected:
@@ -11,7 +11,6 @@ affected:
     - Matrix
   constrained: 
 associated_pattern: 
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP35.yaml
 associated_mapping: 
 example: cloud cover
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/9
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/36
