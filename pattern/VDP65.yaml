@@ -11,4 +11,6 @@ affected:
 associated_pattern: 
 associated_mapping: 
 example: type: canalisation ON pipe
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/2
+gh_issue: 
+  - https://github.com/mabablue/I-ADOPT-examples-playground/issues/2
+  - https://github.com/mabablue/I-ADOPT-examples-playground/issues/38
