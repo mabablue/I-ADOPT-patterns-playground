@@ -1,0 +1,19 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml
+name: Property: fraction
+comment: A fraction is a ratio comparing a part to the whole where the quantities are of the same kind. 
+A fraction needs to be specified, and a normalization constraint added.
+rules:
+  decomposition: false
+affected:
+  components:
+    - Property 
+    - Object of Interest
+    - Matrix
+  constrained: 
+    - Property
+associated_pattern: 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP71.yaml
+associated_mapping: 
+example: mass fraction
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/23
