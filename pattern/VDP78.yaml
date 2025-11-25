@@ -1,6 +1,6 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP77.yaml
-name: Property: time
+name: Constraint: time
 rules:
   decomposition: false
 affected:
