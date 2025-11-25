@@ -1,6 +1,6 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP77.yaml
-name: Property: protocol
+name: Constraint: protocol
 comment: A formally documented, standardized procedure
 rules:
   decomposition: false
