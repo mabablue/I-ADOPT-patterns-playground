@@ -1,0 +1,13 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP74.yaml
+name: Constraint: threshold
+comment: Defines under which conditions a quality flag holds
+affected:
+  components:
+    - Constraint
+  constrained: 
+    - Property
+associated_pattern: 
+associated_mapping: 
+example: posititve away from the instrument
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/77
