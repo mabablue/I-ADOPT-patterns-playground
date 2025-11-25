@@ -1,16 +1,15 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP77.yaml
-name: Property: procedure
-comment: A method
+name: Property: protocol
+comment: A formally documented, standardized procedure
 rules:
   decomposition: false
 affected:
   components:
     - Property 
     - Object of Interest
-    - Matrix
   constrained: 
 associated_pattern: 
 associated_mapping: 
-example: cloud cover
+example: performed by a certified laboratory
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/36
