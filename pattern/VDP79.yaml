@@ -1,6 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP74.yaml
-name: Constraint: spatial distribution
+name: Constraint: origin
+comment: Explains from where the information stems
 affected:
   components:
     - Constraint
