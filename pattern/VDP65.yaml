@@ -5,6 +5,7 @@ affected:
   components:
     - Constraint
   constrained: 
+    - Property
     - Object of Interest
     - Matrix
 associated_pattern: 
