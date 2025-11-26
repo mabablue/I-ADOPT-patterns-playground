@@ -1,0 +1,14 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP35.yaml
+name: Matrix: natural process
+affected:
+  components:
+    - Matrix
+    - Asymmetric System
+    - Source
+    - Target
+    - Property
+associated_pattern: 
+associated_mapping: 
+example: combustion
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/81
