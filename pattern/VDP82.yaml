@@ -1,5 +1,5 @@
 type: Variable Design Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP74.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP82.yaml
 name: Constraint: threshold
 comment: Defines under which conditions a quality flag holds. A quality flag is a boolean qualitative property.
 affected:
