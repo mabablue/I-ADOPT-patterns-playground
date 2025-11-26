@@ -6,8 +6,9 @@ affected:
   components:
     - Constraint
   constrained: 
-    - Property
+    - object of interest
 associated_pattern: 
 associated_mapping: 
-example: qcqueous
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
+example: acqueous
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/80
