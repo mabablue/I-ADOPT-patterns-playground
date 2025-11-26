@@ -1,5 +1,5 @@
 type: Variable Design Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP35.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
 name: Matrix: reference area
 comment: A matrix is required when the Property is a area fraction (or cover) of a whole (reference area). 
 affected:
