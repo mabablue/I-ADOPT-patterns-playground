@@ -9,10 +9,10 @@ affected:
   constrained: 
     - Property
 associated_rules:
-   - reference quantity in kg, g: per unit mass
-   - reference quantity in l, ml: per unit volume
-   - reference quantity in hr, min, sec: per unit time
-   - reference quantity in m², ha: per unit area
+   - reference quantity in kg, g - per unit mass
+   - reference quantity in l, ml - per unit volume
+   - reference quantity in hr, min, sec - per unit time
+   - reference quantity in m², ha - per unit area
 associated_pattern: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP18.yaml
