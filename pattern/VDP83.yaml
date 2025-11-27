@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP83.yaml
 name: Constraint: controlled list
-comment: This constraint indicates that the property is expressed using a controlled list. The class which instance this constraint is, is the parent term of the controlled list.
+comment: Indicates that the property value must be selected from a controlled list. The class whose instance this constraint is represents the parent term of the list.
 affected:
   components:
     - Constraint
