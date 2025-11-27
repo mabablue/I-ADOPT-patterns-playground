@@ -1,6 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP67.yaml
 name: Constraint: location
+comment: provides a location-specific information about the constrained component 
 affected:
   components:
     - Constraint
