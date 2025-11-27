@@ -1,8 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP71.yaml
 name: Constraint: normalization
-comment: A constraint that specifies the reference quantity relative to which the property value is expressed. The property is normalized relative to some reference quantity. 
-The constraint is on a property only. It starts with "per unit" and adds the reference quantity (mass, volumen, area, time).
+comment: indicates that the result value is expressed relative to a reference scale or per unit
 affected:
   components:
     - Constraint
