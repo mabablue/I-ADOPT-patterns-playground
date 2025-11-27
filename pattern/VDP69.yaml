@@ -1,6 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP69.yaml
 name: Constraint: layer
+comment: constraints the component specifying in which layer the variable is measured
 affected:
   components:
     - Constraint
