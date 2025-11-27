@@ -1,6 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP80.yaml
-name: Constraint: spatial distribution
+name: Constraint: aggregation
+comment: Defines the domain or criteria over which a statistical measure is calculated
 affected:
   components:
     - Constraint
