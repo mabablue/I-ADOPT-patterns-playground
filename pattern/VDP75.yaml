@@ -1,6 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP75.yaml
 name: Constraint: temporal extent
+comment: indicates the temporal coverage within which the constrained component applies
 affected:
   components:
     - Constraint
