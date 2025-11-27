@@ -1,6 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP66.yaml
 name: Constraint: frequency
+comment: provides the frequency that applies for the constrained component
 affected:
   components:
     - Constraint
