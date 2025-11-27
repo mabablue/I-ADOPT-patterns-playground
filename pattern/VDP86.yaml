@@ -5,10 +5,11 @@ comment: Specifies the reagent used in the analysis solution (matrix)
 affected:
   components:
     - Constraint
+    - Matrix
   constrained: 
-    - object of interest
+    - matrix
 associated_pattern: 
 associated_mapping: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
-example: 
+example: ortho-phenanthrolin
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/80
