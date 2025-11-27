@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP81.yaml
 name: Constraint: sign meaning
-comment: Explains what the negative and positive values in the result mean
+comment: Explains the meaning of positive values in the result
 affected:
   components:
     - Constraint
