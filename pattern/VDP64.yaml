@@ -1,6 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP64.yaml
 name: Constraint: material type
+comment: provides a material type information about the constrained component
 rules:
   decomposition: false
 affected:
