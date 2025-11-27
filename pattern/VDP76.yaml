@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP76.yaml
 name: Constraint: state
-comment: The state of an organism.
+comment: indicates in which state or phase the constraint component is
 affected:
   components:
     - Constraint
