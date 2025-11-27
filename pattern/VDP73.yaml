@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP73.yaml
 name: Constraint: interpretation
-comment: Required to correctly interprete the value of the property measured.
+comment: provides specific information enabling better interpretation of the constrained component
 affected:
   components:
     - Constraint
