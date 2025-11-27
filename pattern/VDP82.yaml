@@ -8,6 +8,7 @@ affected:
   constrained: 
     - Property (boolean)
 associated_pattern: 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP82.yaml
 associated_mapping: 
 example: good if under threshold value
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/77
