@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP86.yaml
 name: Constraint: reagent
-comment: Specifies the reagent used in the analysis solution (matrix)
+comment: specifies the reagent used in the analysis solution (matrix)
 affected:
   components:
     - Constraint
