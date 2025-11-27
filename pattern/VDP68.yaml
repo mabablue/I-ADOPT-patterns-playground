@@ -1,6 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP68.yaml
 name: Constraint: datum
+comment: provides a reference point or information for the constrained component
 affected:
   components:
     - Constraint
