@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP86.yaml
-name: Constraint: phase
-comment: Chemical phase of a substance or compound
+name: Constraint: reagent
+comment: Specifies the reagent used in the analysis solution (matrix)
 affected:
   components:
     - Constraint
