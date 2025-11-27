@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP79.yaml
 name: Constraint: origin
-comment: Explains from where the information stems
+comment: specifies the source, provenance, or starting point of the constrained component
 affected:
   components:
     - Constraint
