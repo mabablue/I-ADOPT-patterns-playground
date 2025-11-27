@@ -1,6 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP65.yaml
 name: Constraint: type
+comment: further specifies the type of the constrained component
 affected:
   components:
     - Constraint
