@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP84.yaml
 name: Constraint: quality
-comment: Specifies the degree of quality or purity of a substance or generally of the component 
+comment: specifies the degree of quality or purity of a substance or generally of the component 
 affected:
   components:
     - Constraint
