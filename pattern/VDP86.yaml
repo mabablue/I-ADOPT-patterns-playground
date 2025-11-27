@@ -10,5 +10,5 @@ affected:
 associated_pattern: 
 associated_mapping: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
-example: acqueous
+example: 
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/80
