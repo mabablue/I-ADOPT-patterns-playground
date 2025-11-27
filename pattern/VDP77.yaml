@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP77.yaml
 name: Constraint: protocol
-comment: A formally documented, standardized procedure
+comment: indicates the methodological procedure or protocol used (rather to not be included, only if part of the variable name as requested by the community)
 rules:
   decomposition: false
 affected:
