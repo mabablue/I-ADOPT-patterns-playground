@@ -1,6 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP63.yaml
 name: Constraint: size
+comment: provides a size-specific information about the constrained component
 rules:
   decomposition: false
 affected:
