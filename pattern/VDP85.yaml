@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml
 name: Constraint: requirement
-comment: Specifies that a value must be provided for the variable in order for the measurement to be valid
+comment: specifies that a value must be provided for the variable in order for the measurement to be valid
 affected:
   components:
     - Constraint
