@@ -6,7 +6,8 @@ affected:
   components:
     - Constraint
   constrained: 
-    - Statististal Modifier
+    - Object of Interest
+    - Matrix
 associated_pattern: 
 associated_mapping: 
 example: detrital organic matter
