@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP78.yaml
 name: Constraint: time
-comment: indicates the physical, chemical or qualitative condition, including phases, of the constrained component
+comment: provides time-specific information about the constrained component
 rules:
   decomposition: false
 affected:
