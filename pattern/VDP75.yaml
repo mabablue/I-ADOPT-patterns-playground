@@ -7,6 +7,7 @@ affected:
     - Constraint
   constrained: 
     - Property
+    - Statistical Modifier
 associated_pattern: 
 associated_mapping:  
 example: temporal extent: over 1 year
