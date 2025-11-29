@@ -7,13 +7,13 @@ rules:
   decomposition: false
 affected:
   components:
-    - Property 
     - Object of Interest
-    - Matrix
+    - Asymmetric System
   constrained: 
     - Property
 associated_pattern: 
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP71.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP91.yaml
 associated_mapping: 
 example: mass fraction
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/23
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/26
