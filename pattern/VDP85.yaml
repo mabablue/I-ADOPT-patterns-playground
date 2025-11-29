@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml
-name: Constraint: requirement
-comment: specifies that a value must be provided for the variable in order for the measurement to be valid
+name: Constraint: defining entity
+comment: specifies the entity whose presence, activity, or concentration mathematically defines the property, but is not the main object being observed
 affected:
   components:
     - Constraint
@@ -9,5 +9,6 @@ affected:
     - Property
 associated_pattern: 
 associated_mapping: 
-example: requirement: 1 atm pressure
+rule: defined by [entity]
+example: defined by: 1 atm pressure
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/78
