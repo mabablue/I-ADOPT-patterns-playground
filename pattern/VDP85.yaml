@@ -10,5 +10,5 @@ affected:
 associated_pattern: 
 associated_mapping: 
 rule: defined by [entity]
-example: defined by: 1 atm pressure
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/78
+example: defined by: hydronium ion activity
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/87
