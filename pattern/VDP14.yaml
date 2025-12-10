@@ -2,7 +2,6 @@ type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml
 name: Property: density
 comment: Density is the property amount per reference extent, which is expressed in the matrix. Density must be specified. 
-In addition, it requires a constraint:normalization
 rules:
   decomposition: false
 affected:
