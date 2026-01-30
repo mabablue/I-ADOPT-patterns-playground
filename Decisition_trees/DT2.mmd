@@ -19,8 +19,8 @@ flowchart TD
     D --> |true|J[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
     D --> |false|P{Volume as denominator?}
     P --> |true|Q{Amount of Substance as numerator?}
-    Q --> |true|R[Molar CONCENTRATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
-    Q --> |false|S[Mass CONCENTRATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
-    P --> |false|J[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
+    Q --> |true|R(Molar CONCENTRATION)
+    Q --> |false|S(Mass CONCENTRATION)
+    P --> |false|J
     S --> T[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
     R --> T
