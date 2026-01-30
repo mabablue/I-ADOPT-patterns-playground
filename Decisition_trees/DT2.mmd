@@ -9,7 +9,8 @@ flowchart TD
     F --> |true|G[FLUX COMPLEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP23.yaml'>VDP23</a>]
     F --> |false|H[FLUX SIMPLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP18.yaml'>VDP23</a>]
     K --> |true|L[Specific rate <br> FLUX COMPLEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP23.yaml'>VDP23</a>]
-    K --> |false|M
+    K --> |false|M(Flow Rate)
+    M --> H
     N --> |true|E(Area in the denominator?)
     N --> |false|O(Event rate)
     O --> I
@@ -17,5 +18,5 @@ flowchart TD
     D --> |false|P(Volume as denominator?)
     P --> |true|Q(Amount of Substance as numerator?)
     Q --> |true|R[Molar CONCENTRATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
-    Q --> |false|S[MASS CONCENTRATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
+    Q --> |false|S[Mass CONCENTRATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
     P --> |false|J[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
