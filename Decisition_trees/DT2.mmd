@@ -3,7 +3,7 @@ flowchart TD
     B --> |true|C(ASYMMETRIC SYSTEM in the Object of Interest. <br> Time in the denominator?) 
     B --> |false|I[OoI SIMPLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP28</a>]
     C --> |true|N(Rate <br> Quantity in the numerator?)
-    C --> |false|D
+    C --> |false|D(fraction? <br> quantities of the same type)
     E --> |true|F(is the area constrained?)
     E --> |false|K(Mass in the denominator?) 
     F --> |true|G[FLUX COMPLEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP23.yaml'>VDP23</a>]
@@ -13,3 +13,4 @@ flowchart TD
     N --> |true|E(Area in the denominator?)
     N --> |false|O(Event rate)
     O --> I
+    D --> |true|J(FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
