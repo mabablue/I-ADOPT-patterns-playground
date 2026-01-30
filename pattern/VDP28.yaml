@@ -1,0 +1,12 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
+name: OoI: simple
+comment: The Object of Interest is not a system but a simple entity. This is the case when there is no ratio required to represent the variable.
+affected:
+  components:
+    - Object of Interest
+associated_pattern: 
+associated_mapping: 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
+example: 
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/26
