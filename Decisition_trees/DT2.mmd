@@ -3,21 +3,24 @@ flowchart TD
     B --> |true|AB(ASYMMETRIC SYSTEM in the Object of Interest)
     AB --> C{Time in the denominator?} 
     B --> |false|I[OoI SIMPLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP28</a>]
-    C --> |true|N(Rate <br> Quantity in the numerator?)
-    C --> |false|D(fraction? <br> quantities of the same type)
-    E --> |true|F(is the area constrained?)
-    E --> |false|K(Mass in the denominator?) 
+    C --> |true|MN(Rate) 
+    MN --> N{Quantity in the numerator?}
+    C --> |false|D{Fraction? <br> quantities of the same type?}
+    E --> |true|F{Area constrained?}
+    E --> |false|K{Mass in the denominator?} 
     F --> |true|G[FLUX COMPLEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP23.yaml'>VDP23</a>]
     F --> |false|H[FLUX SIMPLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP18.yaml'>VDP23</a>]
     K --> |true|L[Specific rate <br> FLUX COMPLEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP23.yaml'>VDP23</a>]
     K --> |false|M(Flow Rate)
     M --> H
-    N --> |true|E(Area in the denominator?)
+    N --> |true|E{Area in the denominator?}
     N --> |false|O(Event rate)
     O --> I
     D --> |true|J[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
-    D --> |false|P(Volume as denominator?)
-    P --> |true|Q(Amount of Substance as numerator?)
+    D --> |false|P{Volume as denominator?}
+    P --> |true|Q{Amount of Substance as numerator?}
     Q --> |true|R[Molar CONCENTRATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
     Q --> |false|S[Mass CONCENTRATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
     P --> |false|J[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
+    S --> T[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
+    R --> T
