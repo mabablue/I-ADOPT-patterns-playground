@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
-name: OoI: simple
-comment: The Object of Interest is not a system but a simple entity. This is the case when there is no ratio required to represent the variable.
+name: Physical Quantity
+comment: The Object of Interest is a physical quantity which is represented as a simple entity if not ratio is required. This is the case when there is no ratio required to represent the variable.
 affected:
   components:
     - Object of Interest
