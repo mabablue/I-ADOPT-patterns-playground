@@ -5,14 +5,6 @@ flowchart TD
     C --> |true|MN(Rate) 
     MN --> N{Quantity in the numerator?}
     C --> |false|D{Quantities of the same type <br> Fraction?}
-    E --> |true|F{Area constrained?}
-    E --> |false|K{Mass in the denominator?} 
-    F --> |true|G[FLUX COMPLEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP23.yaml'>VDP23</a>]
-    F --> |false|H[FLUX SIMPLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP18.yaml'>VDP18</a>]
-    K --> |true|L(Specific rate)
-    L --> G
-    K --> |false|M(Flow Rate)
-    M --> H
     N --> |true|E[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd'>DT3</a>]
     N --> |false|O(Event rate)
     O --> I
