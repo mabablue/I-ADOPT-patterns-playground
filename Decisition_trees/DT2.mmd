@@ -1,7 +1,6 @@
 flowchart TD
     A[Physical Quantity] --> B{A ratio?<br>check the unit}
-    B --> |true|AB(ASYMMETRIC SYSTEM in the Object of Interest)
-    AB --> C{Time in the denominator?} 
+    B --> C{Time in the denominator?} 
     B --> |false|I[OoI SIMPLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP28</a>]
     C --> |true|MN(Rate) 
     MN --> N{Quantity in the numerator?}
