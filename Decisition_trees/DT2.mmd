@@ -1,7 +1,7 @@
 flowchart TD
     A[Physical Quantity] --> B{A ratio?<br>check the unit}
     B --> C{Time in the denominator?} 
-    B --> |false|I[OoI SIMPLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP28</a>]
+    B --> |false|I[Physical Quantity simple <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP28</a>]
     C --> |true|MN(Rate) 
     MN --> N{Quantity in the numerator?}
     C --> |false|D{Quantities of the same type <br> Fraction?}
