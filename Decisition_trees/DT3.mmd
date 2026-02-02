@@ -8,12 +8,3 @@ flowchart TD
     L --> G
     K --> |false|M(Flow Rate)
     M --> H
-    D --> |true|J[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
-    D --> |false|P{Volume as denominator?}
-    P --> |true|Q{Amount of Substance as numerator?}
-    Q --> |true|R(Molar CONCENTRATION)
-    Q --> |false|S(Mass CONCENTRATION)
-    P --> |false|U(Density)
-    S --> T[CONCENTRATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
-    R --> T
-    U --> V[DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml'>VDP14</a>]
