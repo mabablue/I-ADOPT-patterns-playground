@@ -1,8 +1,8 @@
 flowchart TD
-    A[Property] --> B(Is it qualitative? <br> check the unit)
-    B --> |true|C(Does a concept exist?) 
+    A[Property] --> B{Is it qualitative? <br> check the unit}
+    B --> |true|C{Does a concept exist?}
     B --> |false|D[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd'>DT1</a><br> quantitative property] 
-    C --> |true|E(Parent of a controlled list?)
+    C --> |true|E{Parent of a controlled list?}
     C --> |false|H[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP12.yaml'>VDP12</a><br> new qualitative variable] 
     E --> |true|F[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP11.yaml'>VDP11</a><br> existing <br> qualitative variable] 
     E --> |false|H
