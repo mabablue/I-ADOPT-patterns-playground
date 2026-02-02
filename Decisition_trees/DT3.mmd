@@ -1,10 +1,5 @@
 flowchart TD
-    A[Physical Quantity] --> B{A ratio?<br>check the unit}
-    B --> C{Time in the denominator?} 
-    B --> |false|I[PHYSICAL QUANTITY SIMPLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP28</a>]
-    C --> |true|MN(Rate) 
-    MN --> N{Quantity in the numerator?}
-    C --> |false|D{Quantities of the same type <br> Fraction?}
+    A[Rate with Physical Quantity in the numerator] --> E{Area in the denominator?}
     E --> |true|F{Area constrained?}
     E --> |false|K{Mass in the denominator?} 
     F --> |true|G[FLUX COMPLEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP23.yaml'>VDP23</a>]
@@ -13,9 +8,6 @@ flowchart TD
     L --> G
     K --> |false|M(Flow Rate)
     M --> H
-    N --> |true|E{Area in the denominator?}
-    N --> |false|O(Event rate)
-    O --> I
     D --> |true|J[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
     D --> |false|P{Volume as denominator?}
     P --> |true|Q{Amount of Substance as numerator?}
