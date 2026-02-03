@@ -2,7 +2,6 @@ flowchart TD
     A[Quantitative Property] --> B{Is it a composed term?}
     B --> |true|F{Does concept exist as physical quantity?}
     B --> |false|D[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml'>VDP13</a> <br> base property]
-    E --> |false|D
     F --> |true|H[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml'>VDP10</a> <br> specific property]
     F --> |false|D
     H --> I[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd'>Next step <br> DT2</a>] 
