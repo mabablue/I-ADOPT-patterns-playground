@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP11.yaml
-name: Property: qualitative, existing
-comment: The values are defined in a semantic controlled list
+name: Property: ordinal
+comment: An ordinal variable has values corresponding to classes that can be put in a certain order but are not measured. They are generally qualitative, and the classes can therefore only be ordered in relation to each other.
 rules:
   decomposition: false
 affected:
@@ -10,5 +10,5 @@ affected:
   constrained:
 associated_pattern: 
 associated_mapping: 
-example: condition of pipe connection (faulty, cracked, undamaged,...)
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/1
+example: 
+gh_issue: 
