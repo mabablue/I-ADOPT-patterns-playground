@@ -1,12 +1,12 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml
-name: Object Of interest: asymmetric system
+name: Object Of interest: Asymmetric System, with numerator and denominator description roles.
 affected:
   components:
     - Object of Interest
     - Asymmetric System
-    - Source
-    - Target
+    - Numerator
+    - Denominator
   constrained: 
 associated_pattern: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP19.yaml
