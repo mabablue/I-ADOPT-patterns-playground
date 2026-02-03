@@ -5,5 +5,6 @@ flowchart TD
     C --> |false|E{Are the result values binary?}
     C --> |true|H[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP12.yaml'>VDP12</a><br> count property] 
     E --> |true|F[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP11.yaml'>VDP22</a><br> binary property] 
-    E --> |false|I[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP12.yaml'>VDP12</a><br> nominal property] 
-
+    E --> |false|I{Are the result values ordinal?}
+    I --> |true|J[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP12.yaml'>VDP11</a><br> ordinal property] 
+    I --> |false|K[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP12.yaml'>VDP12</a><br> nominal property] 
