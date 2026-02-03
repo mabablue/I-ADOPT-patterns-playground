@@ -3,7 +3,6 @@ id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VD
 name: Property: concentration
 comment: Concentration describes how much of one substance (the solute) is present in another substance (the solvent). 
 Thus, using a concentration property always implies the existence of both a solute (Object of Interest) and a solvent (Matrix of type embedding material). 
-In addition, the property must be specific and include also the type (mass, molar, volume). 
 Affected:
   components:
     - Property
