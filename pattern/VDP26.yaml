@@ -3,14 +3,13 @@ id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VD
 name: Object of interest: ratio
 comment: The variable compares two quantities by division and tells you how much of one thing there is relative to another.
 design: Object Of interest: Asymmetric System, with numerator and denominator description roles.
-affected:
-  components:
+involved_components:
     - Object of Interest
     - Asymmetric System
     - Numerator
     - Denominator
-  constrained: 
-associated_pattern: 
+constrained_component: 
+associated_patterns: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP19.yaml
-associated_mapping:  
+associated_mapping: ~
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/18
