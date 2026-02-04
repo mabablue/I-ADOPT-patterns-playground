@@ -1,15 +1,12 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml
 name: Property: base
-comment: when it is composed, decompose the property in a base property and add a constraint on the propertry
-rules:
-  decomposition: true
-affected:
-  components:
+comment: Is a known physical property, which should be used for a composed property that is labelled following community conventions.
+design: Decompose the property in a base (known physical) property and add a constraint on the property
+involved components:
     - Property
     - Constraint (type)
-  constrained:
-    - Property
+  constrained: Property
 associated_pattern: 
 associated_mapping: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR1.yaml
