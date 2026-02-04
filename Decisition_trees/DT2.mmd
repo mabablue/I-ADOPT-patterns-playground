@@ -1,7 +1,7 @@
 flowchart TD
     A[Derived Quantity] --> B{A ratio?<br>check the units}
     B --> |true|C{Quantities of different types?} 
-    B --> |false|I[DERIVED Dimensionless <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP28</a>]
+    B --> |false|I[UNIQUE OBJECT <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP28</a>]
     C --> |true|MN(Rate) 
     MN --> N{Time in the denominator?}
     C --> |false|D[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
@@ -9,5 +9,5 @@ flowchart TD
     N --> |false|O[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd'>DT4</a>]
     E --> |true|L(Event rate)
     E --> |false|K[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd'>DT3</a>]
-
+    L --> I
    
