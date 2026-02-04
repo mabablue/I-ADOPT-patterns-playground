@@ -1,6 +1,6 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
-name: Unique Object
+name: Single Object
 comment: A single, distinguishable "object" in the universe, for which a property is measured.
 design: Simple Object of Interest
 affected:
