@@ -3,7 +3,7 @@ flowchart TD
     B --> |true|C{Quantities of different types?} 
     B --> |false|I[DERIVED Dimensionless <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP28</a>]
     C --> |true|MN(Rate) 
-    MN --> N{Quantity in the numerator?}
+    MN --> N{Time in the denominator?}
     C --> |false|D{Quantities of the same type <br> Fraction?}
     N --> |true|E[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd'>DT3</a>]
     N --> |false|O(Event rate)
