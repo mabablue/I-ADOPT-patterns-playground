@@ -5,7 +5,7 @@ comment: specific term for the property, not a generalised term
 design: Property label should be a specific one, not requiring to add details in a constraint
 involved_components:
     - Property
-constrained_components:
+constrained_component:
 associated_pattern: 
 associated_mapping: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR1.yaml
