@@ -5,8 +5,10 @@ flowchart TD
     C --> |true|MN(Rate) 
     MN --> N{Time in the denominator?}
     C --> |false|D[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
-    N --> |true|E[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd'>DT3</a>]
-    N --> |false|O[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd'>DT4</a>]
+    N --> |true|E{Measure of an occurrence?}
+    N --> |false|O[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd'>DT4</a>]
     O --> I
+    E --> |true|L(Event rate)
+    E --> |false|K[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd'>DT3</a>]
 
    
