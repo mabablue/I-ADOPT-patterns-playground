@@ -2,12 +2,14 @@ type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml
 name: Property: density
 comment: Density is the property amount per reference extent, which is expressed as an asymmetric system in the object of interest. Density must be specified. 
-affected:
-  components:
+design:
+involved_components:
     - Property
     - Object of Interest
     - Asymmetric System
-  constrained:
+    - Numerator
+    - Denominator
+constrained_component: ~
 associated_pattern: 
    - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
    - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP71.yaml
