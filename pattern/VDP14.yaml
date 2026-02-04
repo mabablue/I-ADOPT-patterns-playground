@@ -10,7 +10,7 @@ involved_components:
     - Numerator
     - Denominator
 constrained_component: ~
-associated_pattern: 
+associated_patterns: 
    - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
    - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP71.yaml
 associated_mapping: 
