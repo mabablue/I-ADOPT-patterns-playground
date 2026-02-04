@@ -1,7 +1,8 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
-name: Physical Material
-comment: The Object of Interest is a physical material which is represented as a simple entity. This is the case when no ratio is required to represent the variable.
+name: Unique Object
+comment: A single, distinguishable "object" in the universe, for which a property is measured.
+design: Simple Object of Interest
 affected:
   components:
     - Object of Interest
