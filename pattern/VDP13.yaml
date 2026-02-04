@@ -3,10 +3,10 @@ id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VD
 name: Property: base
 comment: Is a known physical property, which should be used for a composed property that is labelled following community conventions.
 design: Decompose the property in a base (known physical) property and add a constraint on the property
-involved components:
+involved_components:
     - Property
     - Constraint (type)
-  constrained: Property
+constrained_component: Property
 associated_patterns: 
     - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP65.yaml
 associated_mapping: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR1.yaml
