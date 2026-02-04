@@ -7,7 +7,7 @@ rules:
 affected:
   components:
     - Property
-    - Constraint
+    - Constraint (type)
   constrained:
     - Property
 associated_pattern: 
