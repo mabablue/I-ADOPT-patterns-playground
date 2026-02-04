@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
 name: Property: specific
-comment: specific term for the property, not a generalised term (volume concentration, not concentration)
+comment: specific term for the property, not a generalised term 
 design: Property label should be a specific one, not requiring to add details in a constraint
 involved_components:
     - Property
