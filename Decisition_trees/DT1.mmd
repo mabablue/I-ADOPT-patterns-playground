@@ -1,6 +1,6 @@
 flowchart TD
     A[Quantitative Property] --> B{Is it a composed term?}
-    B --> |true|F{Does concept exist as physical quantity?}
+    B --> |true|F{Is the composed concept a domain convention?}
     B --> |false|D[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml'>VDP13</a> <br> base property]
     F --> |true|H[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml'>VDP10</a> <br> specific property]
     F --> |false|D
