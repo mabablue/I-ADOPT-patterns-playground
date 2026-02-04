@@ -6,7 +6,7 @@ design: The property should be as generic as possible to be reusable.
 involved_components:
     - Property
 constrained_component: ~
-associated_pattern: ~
+associated_pattern: []
 associated_mapping: ~
 example: grade (of pain)
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/108
