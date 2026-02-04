@@ -4,10 +4,9 @@ flowchart TD
     B --> |false|I[DERIVED Dimensionless <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP28</a>]
     C --> |true|MN(Rate) 
     MN --> N{Time in the denominator?}
-    C --> |false|D{Quantities of the same type <br> Fraction?}
+    C --> |false|D[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
     N --> |true|E[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd'>DT3</a>]
-    N --> |false|O(Event rate)
+    N --> |false|O[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd'>DT4</a>]
     O --> I
-    D --> |true|J[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
-    D --> |false|P[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd'>DT4</a>]
+
    
