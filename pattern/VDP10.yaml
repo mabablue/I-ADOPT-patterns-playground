@@ -6,7 +6,7 @@ design: Property label should be a specific one, not requiring to add details in
 involved_components:
     - Property
 constrained_component: ~
-associated_pattern:  ~
+associated_pattern: ~
 associated_mapping: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR1.yaml
 example: number density
