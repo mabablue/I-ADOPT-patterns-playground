@@ -7,7 +7,8 @@ involved components:
     - Property
     - Constraint (type)
   constrained: Property
-associated_pattern: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP65.yaml
+associated_pattern: 
+    - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP65.yaml
 associated_mapping: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR1.yaml
 example: radial velocity
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/61
