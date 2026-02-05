@@ -4,7 +4,7 @@ title: PROPERTY DERIVED
 flowchart TD
     A[Derived Quantity] --> B{A ratio?<br>check the units}
     B --> |true|C{Quantities of different types?} 
-    B --> |false|I[SINGLE OBJECT <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP28</a>]
+    B --> |false|I[RATIOLESS DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP20</a>]
     C --> |true|MN(Rate) 
     MN --> N{Time in the denominator?}
     C --> |false|D[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
