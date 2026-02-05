@@ -3,8 +3,8 @@ flowchart TD
     C --> |true|E[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP16.yaml'>Length <br> VDP16</a>] 
     C --> |false|F{Is it thermodynamic <br> temperature or time?}
     F --> |true|G[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP16.yaml'>fundamental quantity <br> VDP10</a>] 
-    F --> |false|H{Is it mass kg or an <br> amount of substance mol?}
-    H --> |true|I[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP16.yaml'>fundamental quantity <br> VDP10</a>] 
-    H --> |false|K{Is it electric current -A- or an <br> luminous intensity -cd?}
-    K --> |true|L[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP16.yaml'>fundamental quantity <br> VDP10</a>] 
+    F --> |false|H{Is it mass or an <br> amount of substance - mol?}
+    H --> |true|G
+    H --> |false|K{Is it electric current or an <br> luminous intensity ?}
+    K --> |true|G
     K --> |false|M[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd'>Derived property <br> DT2</a>] 
