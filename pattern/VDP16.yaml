@@ -1,16 +1,19 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP16.yaml
 name: Property: length
-comment: Length requires a reference point, a constraint: datum.
-affected:
-  components:
+comment: Length is a fundamental quantity. 
+design: Length requires a reference point, a constraint: datum.
+instances:
+     - width
+     - depth
+     - height
+involved_components:
     - Property
     - Constraint 
   constrained:
     - Property
 associated_pattern: 
 https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP68.yaml
-associated_mapping: 
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR1.yaml
+associated_mapping: ~
 example: height of atmospheric boundary layer
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/10
