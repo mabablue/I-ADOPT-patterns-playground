@@ -6,7 +6,8 @@ flowchart TD
     P --> |true|Q{Amount of Substance <br> as numerator?}
     Q --> |true|R(Molar CONCENTRATION)
     Q --> |false|S(Mass CONCENTRATION)
-    P --> |false|U(Density)
+    P --> |false|U{describing a material specfic density?}
     S --> T[CONCENTRATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
     R --> T
-    U --> V[DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml'>VDP14</a>]
+    U --> |false|V[DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml'>VDP14</a>]
+    U --> |true|X[DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml'>VDP13</a>]
