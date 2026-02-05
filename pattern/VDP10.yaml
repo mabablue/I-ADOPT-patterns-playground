@@ -1,0 +1,20 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
+name: Property: fundamental
+comment: Fundamental properties are physical quantities that is conventionally accepted as functionally independent of all others.
+design: Do not further decompose these terms.
+instances:
+     - thermodynamic temperature
+     - time 
+     - mass
+     - amount of substance
+     - luminous intensity
+     - electric current
+     - length
+involved_components:
+    - Property
+constrained_component: ~
+associated_patterns: []
+associated_mapping: ~
+example: thermodynamic temperature
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/8
