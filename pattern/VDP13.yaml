@@ -1,0 +1,18 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml
+name: Property: material specific density
+comment: Density is the property amount per reference extent. 
+design: Density must be specified without using a constraint. Use single object in the object of interest.
+instances:
+  - surface number density (particle per area, people per area)
+  - bulk density (material specific density)
+involved_components:
+    - Property
+    - Object of Interest
+constrained_component: ~
+associated_patterns: 
+   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
+   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP71.yaml
+associated_mapping: 
+example: number density
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/7
