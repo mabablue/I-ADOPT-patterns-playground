@@ -1,11 +1,6 @@
 flowchart TD
-    A[Quantitative Property] --> B{Is it a composed term?}
-    B --> |true|F{Is the composed concept a domain convention?}
-    B --> |false|D[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml'>VDP13</a> <br> base property]
-    F --> |false|H[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml'>VDP10</a> <br> specific property]
-    F --> |true|D
+    A[Quantitative Property] --> B{Is it a fundamental quantity?}
     H --> I{Is it a fundamental quantity?}
-    D --> L[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd'>Next step <br> DT2</a>] 
-    I --> |true|J(fundamental quantity)
-    I --> |false|L[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd'>Derived property <br> DT2</a>] 
+    B --> |true|C(fundamental quantity)
+    B --> |false|D[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd'>Derived property <br> DT2</a>] 
 
