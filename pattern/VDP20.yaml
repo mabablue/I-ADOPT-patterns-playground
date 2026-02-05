@@ -1,21 +1,16 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP20.yaml
-name: Property: rate
-comment: Mass flow rate is the total mass per time (aggregate).
-In addition, the property must be specific and include also the type (mass, energy). It requires the matrix to be modelled as an asymmetric system.
-Normalization constraints per unit time is required. 
-Affected:
-  components:
+name: Property: ratioless derived
+comment: Derived property without ratio. 
+design: Use property with a single object of interest.
+instances:
+  - angle
+  - direction
+involved_components:
     - Property
-    - Constraint
-    - Matrix
-    - Asymmetric System
-  constrained:
-    - Property  
-associated_pattern: 
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP34.yaml
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/edit/main/pattern/VDP71.yaml
-associated_mapping: 
-example: standard metabolic rate of Oxgen per hour
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/22
+    - Object of Interest (single)
+associated_patterns: 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
+associated_mapping: ~
+example: angle
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/104
