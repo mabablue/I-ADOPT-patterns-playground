@@ -9,7 +9,7 @@ instances:
      - height
 involved_components:
     - Property
-    - Constraint 
+    - Constraint (datum)
   constrained:
     - Property
 associated_pattern: 
