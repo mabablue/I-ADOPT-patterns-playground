@@ -2,15 +2,16 @@ type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP19.yaml
 name: Property: distance
 comment: Distance requires two Object of Interests, which is represented via a System. This can be symmetric or asymmetric, depending on the roles the parts have in the system.
-affected:
-  components:
+design:
+involved_components:
     - Property 
     - Object of Interest
     - Symmetric System
     - Asymmetric System
+    - Part
     - Source
     - Target
-  constrained: 
+constrained_component: ~
 associated_pattern: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml
 associated_mapping: 
