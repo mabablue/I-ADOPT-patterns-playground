@@ -9,6 +9,7 @@ involved_components:
 constrained_component: Property
 associated_patterns:
     - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
+    - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml
 associated_mapping: ~
 example: BMI
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/107
