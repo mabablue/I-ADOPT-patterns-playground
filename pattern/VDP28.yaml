@@ -3,10 +3,9 @@ id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VD
 name: Object of interest: single object
 comment: A single, distinguishable "object" in the universe, for which a property is measured.
 design: Simple Object of Interest
-affected:
-  components:
+involved_components:
     - Object of Interest
-associated_pattern: 
-associated_mapping: 
-example: 
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/26
+associated_pattern: ~
+associated_mapping: ~
+example: water
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/132
