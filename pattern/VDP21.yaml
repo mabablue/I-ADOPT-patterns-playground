@@ -2,15 +2,16 @@ type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml
 name: Property: fraction
 comment: A fraction is a ratio comparing a part to the whole where the quantities are of the same kind. 
-Fractions needs to be specified.
-rules:
-  decomposition: false
-affected:
-  components:
-    - Object of Interest as Asymmetric System (numerator/denominator)
+design: Fractions needs to be specified. Requires an Aymmetric System (numerator/deonominator) for the object of interest.
+involved_components:
+    - Propertyy
+    - Object of Interest
+    - Asymmetric System
+    - Numerator
+    - Denominator
 associated_pattern: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP91.yaml
-associated_mapping: 
+associated_mapping: ~
 example: mass fraction
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/26
