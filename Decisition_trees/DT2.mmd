@@ -2,7 +2,9 @@
 title: PROPERTY DERIVED
 ---
 flowchart TD
-    A[Derived Quantity] --> B{A ratio?<br>check the units}
+    A[Derived Quantity] --> AB{An index?}
+    AB --> |true|ABC[INDEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP25.yaml'>VDP25</a>]
+    AB --> |false|B{A ratio?<br>check the units} 
     B --> |true|C{Quantities of different types?} 
     B --> |false|I[RATIOLESS DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP20</a>]
     C --> |true|MN(Rate) 
