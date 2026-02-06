@@ -1,13 +1,14 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP25.yaml
 name: Property: index
-comment: An ordinal variable has values corresponding to a list of concepts that can be put in a certain order but are not measured. They are generally qualitative, and the classes can therefore only be ordered in relation to each other. Dates are also ordinal values.
-design: The property should be as generic as possible to be reusable. Use single object of interest.
+comment: An index acts as a proxy property that normalizes data against a specific base point or reference value to provide relative context rather than absolute measurement. While it sometimes aggregates multiple variables into a single score, its primary function is to make diverse data sets comparable over time or across different subjects.
+design: The property requires a constraint: defined by to provide definition context. The object of interest is single.
 involved_components:
     - Property
-constrained_component: ~
+    - Constraint (defined by)
+constrained_component: Property
 associated_patterns:
     - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
 associated_mapping: ~
-example: grade (of pain)
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/108
+example: BMI
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/107
