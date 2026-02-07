@@ -1,6 +1,6 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml
-name: Property: fraction
+name: Property - fraction
 comment: A fraction is a ratio comparing a part to the whole where the quantities are of the same kind. Not included is here area fraction.
 design: Fractions needs to be specified. Requires an Aymmetric System (numerator/deonominator) for the object of interest.
 involved_components:
