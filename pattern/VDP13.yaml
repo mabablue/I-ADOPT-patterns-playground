@@ -1,6 +1,6 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml
-name: Property: material specific density
+name: Property - material specific density
 comment: The density of the solid material itself. It is "specific" to the chemical substance, regardless of how that substance is physically arranged (as a powder, a sponge, or a solid block).
 design: Density must be specified without using a constraint. Use single object in the object of interest.
 instances:
