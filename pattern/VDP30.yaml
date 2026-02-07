@@ -1,14 +1,13 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
-name: Object Of interest: two equal
+name: Object Of interest - two equal
 comment: A system with two parts having the same role in the description.
 design: Symmetric System in the Object of Interest.
-affected:
-  components:
+involved_components:
     - Object of Interest
     - Symmetric System
     - Part
-  constrained: 
-associated_pattern: 
-associated_mapping:  
+constrained_component: ~
+associated_pattern: []
+associated_mapping: ~
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/17
