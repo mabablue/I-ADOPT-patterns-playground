@@ -1,0 +1,12 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP32.yaml
+name: Object Of interest - variable
+comment: When there is a property of a variable.
+design: the variable gets the role of the object of interest
+involved_components:
+  - Object of Interest
+constrained_component:  ~
+associated_pattern: ~
+associated_mapping:  ~
+example: radial velocity of water current
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/72
