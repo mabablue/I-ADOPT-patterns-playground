@@ -8,7 +8,7 @@ instances:
   - surface density (mass per area, mass per cell)
   - volumetric or mass density (mass per volume)
   - number density (atoms per unit volume)
-  - people per area
+  - mole per area
 involved_components:
     - Property
     - Object of Interest
