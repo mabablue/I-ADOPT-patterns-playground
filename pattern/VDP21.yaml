@@ -4,7 +4,7 @@ name: Property: fraction
 comment: A fraction is a ratio comparing a part to the whole where the quantities are of the same kind. Not included is here area fraction.
 design: Fractions needs to be specified. Requires an Aymmetric System (numerator/deonominator) for the object of interest.
 involved_components:
-    - Propertyy
+    - Property
     - Object of Interest
     - Asymmetric System
     - Numerator
