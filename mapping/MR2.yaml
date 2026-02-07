@@ -1,8 +1,8 @@
 type: Mapping Rule
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR2.yaml
-title: generic qualitative vs specific qualitatitve property
-mapping_predicate: skos:exactMatch
-source: Property: qualitative, generic
-target: Property: qualitative, specific
+title: OoI plus Matrix vs Asymmetric System as OoI
+mapping_predicate: exactMatch
+source: OoI plus Matrix
+target: Asymmetric System as OoI
 rule: source mapping_predicate target
-example: generic: condition, specific: condition of pipe connection (faulty, cracked, undamaged,...)
+example: ~
