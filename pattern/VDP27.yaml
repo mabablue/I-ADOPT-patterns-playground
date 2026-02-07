@@ -1,5 +1,5 @@
 type: Variable Design Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml
 name: Object of interest: ratio
 comment: The variable compares two quantities by division and tells you how much of one thing there is relative to another.
 design: Object Of interest: Asymmetric System, with numerator and denominator description roles.
