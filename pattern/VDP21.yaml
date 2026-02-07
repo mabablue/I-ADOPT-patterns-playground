@@ -3,12 +3,15 @@ id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VD
 name: Property - fraction
 comment: A fraction is a ratio comparing a part to the whole where the quantities are of the same kind. Not included is here area fraction.
 design: Fractions needs to be specified. Requires an Aymmetric System (numerator/deonominator) for the object of interest.
+instances:
+  - mole fraction
+  - mass fraction
 involved_components:
-    - Property
-    - Object of Interest
-    - Asymmetric System
-    - Numerator
-    - Denominator
+  - Property
+  - Object of Interest
+  - Asymmetric System
+  - Numerator
+  - Denominator
 associated_pattern: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP91.yaml
