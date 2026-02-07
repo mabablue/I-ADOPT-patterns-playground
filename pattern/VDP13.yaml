@@ -5,7 +5,6 @@ comment: The density of the solid material itself. It is "specific" to the chemi
 design: Density must be specified without using a constraint. Use single object in the object of interest.
 instances:
   - particle per area
-  - mole per area
   - bulk density (material specific density)
 involved_components:
     - Property
