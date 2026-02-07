@@ -1,8 +1,8 @@
 type: Mapping Rule
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR1.yaml
-title: specific vs base property
-mapping_predicate: skos:exactMatch
-source: Property: specific
-target: Constraint ON Property: base
+title: specific vs generic entity
+mapping_predicate: exactMatch
+source: Entity: specific concept
+target: Constraint - type ON Entity
 rule: source mapping_predicate target
 
