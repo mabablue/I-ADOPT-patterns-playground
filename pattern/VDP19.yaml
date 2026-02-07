@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP19.yaml
 name: Property: distance
-comment: Distance requires two Object of Interests, which is represented via a System. This can be symmetric or asymmetric, depending on the roles the parts have in the system.
+comment: Distance requires two Object of Interests, which is represented via a System. 
 design:
 involved_components:
     - Property 
@@ -14,6 +14,6 @@ involved_components:
 constrained_component: ~
 associated_pattern: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml
-associated_mapping: 
+associated_mapping: https://github.com/mabablue/I-ADOPT-patterns-playground/edit/main/pattern/VDP25.yaml
 example: distance to nearest neighbour habitat patch
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/19
