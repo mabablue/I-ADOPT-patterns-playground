@@ -3,6 +3,6 @@ id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR
 title: OoI plus Matrix vs Asymmetric System as OoI
 mapping_predicate: exactMatch
 source: OoI plus Matrix
-target: Asymmetric System as OoI
+target: Asymmetric System (numerator/denominator) as OoI
 rule: source mapping_predicate target
 example: ~
