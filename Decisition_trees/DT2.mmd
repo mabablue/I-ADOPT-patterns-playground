@@ -9,7 +9,9 @@ flowchart TD
     B --> |false|I[RATIOLESS DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP20</a>]
     C --> |true|MN(Rate) 
     MN --> N{Time in the denominator?}
-    C --> |false|D[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
+    C --> |false|CD{Comparing two areas?}
+    CD --> |false|D[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
+    CD --> |true|F[COVER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP15.yaml'>VDP15</a>]
     N --> |true|E{Measure of an occurrence?}
     N --> |false|O[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd'>RATIO DT4</a>]
     E --> |true|L(Event rate)
