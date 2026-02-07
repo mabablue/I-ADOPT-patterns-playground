@@ -8,6 +8,7 @@ involved_components:
     - Symmetric System
     - Part
 constrained_component: ~
-associated_pattern: []
+associated_pattern: 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/edit/main/pattern/VDP19.yaml
 associated_mapping: ~
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/17
