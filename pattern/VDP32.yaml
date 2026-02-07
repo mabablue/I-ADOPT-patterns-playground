@@ -1,5 +1,5 @@
 type: Variable Design Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP32.yaml
 name: Object Of interest: property
 comment: When there is a property of the property of Interest 
 design: the second property becomes the role of the object of interest, requires in addition the matrix. Depending on the property type the object of interest is either a system or a single entity.
