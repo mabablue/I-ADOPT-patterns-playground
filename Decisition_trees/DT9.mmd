@@ -13,18 +13,6 @@ flowchart TD
     L --> |true|M[Interpretation <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP73.yaml'>VDP73</a>]:::rose
     L --> |false|N{Is it specifing the <br> cause?}:::white
     N --> |true|O[CAUSE<br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP72.yaml'>VDP72</a>]:::rose
-    N --> |false|P{Is it specifying its size?}:::white
-    P --> |true|Q[SIZE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP63.yaml'>VDP63</a>]:::rose
-    P --> |false|QR[Quantity <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP87.yaml'>VDP87</a>]:::rose 
-    R --> |true|S[LOCATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP67.yaml'>VDP67</a>]:::rose 
-    R --> |false|T{Is it specifying the <br> the layer?}:::white
-    T --> |true|U[LAYER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP69.yaml'>VDP69</a>]:::rose
-    T --> |false|V{Does it help to interpret it?}:::white
-    V --> |true|W[DEFINING ENTITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml'>VDP85</a>]:::rose
-    V --> |false|VW{Does it specify <br> the orgin?}:::white
-    VW --> |true|WV[ORIGIN <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP79.yaml'>VDP79</a>]:::rose
-    VW --> |false|X{Does it specify <br> the cause?}:::white
-    X --> |true|Y[CAUSE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP72.yaml'>VDP72</a>]:::rose
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
    classDef white fill:#f3f6f4
