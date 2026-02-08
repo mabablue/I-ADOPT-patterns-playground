@@ -2,7 +2,7 @@
 title: CONSTRAINT on STATISTICAL MODIFIER
 ---
 flowchart TD
-    A(PROPERTY)  --> B{Providing time-specific <br> information?}:::white
+    A(STATISTICAL MODIFIER):::grey --> B{Providing time-specific <br> information?}:::white
     B --> |true|C{Specifying the <br> integration interval?}:::white
     B --> |false|G{Providing space-specific <br> information?}:::white
     C --> |false|D{Is it specifying <br> the sampling frequency?}:::white
@@ -18,3 +18,4 @@ flowchart TD
    classDef white fill:#f3f6f4
    classDef green fill:#6aa84f
    classDef rose fill:#ea9999
+   classDef grey fill:#bcbcbc
