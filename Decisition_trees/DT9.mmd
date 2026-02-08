@@ -2,9 +2,7 @@
 title: CONSTRAINT on PROPERTY
 ---
 flowchart TD
-    A(PROPERTY)  --> AB{Specifying its nature?}:::white
-    AB --> |true|B{A specific type?}:::white
-    AB --> |false|E{Specifying how is its <br> constitution?}:::white
+    A(PROPERTY)  --> B{Specifying its type?}:::white
     B --> |true|C[TYPE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP65.yaml'>VDP65</a>]:::rose
     E --> |true|G{Is it specifying its phase?}:::white
     E --> |false|R{Is it specifying <br> its location?}:::white
