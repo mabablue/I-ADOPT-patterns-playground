@@ -2,7 +2,6 @@
 title: OBJECT OF INTEREST
 ---
 flowchart TD
-    A(OBJECT OF INTEREST) --> B{Is the entity <br> semantically convoluted?}
     B --> |true|C[CONVOLUTED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP29.yaml'>VDP29</a>]
     B --> |false|D{Is it a system of entities?}
     D --> |false|E[SINGLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP28</a>]
@@ -12,4 +11,4 @@ flowchart TD
     H --> |true|I[FLOW <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP31.yaml'>VDP31</a>]
     H --> |false|J[RATIO <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml'>VDP27</a>]
     M(VARIABLE) --> N{Is there more than one <br> property involved? 
-    N --> |false|B
+    N --> |false|B{Is the entity <br> semantically convoluted?}
