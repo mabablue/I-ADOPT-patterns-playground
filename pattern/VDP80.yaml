@@ -2,10 +2,8 @@ type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP80.yaml
 name: Constraint - spatial distribution
 comment: is the arrangement of individual entities or measurements across a specific geographic area or 3D space
-design: constraint on entity
+design: constraint on statistical modifier or Entity
 involved_components:
-  - Entity
-  - Statistical Modifier
   - Constraint
   constrained: 
     - Statististal Modifier
