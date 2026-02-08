@@ -2,12 +2,12 @@
 title: OBJECT OF INTEREST
 ---
 flowchart TD
-    A{Is the entity <br> semantically convoluted?} --> P{A mixture in a system?}
-    P --> |true|Q{Amount of Substance <br> as numerator?}
-    Q --> |true|R(Molar CONCENTRATION)
-    Q --> |false|S(Mass CONCENTRATION)
-    P --> |false|U{Denominator needed?}
-    S --> T[CONCENTRATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
-    R --> T
-    U --> |false|V[DENSITY SIMPLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml'>VDP13</a>]
-    U --> |true|X[DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml'>VDP14</a>]
+    A{Is the entity <br> semantically convoluted?} --> B
+    B --> |true|C[CONVOLUTED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP29.yaml'>VDP29</a>]
+    B --> |false|D{Is it a system of entities?}
+    D --> |false|E[SINGLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP28</a>]
+    D --> |true|F{Are the entities equal <br> in the system?}
+    F --> |true|G[TWO EQUAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml'>VDP30</a>]
+    F --> |false|H{Is it representing <br> a flow?}
+    H --> |true|I[FLOW <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP31.yaml'>VDP31</a>]
+    H --> |false|J[RATIO <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml'>VDP27</a>]
