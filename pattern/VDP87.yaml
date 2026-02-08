@@ -7,7 +7,7 @@ involved_components:
   - Constraint
 constrained_components:
   - Entity
-associated_pattern: []
+associated_patterns: []
 associated_mapping: ~
 example: quality - purity 99%(v/v)
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/85
