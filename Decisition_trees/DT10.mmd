@@ -4,7 +4,7 @@ title: CONSTRAINT on STATISTICAL MODIFIER
 flowchart TD
     A(PROPERTY)  --> B{Providing time-specific <br> information?}:::white
     B --> |true|C{Specifying the <br> integration interval?}:::white
-    B --> |false|G{Providing space-specific <br> information}:::white
+    B --> |false|G{Providing space-specific <br> information?}:::white
     C --> |false|D{Is it specifying <br> the sampling frequency?}:::white
     C --> |true|E[INTERVAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP89.yaml'>VDP89</a>]:::rose
     D --> |true|F[SAMPLING FREQUENCY<br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP66.yaml'>VDP66</a>]:::rose
