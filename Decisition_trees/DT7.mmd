@@ -6,12 +6,11 @@ flowchart TD
     AB --> |false|B{Is it involved <br> in a natural process?}
     AB --> |true|O[FLOW <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP34.yaml'>VDP34</a>]
     B --> |true|C[NATURAL PROCESS <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP35.yaml'>VDP35</a>]
-    B --> |false|D{Is it a system of entities?}
-    D --> |false|E[SINGLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP28</a>]
-    D --> |true|F{Are the entities equal <br> in the system?}
-    F --> |true|G[TWO EQUAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml'>VDP30</a>]
-    F --> |false|H{Is it representing <br> a flow?}
-    H --> |true|I[FLOW <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP31.yaml'>VDP31</a>]
-    H --> |false|J[RATIO <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml'>VDP27</a>]
-    O --> |false|Q[PROPERTY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP32.yaml'>VDP32</a>]
-    O --> |true|R[VARIABLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml'>VDP33</a>]
+    B --> |false|D{Does it require a <br> reference area?}
+    D --> |false|E{Is it embedded by a different material?}
+    D --> |true|F[REFERENCE AREA <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP39.yaml'>VDP39</a>]
+    E --> |true|G[EMBEDDING MATERIAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP36.yaml'>VDP36</a>]
+    E --> |false|H{Is it within <br> an artificial container?}
+    H --> |true|I[ARTIFICIAL CONTAINER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP38.yaml'>VDP38</a>]
+    H --> |false|J[NATURAL CONTAINER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml'>VDP37</a>]
+
