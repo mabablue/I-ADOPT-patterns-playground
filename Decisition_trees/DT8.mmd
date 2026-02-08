@@ -13,9 +13,11 @@ flowchart TD
     G --> |true|H[STATE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP76.yaml'>VDP76</a>]:::rose
     G --> |false|I{Is it specifying <br> its quality?}:::white
     I --> |true|K[QUALITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP84.yaml'>VDP84</a>]:::rose
-    I --> |false|L{Is it specifying <br> its chemical composition?}:::white
-    L --> |true|M[COMPOSITION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml'>VDP85</a>]:::rose
-    L --> |false|N{Is it specifing the <br> material it is composed of?}:::white
+    I --> |false|L{Is it specifying <br> a general condition?}:::white
+    L --> |true|LA[CONDITION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP70.yaml'>VDP70</a>]:::rose
+    L --> |false|LM{Is it specifying <br> its chemical composition?}:::white
+    LM --> |true|M[COMPOSITION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml'>VDP85</a>]:::rose
+    LM --> |false|N{Is it specifing the <br> material it is composed of?}:::white
     N --> |true|O[MATERIAL TYPE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP64.yaml'>VDP64</a>]:::rose
     N --> |false|P{Is it specifying its size?}:::white
     P --> |true|Q[SIZE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP63.yaml'>VDP63</a>]:::rose
