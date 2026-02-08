@@ -27,6 +27,8 @@ flowchart TD
     V --> |true|W[DEFINING ENTITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml'>VDP85</a>]:::rose
     V --> |false|VW{Does it specify <br> the orgin?}:::white
     VW --> |true|WV[ORIGIN <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP79.yaml'>VDP79</a>]:::rose
+    VW --> |false|X{Does it specify <br> the cause?:::white
+    X --> |true|Y[CAUSE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP72.yaml'>VDP72</a>]:::rose
    
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
