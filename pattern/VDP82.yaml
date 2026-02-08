@@ -4,8 +4,9 @@ name: Constraint - threshold
 comment: defines the value limit that triggers a quality flag, indicating whether the measurement satisfies the threshold criterion.
 design: a constraint of type 'threshold'
 involved_components:
-    - Constraint
-constrained_component: Property (binary)
+  - Constraint
+constrained_components: 
+  - Property (binary)
 associated_pattern: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP22.yaml
 associated_mapping: ~
