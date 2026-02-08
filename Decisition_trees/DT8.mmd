@@ -7,7 +7,6 @@ flowchart TD
     AB --> |false|O{Specifying in which state it is?}
     B --> |true|C[TYPE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP65.yaml'>VDP65</a>]:::rose
     B --> |false|D{Is the Entity a human?}:::white
-    D --> |false|E{Is it embedded by a <br> different material?}:::white
     D --> |true|F[ROLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP89.yaml'>VDP89</a>]:::rose
     E --> |true|G[EMBEDDING MATERIAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP36.yaml'>VDP36</a>]:::blue
     E --> |false|H{Is it within <br> an artificial container?}:::white
