@@ -12,6 +12,17 @@ flowchart TD
     H --> |true|I[Interpretation <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP73.yaml'>VDP73</a>]:::rose
     H --> |false|J{Is it specifing the <br> cause?}:::white
     J --> |true|K[CAUSE<br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP72.yaml'>VDP72</a>]:::rose
+    J --> |false|L{Does it provide <br> time-specific info?}:::white
+    L --> |true|M{A time point?}:::white
+    L --> |false|T{Does it provide <br> spatial info?}:::white
+    M --> |true|N[TIME<br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP78.yaml'>VDP78</a>]:::rose
+    M --> |false|O{A time extent?}:::white
+    O --> |true|Q[TEMPORAL EXTENT<br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP75.yaml'>VDP75</a>]:::rose
+    O --> |false|R{Reporting frequency?}:::white
+    R --> |true|S[REPORTING FREQUENCY<br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP83.yaml'>VDP83</a>]:::rose
+    T --> |true|U{Spatial Extent?}:::white
+    U --> |true|V[SPATIAL EXTENTY<br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP.75yaml'>VDP75</a>]:::rose
+    U --> |false|W[SPATIAL DISTRIBUTION<br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP.80yaml'>VDP80</a>]:::rose
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
    classDef white fill:#f3f6f4
