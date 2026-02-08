@@ -11,10 +11,11 @@ flowchart TD
     F --> |false|IH{Is it providing <br> interpretation help?}:::white
     IH --> |true|HI{Is it defining it?}:::white
     HI --> |true|HK[DEFINING ENTITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml'>VDP85</a>]:::rose
-    HI --> |false|I[Interpretation <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP73.yaml'>VDP73</a>]:::rose
-    A --> J{Specifing the <br> cause?}:::white
+    HI --> |false|I{Is it interpreting it?}
+    I --> |true|IJ[Interpretation <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP73.yaml'>VDP73</a>]:::rose
+    I --> |false|J{Specifing the <br> cause?}:::white
     J --> |true|K[CAUSE<br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP72.yaml'>VDP72</a>]:::rose
-    J --> |false|L{Does it provide <br> time-specific info?}:::white
+    A --> L{Does it provide <br> time-specific info?}:::white
     L --> |true|M{A time point?}:::white
     L --> |false|T{Does it provide <br> spatial info?}:::white
     M --> |true|N[TIME<br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP78.yaml'>VDP78</a>]:::rose
