@@ -12,3 +12,6 @@ flowchart TD
     H --> |false|J[RATIO <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml'>VDP27</a>]
     M(VARIABLE) --> N{Is there more than one <br> property involved? 
     N --> |false|B{Is the entity <br> semantically convoluted?}
+    N --> |true|O{Is there more than one <br> Object of interest involved? 
+    O --> |false|Q[PROPERTY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP32.yaml'>VDP32</a>]
+    O --> |true|R[VARIABLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml'>VDP33</a>]
