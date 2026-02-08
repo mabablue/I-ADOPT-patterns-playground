@@ -8,8 +8,10 @@ flowchart TD
     D --> |true|E[CONDITION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP70.yaml'>VDP70</a>]:::rose
     D --> |false|F{Is it specifying <br> a required <br> reference point?}:::white
     F --> |true|G[DATUM <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP68.yaml'>VDP68</a>]:::rose
-    F --> |false|H{Is it providing <br> interpretation help?}:::white
-    H --> |true|I[Interpretation <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP73.yaml'>VDP73</a>]:::rose
+    F --> |false|IH{Is it providing <br> interpretation help?}:::white
+    IH --> |true|HI{Is it defining it?}:::white
+    HI --> |true|HK[DEFINING ENTITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml'>VDP85</a>]:::rose
+    HI --> |false|I[Interpretation <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP73.yaml'>VDP73</a>]:::rose
     H --> |false|J{Is it specifing the <br> cause?}:::white
     J --> |true|K[CAUSE<br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP72.yaml'>VDP72</a>]:::rose
     J --> |false|L{Does it provide <br> time-specific info?}:::white
