@@ -1,0 +1,13 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP89.yaml
+name: Constraint - interval
+comment: specifies the time interval rule
+design: constraint on statistical modifier
+involved_components:
+  - Constraint
+constrained_components:
+  - statitistical modifier
+associated_patterns: []
+associated_mapping: ~
+example: ~
+gh_issue: ~
