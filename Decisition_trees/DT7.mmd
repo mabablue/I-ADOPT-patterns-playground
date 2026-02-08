@@ -3,9 +3,9 @@ title: MATRIX
 ---
 flowchart TD
     A(OBJECT OF INTEREST) --> AB{Is it involved <br> in a material flow?}  
-    AB --> |false|B{Is the entity <br> semantically convoluted?}
-    AB --> |true|O{Is there more than one <br> Object of interest involved?} 
-    B --> |true|C[CONVOLUTED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP29.yaml'>VDP29</a>]
+    AB --> |false|B{Is it involved <br> in a natural process?}
+    AB --> |true|O[FLOW <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP34.yaml'>VDP34</a>]
+    B --> |true|C[NATURAL PROCESS <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP35.yaml'>VDP35</a>]
     B --> |false|D{Is it a system of entities?}
     D --> |false|E[SINGLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP28</a>]
     D --> |true|F{Are the entities equal <br> in the system?}
