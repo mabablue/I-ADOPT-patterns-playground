@@ -2,18 +2,18 @@
 title: OBJECT OF INTEREST
 ---
 flowchart TD
-    A(VARIABLE) --> AB{Is there more than one <br> property involved?}:::satblue  
+    A(VARIABLE) --> AB{Is there more than one <br> property involved?}
     AB --> |false|B{Is the entity <br> semantically convoluted?}
     AB --> |true|O{Is there more than one <br> Object of interest involved?} 
-    B --> |true|C[CONVOLUTED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP29.yaml'>VDP29</a>]
+    B --> |true|C[CONVOLUTED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP29.yaml'>VDP29</a>]:::satblue
     B --> |false|D{Is it a system of entities?}
-    D --> |false|E[SINGLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP28</a>]
+    D --> |false|E[SINGLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP28</a>]:::satblue
     D --> |true|F{Are the entities equal <br> in the system?}
-    F --> |true|G[TWO EQUAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml'>VDP30</a>]
+    F --> |true|G[TWO EQUAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml'>VDP30</a>]:::satblue
     F --> |false|H{Is it representing <br> a flow?}
-    H --> |true|I[FLOW <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP31.yaml'>VDP31</a>]
-    H --> |false|J[RATIO <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml'>VDP27</a>]
-    O --> |false|Q[PROPERTY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP32.yaml'>VDP32</a>]
-    O --> |true|R[VARIABLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml'>VDP33</a>]
+    H --> |true|I[FLOW <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP31.yaml'>VDP31</a>]:::satblue
+    H --> |false|J[RATIO <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml'>VDP27</a>]:::satblue
+    O --> |false|Q[PROPERTY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP32.yaml'>VDP32</a>]:::satblue
+    O --> |true|R[VARIABLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml'>VDP33</a>]:::satblue
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF
