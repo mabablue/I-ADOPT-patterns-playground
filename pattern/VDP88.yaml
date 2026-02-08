@@ -1,0 +1,13 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP88.yaml
+name: Constraint - instrument setting (via)
+comment: specifies the instrument setting for observing the entity
+design: constraint on entity
+involved_components:
+  - Constraint
+constrained_components:
+  - Entity
+associated_patterns: []
+associated_mapping: ~
+example: ~
+gh_issue: ~
