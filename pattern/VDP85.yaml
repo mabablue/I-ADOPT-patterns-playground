@@ -6,8 +6,8 @@ design: constraint on property or entity
 involved_components:
   - Constraint
 constrained_components:
-    - Property
-    - Entity
+  - Property
+  - Entity
 associated_pattern: []
 associated_mapping: ~
 example: defined by: hydronium ion activity
