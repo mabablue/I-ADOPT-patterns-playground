@@ -2,19 +2,23 @@
 title: PROPERTY DERIVED
 ---
 flowchart TD
-    A[Derived Quantity] --> AB{An index?}
+    A[Derived Quantity] --> AB{An index?}:::white
     AB --> |true|ABC[INDEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP25.yaml'>VDP25</a>]
-    AB --> |false|B{A ratio?<br>check the units} 
-    B --> |true|C{Quantities of different types?} 
+    AB --> |false|B{A ratio?<br>check the units}:::white
+    B --> |true|C{Quantities of different types?}:::white
     B --> |false|I[RATIOLESS DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP20</a>]
     C --> |true|MN(Rate) 
-    MN --> N{Time in the denominator?}
-    C --> |false|CD{Comparing two areas?}
+    MN --> N{Time in the denominator?}:::white
+    C --> |false|CD{Comparing two areas?}:::white
     CD --> |false|D[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
     CD --> |true|F[COVER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP15.yaml'>VDP15</a>]
-    N --> |true|E{Measure of an occurrence?}
+    N --> |true|E{Measure of an occurrence?}:::white
     N --> |false|O[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd'>RATIO DT4</a>]
     E --> |true|L(Event rate)
     E --> |false|K[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd'>FLUX DT3</a>]
     L --> I
-   
+   classDef blue fill:#90D5FF
+   classDef satblue fill:#57B9FF 
+   classDef white fill:#f3f6f4
+   classDef green fill:#6aa84f
+
