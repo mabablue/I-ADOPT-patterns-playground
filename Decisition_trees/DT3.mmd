@@ -2,14 +2,18 @@
 title: PROPERTY FLUX
 ---
 flowchart TD
-    A[FLUX: Time-based Rate with Physical Quantity in the numerator] --> B{Energy flux?}
+    A[FLUX: Time-based Rate with <br> Physical Quantity in the numerator] --> B{Energy flux?}:::white
     B --> |false|E{Area in the denominator?}
     B --> |true|C[FLUX SIMPLIFIED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml'>VDP26</a>]
-    E --> |true|F{Area constrained?}
-    E --> |false|K{Mass in the denominator?} 
+    E --> |true|F{Area constrained?}:::white
+    E --> |false|K{Mass in the denominator?}:::white
     F --> |true|G[FLUX COMPLEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP23.yaml'>VDP23</a>]
     F --> |false|H[FLUX SIMPLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP18.yaml'>VDP18</a>]
     K --> |true|L(Specific rate)
     L --> G
     K --> |false|M(Flow Rate)
     M --> H
+   classDef blue fill:#90D5FF
+   classDef satblue fill:#57B9FF 
+   classDef white fill:#f3f6f4
+   classDef green fill:#6aa84f
