@@ -4,15 +4,12 @@ title: CONSTRAINT
 flowchart TD
     A(ENTITY):::satblue  --> AB{Specifying its nature?}:::white
     AB --> |true|B{A specific type?}:::white
-    AB --> |false|O{Specifying in which <br> state it is?}
+    AB --> |false|E{Specifying how is the entities's <br> constitution?}:::white
     B --> |true|C[TYPE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP65.yaml'>VDP65</a>]:::rose
     B --> |false|D{Is the entity a human?}:::white
     D --> |true|F[ROLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP89.yaml'>VDP89</a>]:::rose
-    E --> |true|G[EMBEDDING MATERIAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP36.yaml'>VDP36</a>]:::blue
-    E --> |false|H{Is it within <br> an artificial container?}:::white
-    H --> |true|I[ARTIFICIAL CONTAINER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP38.yaml'>VDP38</a>]:::blue
-    H --> |false|J[NATURAL CONTAINER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml'>VDP37</a>]:::blue
-
+    E --> |true|F{:::rose
+   
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
    classDef white fill:#f3f6f4
