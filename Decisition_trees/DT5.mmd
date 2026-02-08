@@ -1,0 +1,13 @@
+---
+title: OBJECT OF INTEREST
+---
+flowchart TD
+    A{Is the entity <br> semantically convoluted?] --> P{A mixture in a system?}
+    P --> |true|Q{Amount of Substance <br> as numerator?}
+    Q --> |true|R(Molar CONCENTRATION)
+    Q --> |false|S(Mass CONCENTRATION)
+    P --> |false|U{Denominator needed?}
+    S --> T[CONCENTRATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
+    R --> T
+    U --> |false|V[DENSITY SIMPLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml'>VDP13</a>]
+    U --> |true|X[DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml'>VDP14</a>]
