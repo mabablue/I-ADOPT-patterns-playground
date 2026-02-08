@@ -18,6 +18,6 @@ Be as precise as possible and use a known physical quantity rather than a commun
 
 Decision trees:
 
-- [qualitative properties}(https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT0.mmd)
+- [qualitative properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT0.mmd)
 - 
 
