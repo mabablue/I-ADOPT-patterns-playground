@@ -5,7 +5,7 @@ comment: specifies the entity whose presence, activity, or concentration mathema
 design: constraint on property or entity
 involved_components:
   - Constraint
-constrained_component:
+constrained_components:
     - Property
     - Entity
 associated_pattern: []
