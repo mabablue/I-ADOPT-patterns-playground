@@ -1,0 +1,13 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP87.yaml
+name: Constraint - quality
+comment: specifies the entity whose presence, activity, or concentration mathematically defines the property, but is not the main object being observed
+design: constraint on entity
+involved_components:
+  - Constraint
+constrained_components:
+  - Entity
+associated_pattern: []
+associated_mapping: ~
+example: quality - purity 99%(v/v)
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/85
