@@ -1,13 +1,16 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP80.yaml
 name: Constraint - spatial distribution
-comment: defines the domain or criteria over which a statistical measure is calculated
-affected:
-  components:
-    - Constraint
+comment: is the arrangement of individual entities or measurements across a specific geographic area or 3D space
+design: constraint on entity
+involved_components:
+  - Entity
+  - Statistical Modifier
+  - Constraint
   constrained: 
     - Statististal Modifier
-associated_pattern: 
-associated_mapping: 
+    - Entity    
+associated_pattern: []
+associated_mapping: ~
 example: over the scatter patch
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/67
