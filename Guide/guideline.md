@@ -1,3 +1,16 @@
+# I-ADOPT Decomposition
+
+
+## Workflow:
+
+1. Use the **[I-ADOPT Visualizer](https://sirkos.github.io/iadopt-vis/)** to compose your variable.
+2. Follow Decomposition Steps
+3. Find appropriate concepts and add the IRIs in the visualizer
+4. Copy RDF and safe it in the [I-ADOPT Examples Repository](https://github.com/mabablue/I-ADOPT-examples-playground)
+5. Create an Issue in the [I-ADOPT Examples Repository](https://github.com/mabablue/I-ADOPT-examples-playground), copy the graphic into the issue and use the labels to describe with patterns you used
+
+
+
 ## 1. Step:
 Analyse the sentence and, if necessary, rewrite it to provide a clear interpretation of a phenomenon or entity. The help of a domain expert might be useful. Leave out details about the unit of measurements, the method and the instrument but keep the rest.
 
