@@ -1,14 +1,14 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml
-name: Constraint: defining entity
+name: Constraint - defining entity (defined by)
 comment: specifies the entity whose presence, activity, or concentration mathematically defines the property, but is not the main object being observed
-affected:
-  components:
-    - Constraint
-  constrained: 
+design: constraint on property or entity
+involved_components:
+  - Constraint
+constrained_component:
     - Property
-associated_pattern: 
-associated_mapping: 
-rule: defined by [entity]
+    - Entity
+associated_pattern: []
+associated_mapping: ~
 example: defined by: hydronium ion activity
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/87
