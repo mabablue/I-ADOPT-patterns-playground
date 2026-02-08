@@ -2,7 +2,7 @@
 title: OBJECT OF INTEREST
 ---
 flowchart TD
-    A(VARIABLE) --> AB{Is there more than one <br> property involved?}:::white
+    A(VARIABLE):::green --> AB{Is there more than one <br> property involved?}:::white
     AB --> |false|B{Is the entity <br> semantically convoluted?}:::white
     AB --> |true|O{Is there more than one <br> Object of interest involved?}:::white
     B --> |true|C[CONVOLUTED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP29.yaml'>VDP29</a>]:::satblue
@@ -18,3 +18,4 @@ flowchart TD
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
    classDef white fill:#f3f6f4
+   classDef green fill:#6aa84f
