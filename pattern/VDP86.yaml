@@ -9,5 +9,5 @@ constrained_components:
   - Entity
 associated_pattern: []
 associated_mapping: ~
-example: composed by: aluminium
+example: composed by - aluminium
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/121
