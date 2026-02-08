@@ -59,7 +59,7 @@ Determine Constraints and place them under the correct component
 **Decision trees:**
 - [Constraints on Entity](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT8.mmd)
 - [Constraints on Property](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT9.mmd)
-- [Constraints on Statisticical Modifier](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT10.mmd)
+- [Constraints on Statistical Modifier](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT10.mmd)
 
 ## 8. Step
 Add Context Object, if necessary, to add clarity. They can be spheres or environments like river, sea, lake.
