@@ -4,11 +4,18 @@ title: CONSTRAINT
 flowchart TD
     A(ENTITY):::satblue  --> AB{Specifying its nature?}:::white
     AB --> |true|B{A specific type?}:::white
-    AB --> |false|E{Specifying how its <br> constitution?}:::white
+    AB --> |false|E{Specifying how is its <br> constitution?}:::white
     B --> |true|C[TYPE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP65.yaml'>VDP65</a>]:::rose
     B --> |false|D{Is the entity a human?}:::white
     D --> |true|F[ROLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP89.yaml'>VDP89</a>]:::rose
-
+    E --> |true|G{Is it specifying its phase?}:::white
+    F --> |false|R{Is it specifying <br> its location?}:::white
+    G --> |true|H[STATE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP76.yaml'>VDP76</a>]:::rose
+    G --> |false|I{Is it specifying <br> its quality?}:::white
+    I --> |true|K[QUALITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP84.yaml'>VDP84</a>]:::rose
+    I --> |false|L{Is it specifying <br> its chemical composition?}
+    L --> |true|M[COMPOSITION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml'>VDP85</a>]:::rose
+    L --> |false|N[MATERIAL TYPE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP64.yaml'>VDP64</a>]:::rose
    
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
