@@ -17,7 +17,7 @@ Analyse the sentence and, if necessary, rewrite it to provide a clear interpreta
 E.g. Atmospheric optical thickness of particulate organic matter at 550nm under ambient conditions.
 
 -> Optical thickness of organic particle in aerosol in atmosphere at 550nm 
-(ambient conditions is already captured in the term atmosphere; 
+(ambient conditions is already captured in the term atmosphere). 
 
 ## 2. Step:
 Segment the text into atomic parts based on meaning rather than syntax. Ensure that composite terms remain intact if further decomposition would result in a loss of specialized context. Example: “atmospheric boundary layer”. 
