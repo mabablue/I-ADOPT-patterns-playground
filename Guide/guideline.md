@@ -54,7 +54,7 @@ Determine the Matrix
 Determine if the Statistical Modifiers are involved.
 
 ## 7. Step
-Determine Constraints and place them under the correct component
+Determine Constraints and place them under the correct component. Ensure each constraint is concise yet informative, and present only one distinct constraint per argument. A constraint must be type-labeld, following this naming convention [type:]constraint.
 
 **Decision trees:**
 - [Constraints on Entity](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT8.mmd)
