@@ -20,9 +20,27 @@ E.g. Atmospheric optical thickness of particulate organic matter at 550nm under 
 (ambient conditions is already captured in the term atmosphere). 
 
 ## 2. Step:
-Segment the text into atomic parts based on meaning rather than syntax. Ensure that composite terms remain intact if further decomposition would result in a loss of specialized context. Example: “atmospheric boundary layer”. 
+Segment the text into atomic parts based on meaning rather than syntax. Ensure that composite terms remain intact if further decomposition would result in a loss of specialized context. 
 
+Compare: [Amospheric boundary layer height defined by temperture inversion](https://github.com/mabablue/I-ADOPT-examples-playground/issues/10) 
+
+Decomposed: height; atmospheric boundary layer; defined by temperature inversion; 
+
+## Use of PATTERNS:
 Use one PATTERN for each description component (apart from constraints for which more might be needed), guided by decision trees
+
+A Pattern is a decomposition design guide including this information:
+- id: a URL to the pattern
+- name
+- comment: description of the pattern
+- design: instructions how to model
+- instances: a list of examples
+- involved_components: involved description components
+- constrained_components
+- associated_patterns: other patterns that might be required using this pattern
+- associated_mappings: mapping patterns that can be used with this pattern
+- example: one example applying the pattern
+- gh_issue: one issue that shows the example
 
 ## 3. Step
 Determine the Property
