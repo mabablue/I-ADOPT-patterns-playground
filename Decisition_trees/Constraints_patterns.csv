@@ -1,0 +1,27 @@
+category,Number,Link,Name,Definition,Property,Object of Interest,Matrix
+constitution,64,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP64.yaml,material type,provides a material type information about the constrained component,FALSE,TRUE,FALSE
+constitution,70,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP70,condition,a contextual circumstance or environmental feature that limits or qualifies the constrained component,TRUE,TRUE,TRUE
+constitution,76,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP76,state,"indicates the physical, chemical or qualitative condition, including phases, of the constrained component",FALSE,TRUE,TRUE
+constitution,84,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP84,quality,specifies the degree of quality or purity of a substance or generally of the component ,FALSE,TRUE,TRUE
+constitution,86,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP86,composition,specifies which chemical composition the entity has,FALSE,TRUE,TRUE
+context,72,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP72,cause (due to:),indicates the cause that explains why the constrained component occurs or holds,TRUE,TRUE,TRUE
+context,73,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP73,interpretation,provides specific information enabling better interpretation of the constrained component,TRUE,FALSE,FALSE
+context,79,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP79,origin,"specifies the source, provenance, or starting point of the constrained component",FALSE,TRUE,TRUE
+context,85,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85,defining entity (defined by:),"specifies the entity whose presence, activity, or concentration mathematically defines the property, but is not the main object being observed",TRUE,FALSE,FALSE
+nature,65,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP65,type,further specifies the type of the constrained component,TRUE,TRUE,TRUE
+nature,77,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP77,role,specifies the role the constrained component has; applicable to human beings,FALSE,TRUE,TRUE
+space,67,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP67,location,provides a location-specific information about the constrained component ,FALSE,TRUE,FALSE
+space,68,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP68,datum,provides a reference point or information for the constrained component,TRUE,FALSE,FALSE
+space,69,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP69,layer,constraints the component specifying in which layer the variable is measured,FALSE,TRUE,TRUE
+space,74,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP74,spatial extent,indicates the spatial coverage within which the constrained component applies,TRUE,TRUE,TRUE
+space,80,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP80,spatial distribution,defines the domain or criteria over which a statistical measure is calculated,FALSE,FALSE,FALSE
+special,63,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP63,size,provides a size-specific information about the constrained component,FALSE,TRUE,FALSE
+special,87,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP87,quantity,specifies the quantity in which the entity occurs,FALSE,TRUE,TRUE
+special,88,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP88,instrument setting (via:),specifies the instrument setting for observing the entity,FALSE,TRUE,TRUE
+time,66,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP66,sampling frequency,provides the sampling frequency that applies for the constrained component,FALSE,FALSE,FALSE
+time,75,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP75,temporal extent,indicates the temporal coverage within which the constrained component applies,TRUE,FALSE,FALSE
+time,78,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP78,time,provides time-specific information about the constrained component,TRUE,TRUE,FALSE
+time,83,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP83,reporting frequency,defines how often a final data point is reported,FALSE,FALSE,FALSE
+time,89,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP89,interval ,defines the time window used to calculate the rate,FALSE,FALSE,FALSE
+value,81,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP81,range,provides the range of allowed values,TRUE,FALSE,FALSE
+value,82,https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP82,threshold,"defines the value limit that triggers a quality flag, indicating whether the measurement satisfies the threshold criterion.",TRUE,FALSE,FALSE
