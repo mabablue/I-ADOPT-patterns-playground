@@ -26,21 +26,6 @@ Compare: [Amospheric boundary layer height defined by temperture inversion](http
 
 Decomposed: height; atmospheric boundary layer; defined by temperature inversion; 
 
-## Use of PATTERNS:
-Use one PATTERN for each description component (apart from constraints for which more might be needed), guided by decision trees
-
-A Pattern is a decomposition design guide including this information:
-- id: a URL to the pattern
-- comment: description of the pattern
-- design: instructions on how to model following this pattern
-- instances: used only for property patterns
-- involved_components: involved description components
-- constrained_components: specifies the components that are involved in the pattern
-- associated_patterns: other patterns that are logically linked with this pattern
-- associated_mappings: mapping patterns that can be used with this pattern
-- example: one example applying the pattern
-- gh_issue: one issue that shows the example
-
 ## 3. Step
 Determine the Property
 
