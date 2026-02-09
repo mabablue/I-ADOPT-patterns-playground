@@ -4,7 +4,7 @@
 ## Workflow:
 
 1. Use the **[I-ADOPT Visualizer](https://sirkos.github.io/iadopt-vis/)** to compose your variable.
-2. Follow Variable Design Steps using [patterns](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/how-to-read-patterns.md)
+2. Follow Variable Design Steps using decision trees leading to [patterns](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/how-to-read-patterns.md)
 3. Find appropriate concepts and add the IRIs in the visualizer
 4. Copy RDF and safe it in the [I-ADOPT Examples Repository](https://github.com/mabablue/I-ADOPT-examples-playground)
 5. Create an Issue in the [I-ADOPT Examples Repository](https://github.com/mabablue/I-ADOPT-examples-playground/issues), add the link to the turtle, copy the graphic into the issue, and use the labels to describe with patterns you used
