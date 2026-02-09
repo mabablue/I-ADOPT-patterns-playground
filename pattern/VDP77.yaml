@@ -1,15 +1,13 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP77.yaml
-name: Constraint: protocol
-comment: indicates the methodological procedure or protocol used (rather to not be included, only if part of the variable name as requested by the community)
-rules:
-  decomposition: false
-affected:
-  components:
-    - Property 
-    - Object of Interest
-  constrained: 
-associated_pattern: 
-associated_mapping: 
-example: performed by a certified laboratory
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/36
+name: Constraint: role
+comment: indicates the role a person might have in the context of the variable
+design: constraint on entity, entity must be a human
+involved_components:
+  - Property 
+  - Object of Interest
+constrained_component: Entity
+associated_pattern: []
+associated_mapping: []
+example: patient
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/108
