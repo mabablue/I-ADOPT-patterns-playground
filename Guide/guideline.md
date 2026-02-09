@@ -31,10 +31,9 @@ Use one PATTERN for each description component (apart from constraints for which
 
 A Pattern is a decomposition design guide including this information:
 - id: a URL to the pattern
-- name
 - comment: description of the pattern
 - design: instructions on how to model following this pattern
-- instances: a list of instances used only for property patterns
+- instances: used only for property patterns
 - involved_components: involved description components
 - constrained_components: specifies the components that are involved in the pattern
 - associated_patterns: other patterns that are logically linked with this pattern
