@@ -57,14 +57,15 @@ Be as precise as possible and use a known physical quantity rather than a commun
 Determine the Object of Interest
 
 **Decision trees:**
+- As shortcut: - [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
 - [Object of Interest](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT5.mmd)
-- [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
+
 
 ## 5. Step
 Determine the Matrix
 
 **Decision trees:**
-- [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
+- As shortcut: [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
 - [Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT7.mmd)
 
 ## 6. Step
