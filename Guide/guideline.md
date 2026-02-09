@@ -62,5 +62,5 @@ Determine Constraints and place them under the correct component. Ensure each co
 - [Constraints on Statistical Modifier](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT10.mmd)
 
 ## 8. Step
-Add Context Object, if necessary, to add clarity. They are typically spheres like atmosphere, biosphere, or any additional information required despite the matrix.
+Add Context Object, if necessary, to add clarity. Typical context objects are spheres like atmosphere, biosphere, or any additional information required despite the matrix.
 
