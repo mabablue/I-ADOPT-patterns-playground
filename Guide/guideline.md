@@ -31,6 +31,8 @@ Determine the Property
 
 Be as precise as possible and use a known physical quantity rather than a community convention to increase the clarity and reusability of the terms. In case the description uses a community convention use the physical quantity and add a *constraint: type* on it. 
 
+Find one property pattern that applies for your variable using the decision trees.
+
 **Decision trees:**
 - [qualitative properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT0.mmd)
 - [quantitative properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd)
@@ -41,6 +43,8 @@ Be as precise as possible and use a known physical quantity rather than a commun
 ## 4. Step
 Determine the Object of Interest
 
+Find one object of interest pattern that applies for your variable using the decision trees.
+
 **Decision trees:**
 - As shortcut: [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
 - [Object of Interest](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT5.mmd)
@@ -48,6 +52,8 @@ Determine the Object of Interest
 
 ## 5. Step
 Determine the Matrix
+
+Find one matrix pattern that applies for your variable using the decision trees.
 
 **Decision trees:**
 - As shortcut: [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
@@ -59,7 +65,7 @@ Determine if the Statistical Modifiers are involved.
 ## 7. Step
 Determine Constraints and place them under the correct component. Ensure each constraint is concise yet informative, and present only one distinct constraint per argument. A constraint must be type-labeld, following this naming convention [type:]constraint.
 
-**Decision trees:**
+**Overview of patterns:**
 -  [overview constraints](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/Constraints_patterns.csv)
 
 ## 8. Step
