@@ -1,4 +1,4 @@
-# I-ADOPT Decomposition
+# I-ADOPT Design Guide
 
 
 ## Workflow:
