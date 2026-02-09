@@ -33,11 +33,11 @@ A Pattern is a decomposition design guide including this information:
 - id: a URL to the pattern
 - name
 - comment: description of the pattern
-- design: instructions how to model
-- instances: a list of examples
+- design: instructions on how to model following this pattern
+- instances: a list of instances used only for property patterns
 - involved_components: involved description components
-- constrained_components
-- associated_patterns: other patterns that might be required using this pattern
+- constrained_components: specifies the components that are involved in the pattern
+- associated_patterns: other patterns that are logically linked with this pattern
 - associated_mappings: mapping patterns that can be used with this pattern
 - example: one example applying the pattern
 - gh_issue: one issue that shows the example
