@@ -57,9 +57,7 @@ Determine if the Statistical Modifiers are involved.
 Determine Constraints and place them under the correct component. Ensure each constraint is concise yet informative, and present only one distinct constraint per argument. A constraint must be type-labeld, following this naming convention [type:]constraint.
 
 **Decision trees:**
-- [Constraints on Entity](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT8.mmd)
-- [Constraints on Property](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT9.mmd)
-- [Constraints on Statistical Modifier](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT10.mmd)
+-  [overview constraints](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/Constraints_patterns.csv)
 
 ## 8. Step
 Add Context Object, if necessary, to add clarity. Typical context objects are spheres like atmosphere, biosphere, or any additional information required despite the matrix.
