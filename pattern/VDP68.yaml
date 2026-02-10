@@ -10,5 +10,5 @@ constrained_component:
 associated_patterns: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP16.yaml
 associated_mapping: 
-example: datum: above ground
+example: (datum) above ground
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/10
