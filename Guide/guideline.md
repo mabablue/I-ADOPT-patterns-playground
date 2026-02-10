@@ -9,7 +9,7 @@
 4. Copy RDF and safe it as turtle (.ttl) file in the [I-ADOPT Examples Repository](https://github.com/mabablue/I-ADOPT-examples-playground)
 5. Create an Issue in the [I-ADOPT Examples Repository](https://github.com/mabablue/I-ADOPT-examples-playground/issues), add the link to the turtle, copy the graphic into the issue, and use the labels to describe with patterns you used
 
-To understand the concepts used in the guide, please look up this [glossary](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/glossary.md). 
+Find definitions of I-ADOPT in the [I-ADOPT ontology](https://i-adopt.github.io/ontology/) and some specific terms used in the design guide in this [glossary](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/glossary.md). 
 
 ## 1. Step:
 Analyse the variable description and, if necessary, rewrite it to provide a clear interpretation of the measured phenomenon. The help of a domain expert might be useful. Leave out details about the unit of measurements, the method and the instrument but make sure to include the property, the measured entity and the context defining the measurement. 
