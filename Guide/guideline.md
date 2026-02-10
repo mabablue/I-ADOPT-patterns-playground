@@ -62,7 +62,7 @@ Find one matrix pattern that applies for your variable using the decision trees.
 - [Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT7.mmd)
 
 ## 6. Step
-Determine if the <code>Statistical</code> Modifiers are involved.
+Determine if <code>Statistical</code> Modifiers are involved. If a statistical modifier modifies a value's unit, it turns into the <code>property</code> instead. 
 
 ## 7. Step
 Determine <code>Constraints</code> and place them under the correct component. Ensure each constraint is concise yet informative, and present only one distinct constraint per argument. A constraint must be type-labeld, following this naming convention [type:]constraint.
