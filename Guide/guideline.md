@@ -59,6 +59,8 @@ Find one <code>Matrix</code> pattern that applies for your variable using the de
 - As shortcut: [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
 - [Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT7.mmd)
 
+Example <code>Matrix</code>: *no material flow, no natural process, no reference area, no different embedding material, but a [natoral container VDP37](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml)* 
+
 ## 6. Statistical Modifier
 Determine if <code>Statistical Modifiers</code> are involved. If a statistical modifier modifies a value's unit, it turns into the <code>Property</code> instead. 
 
