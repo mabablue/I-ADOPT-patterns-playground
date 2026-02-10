@@ -1,5 +1,5 @@
 ## Glossary of I-ADOPT related concepts
-
+with links to the [I-ADOPT ontology](https://w3id.org/iadopt/ont/Entity)
 
 
 **[Constraint](https://w3id.org/iadopt/ont/Constraint)**
