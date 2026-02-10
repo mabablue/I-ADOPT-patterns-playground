@@ -78,7 +78,10 @@ Determine <code>Constraints</code> and place them under the correct component. E
 **Overview of patterns:**
 -  [overview constraints](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/Constraints_patterns.csv)
 
-Example <code>Constraint</code>:  Context -> [defining entity](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml)
+Example <code>Constraint</code>:  Context -> [defining entity](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml) on the <code>Property</code>
+
+<img width="163" height="188" alt="image" src="https://github.com/user-attachments/assets/469ad8c9-d6c7-4852-a7ef-4accea4f71a7" />
+
 
 ## 8. Context Object
 Add <code>Context Object</code>, if necessary, to add clarity. Typical context objects are spheres like atmosphere, biosphere, or any additional information required despite the matrix.
