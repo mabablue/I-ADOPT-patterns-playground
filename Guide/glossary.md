@@ -2,19 +2,19 @@
 
 
 
-[Constraint](https://w3id.org/iadopt/ont/Constraint)
+**[Constraint](https://w3id.org/iadopt/ont/Constraint)**
 
 **Description components**: An I-ADOPT variable is decomposed into different components which have different roles in the variable description.
 
-[Entity](https://w3id.org/iadopt/ont/Entity)
+**[Entity](https://w3id.org/iadopt/ont/Entity)**
 
-[Property](https://w3id.org/iadopt/ont/Property)
+**[Property](https://w3id.org/iadopt/ont/Property)**
 
-[Statistical Modifier](https://w3id.org/iadopt/ont/StatisticalModifier)
+**[Statistical Modifier](https://w3id.org/iadopt/ont/StatisticalModifier)**
 
 **Mapping**: describes how two different representations can be mapped to each other.
 
-[Variable](https://w3id.org/iadopt/ont/Variable)
+**[Variable](https://w3id.org/iadopt/ont/Variable)**
 
 **Variable Design Pattern**: A pattern that provides a decomposition design guide by including this information:
   - id: a URL to the pattern
