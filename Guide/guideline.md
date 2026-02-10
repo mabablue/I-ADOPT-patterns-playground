@@ -27,7 +27,7 @@ Compare: [Amospheric boundary layer height defined by temperture inversion](http
 Decomposed: height; atmospheric boundary layer; defined by temperature inversion; 
 
 ## 3. Step
-Determine the *Property*
+Determine the <code>Property</code>
 
 Be as precise as possible. Use a known physical quantity rather than a community convention to increase the clarity and reusability of the terms. In case the description uses a community convention use the physical quantity and add a *constraint: type* on it (see step 7). 
 
@@ -53,7 +53,7 @@ Find one object of interest pattern that applies for your variable using the dec
 
 
 ## 5. Step
-Determine the Matrix
+Determine the <code>Matrix</code>
 
 Find one matrix pattern that applies for your variable using the decision trees.
 
@@ -62,10 +62,10 @@ Find one matrix pattern that applies for your variable using the decision trees.
 - [Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT7.mmd)
 
 ## 6. Step
-Determine if the Statistical Modifiers are involved.
+Determine if the <code>Statistical</code> Modifiers are involved.
 
 ## 7. Step
-Determine Constraints and place them under the correct component. Ensure each constraint is concise yet informative, and present only one distinct constraint per argument. A constraint must be type-labeld, following this naming convention [type:]constraint.
+Determine <code>Constraints</code> and place them under the correct component. Ensure each constraint is concise yet informative, and present only one distinct constraint per argument. A constraint must be type-labeld, following this naming convention [type:]constraint.
 
 **Overview of patterns:**
 -  [overview constraints](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/Constraints_patterns.csv)
