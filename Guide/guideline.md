@@ -94,7 +94,7 @@ Solution example: [turtle file](https://github.com/mabablue/I-ADOPT-examples-pla
 <img width="754" height="385" alt="image" src="https://github.com/user-attachments/assets/03e011e4-dbf5-4746-baa2-fa98d8c82536" />
 
 
-IRIs für concepts:
+IRIs for concepts:
 - ozone: http://vocab.nerc.ac.uk/collection/S27/current/CS003171/
 - ground surface: http://vocab.nerc.ac.uk/collection/S20/current/S2000011/
 - atmosphere: http://vocab.nerc.ac.uk/collection/S21/current/S21S001/
