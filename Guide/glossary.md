@@ -2,6 +2,8 @@
 
 **Description components**: An I-ADOPT variable is decomposed into different components which have different roles in the variable description.
 
+**Mapping**: describes how two different representations can be mapped to each other.
+
 **Variable Design Pattern**: A pattern that provides a decomposition design guide by including this information:
   - id: a URL to the pattern
   - name
