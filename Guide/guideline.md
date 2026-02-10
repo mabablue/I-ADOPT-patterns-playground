@@ -26,7 +26,7 @@ Compare: [Amospheric boundary layer height defined by temperture inversion](http
 
 Decomposed: height; atmospheric boundary layer; defined by temperature inversion; 
 
-## 3. <code>Property</code>
+## 3. Property
 
 Be as precise as possible. Use a known physical quantity rather than a community convention to increase the clarity and reusability of the terms. In case the description uses a community convention use the physical quantity and add a *constraint: type* on it (see step 7). 
 
@@ -41,18 +41,18 @@ In case it is a quantitative property with units and the units are known for the
 - [flux properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd)
 - [ratio properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd)
 
-## 4. <code>Object of Interest</code>
+## 4. Object of Interest
 
-Find one object of interest pattern that applies for your variable using the decision trees.
+Find one </code>Object of Interest</code> pattern that applies for your variable using the decision trees.
 
 **Decision trees:**
 - As shortcut: [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
 - [Object of Interest](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT5.mmd)
 
 
-## 5. <code>Matrix</code>
+## 5. Matrix
 
-Find one matrix pattern that applies for your variable using the decision trees.
+Find one <code>Matrix</code> pattern that applies for your variable using the decision trees.
 
 **Decision trees:**
 - As shortcut: [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
@@ -61,12 +61,12 @@ Find one matrix pattern that applies for your variable using the decision trees.
 ## 6. <code>Statistical Modifiers</code>
 Determine if <code>Statistical Modifiers</code> are involved. If a statistical modifier modifies a value's unit, it turns into the <code>Property</code> instead. 
 
-## 7. <code>Constraints</code>
+## 7. Constraint
 Determine <code>Constraints</code> and place them under the correct component. Ensure each constraint is concise yet informative, and present only one distinct constraint per argument. A constraint must be type-labeld, following this naming convention [type:]constraint.
 
 **Overview of patterns:**
 -  [overview constraints](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/Constraints_patterns.csv)
 
-## 8. Step
-Add Context Object, if necessary, to add clarity. Typical context objects are spheres like atmosphere, biosphere, or any additional information required despite the matrix.
+## 8. Context Object
+Add <code>Context Object</code>, if necessary, to add clarity. Typical context objects are spheres like atmosphere, biosphere, or any additional information required despite the matrix.
 
