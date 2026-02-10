@@ -36,7 +36,7 @@ Find one property pattern that applies for your variable using the decision tree
 **Decision trees:**
 - [qualitative properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT0.mmd)
 
-If units are known for the values, they can be useful for the recognition of the exact property addressed.
+If units are known for the values, they can be useful for the recognition of the exact property addressed. [Here](https://i-adopt.github.io/terminologies/unit2property/) you can look up the property based on the unit. 
 - [quantitative properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd)
 - [derived properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd)
 - [flux properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd)
