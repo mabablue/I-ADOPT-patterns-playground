@@ -8,7 +8,6 @@ involved_components:
   - asymmetric system
   - numerator
   - denominator
-constrained_component:
 associated_patterns: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP19.yaml
 associated_mapping: ~
