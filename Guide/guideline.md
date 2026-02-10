@@ -11,27 +11,15 @@
 
 Find definitions of I-ADOPT concepts and specific terms used here in this [glossary](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/glossary.md). 
 
+**Demo Example: [Ozone total column](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/ECV/Atmosphere/Ozone.ttl)** - defined by: 2D field of total amount of O3 molecules per unit area in an atmospheric column extending from the Earth’s surface to the upper edge of the atmosphere.
+
 ## 1. Analyze
 Analyse the variable description and, if necessary, rewrite it to provide a clear interpretation of the measured phenomenon. The help of a domain expert might be useful. Leave out details about the unit of measurements, the method and the instrument but make sure to include the property, the measured entity and the context defining the measurement. 
-
-Example: [Atmospheric optical thickness of particulate organic matter at 550nm under ambient conditions](https://github.com/mabablue/I-ADOPT-examples-playground/issues/11)
-
-Interpretation: *Optical thickness of organic particle in aerosol in atmosphere at 550nm* 
-(ambient conditions is already captured in the term atmosphere). 
-
-Example: [Ozone total column](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/ECV/Atmosphere/Ozone.ttl) - defined by: 2D field of total amount of O3 molecules per unit area in an atmospheric column extending from the Earth’s surface to the upper edge of the atmosphere.
 
 Interpretation: *Mole per area of ozone in the atmosphere (measured from Earth's surface to the upper edge of the amosphere)*
 
 ## 2. Decompose
 Segment the text into atomic parts based on meaning rather than syntax. Ensure that composite terms remain intact if further decomposition would result in a loss of specialized context. 
-
-Example: [Amospheric boundary layer height defined by temperture inversion](https://github.com/mabablue/I-ADOPT-examples-playground/issues/10) 
-
-Interpretation: *Optical thickness of organic particle in aerosol in atmosphere at 550nm* 
-(ambient conditions is already captured in the term atmosphere). 
-
-Decompostion: *height; atmospheric boundary layer; defined by temperature inversion;* 
 
 Example: [Ozone total column](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/ECV/Atmosphere/Ozone.ttl) - defined by: 2D field of total amount of O3 molecules per unit area in an atmospheric column extending from the Earth’s surface to the upper edge of the atmosphere.
 
