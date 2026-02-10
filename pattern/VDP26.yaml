@@ -1,12 +1,12 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml
-name: Property - flux simplified
+name: property (flux simplified)
 comment: Energy flux of photons
 design: Simplified design requiring only a simple object of interest.
-Involved_components:
-  - Property
-  - Object of interest
+involved_components:
+  - property
+  - object of interest
 associated_pattern: []
-associated_mapping: 
+associated_mapping: ~
 example: Upwelling actinic flux
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/103
