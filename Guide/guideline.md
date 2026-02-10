@@ -40,6 +40,8 @@ In case it is a quantitative property with units and the units are known for the
 
 Example <code>Property</code>:
 *Are there units associated with the result values? yes (mol/m2) -> quantitative property -> derived property -> ratio -> quantities of different types -> no time in the denominator -> mixture in a system -> denominator needed -> [density VDP14](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml)* 
+<img width="164" height="57" alt="image" src="https://github.com/user-attachments/assets/8631fc12-1d6c-4352-8f14-fbf0f9cdb0a5" />
+
 
 ## 4. Object of Interest
 
