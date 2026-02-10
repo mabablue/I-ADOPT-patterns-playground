@@ -1,11 +1,11 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP15.yaml
-name: Property - cover
-comment: Cover expresses the fraction of a total reference area that is occupied by the Object of Interest.Using area fraction is more precise than cover for the property. 
-design: Asymmetric system (numerator/denominator) at the object of interest slot. The Portion is represented by the numerator, the total reference area by the denominator.
+name: property (cover)
+comment: Cover expresses the fraction of a total reference area that is occupied by the oject of interest. Using area fraction is more precise than cover for the property. 
+design: Asymmetric system (numerator/denominator) at the object of interest slot. The portion is represented by the numerator, the total reference area by the denominator.
 involved_components:
-    - Property 
-    - Object of Interest
+  - property 
+  - object of isoll ich da schon mal beispiele anfügen oder nterest
 constrained_component: ~
 associated_patterns: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP35.yaml
