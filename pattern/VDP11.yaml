@@ -3,8 +3,6 @@ id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VD
 name: property (ordinal)
 comment: An ordinal variable has values corresponding to a list of concepts that can be put in a certain order but are not measured. They are generally qualitative, and the classes can therefore only be ordered in relation to each other. Dates are also ordinal values.
 design: The property should be as generic as possible to be reusable. Use single object of interest.
-instances:
-
 involved_components:
   - property
 constrained_component: ~
