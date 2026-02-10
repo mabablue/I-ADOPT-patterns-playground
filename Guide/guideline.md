@@ -22,9 +22,9 @@ E.g. Atmospheric optical thickness of particulate organic matter at 550nm under 
 ## 2. Decompose
 Segment the text into atomic parts based on meaning rather than syntax. Ensure that composite terms remain intact if further decomposition would result in a loss of specialized context. 
 
-Compare: [Amospheric boundary layer height defined by temperture inversion](https://github.com/mabablue/I-ADOPT-examples-playground/issues/10) 
+Example: [Amospheric boundary layer height defined by temperture inversion](https://github.com/mabablue/I-ADOPT-examples-playground/issues/10) 
 
-Decomposed: height; atmospheric boundary layer; defined by temperature inversion; 
+Decomposed: *height; atmospheric boundary layer; defined by temperature inversion;* 
 
 ## 3. Property
 
