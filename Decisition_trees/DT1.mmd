@@ -6,7 +6,7 @@ flowchart TD
     C --> |true|E{Is it length between <br> two objects?}:::white
     C --> |false|F{Is it thermodynamic <br> temperature or time?}:::white
     F --> |true|G[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml'>fundamental quantity <br> VDP10</a>] 
-    F --> |false|H{Is it mass (g) or an <br> amount of substance (mol)?}:::white
+    F --> |false|H{Is it mass - g or an <br> amount of substance - mol?}:::white
     H --> |true|G
     H --> |false|K{Is it electric current or an <br> luminous intensity?}:::white
     K --> |true|G
