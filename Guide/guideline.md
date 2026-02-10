@@ -64,6 +64,7 @@ Find one <code>Matrix</code> pattern that applies for your variable using the de
 - [Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT7.mmd)
 
 Example <code>Matrix</code>: *no material flow, no natural process, no reference area, no different embedding material, but a [natural container VDP37](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml) -> Simple Matrix* 
+
 <img width="164" height="59" alt="image" src="https://github.com/user-attachments/assets/4b6a4dd5-8e48-4bec-ac16-5bbcc209d77f" />
 
 ## 6. Statistical Modifier
