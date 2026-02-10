@@ -1,16 +1,16 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP19.yaml
-name - Property: distance
+name: property (distance)
 comment: Distance requires two objects to be specified.
-design: Asymmetric or Symmetric System in the object of interest, depending if the parts have different roles.
+design: Asymmetric or symmetric system in the object of interest, depending if the parts have different roles.
 involved_components:
-    - Property 
-    - Object of Interest
-    - Symmetric System
-    - Asymmetric System
-    - Part
-    - Source
-    - Target
+  - property 
+  - object of interest
+  - symmetric system
+  - asymmetric system
+  - part
+  - source
+  - target
 constrained_component: ~
 associated_pattern: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
