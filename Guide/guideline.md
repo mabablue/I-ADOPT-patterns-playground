@@ -43,7 +43,7 @@ In case it is a quantitative property with units and the units are known for the
 
 ## 4. Object of Interest
 
-Find one </code>Object of Interest</code> pattern that applies for your variable using the decision trees.
+Find one <code>Object of Interest</code> pattern that applies for your variable using the decision trees.
 
 **Decision trees:**
 - As shortcut: [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
