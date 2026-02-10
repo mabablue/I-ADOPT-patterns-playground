@@ -11,7 +11,7 @@
 
 Find definitions of I-ADOPT concepts and specific terms used here in this [glossary](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/glossary.md). 
 
-**Demo Example: [Ozone total column](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/ECV/Atmosphere/Ozone.ttl)** - defined by: 2D field of total amount of O3 molecules per unit area in an atmospheric column extending from the Earth’s surface to the upper edge of the atmosphere.
+**Demo Example: [Ozone total column](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/ECV/Atmosphere/Ozone.ttl)** - Definition: 2D field of total amount of O3 molecules per unit area in an atmospheric column extending from the Earth’s surface to the upper edge of the atmosphere.
 
 ## 1. Analyze
 Analyse the variable description and, if necessary, rewrite it to provide a clear interpretation of the measured phenomenon. The help of a domain expert might be useful. Leave out details about the unit of measurements, the method and the instrument but make sure to include the property, the measured entity and the context defining the measurement. 
