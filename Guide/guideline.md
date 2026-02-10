@@ -12,7 +12,7 @@
 
 
 ## 1. Step:
-Analyse the variable description and, if necessary, rewrite it to provide a clear interpretation of the measured phenomenon. The help of a domain expert might be useful. Leave out details about the unit of measurements, the method and the instrument but make sure to include the property, the measured entity and the context required to understand the measurement. 
+Analyse the variable description and, if necessary, rewrite it to provide a clear interpretation of the measured phenomenon. The help of a domain expert might be useful. Leave out details about the unit of measurements, the method and the instrument but make sure to include the property, the measured entity and the context defining the measurement. 
 
 E.g. Atmospheric optical thickness of particulate organic matter at 550nm under ambient conditions.
 
