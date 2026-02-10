@@ -10,9 +10,9 @@ flowchart TD
     D --> |false|E{Is it embedded by a <br> different material?}:::white
     D --> |true|F[REFERENCE AREA <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP39.yaml'>VDP39</a>]:::blue
     E --> |true|G[EMBEDDING MATERIAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP36.yaml'>VDP36</a>]:::blue
-    E --> |false|H{Is it within <br> an artificial container?}:::white
-    H --> |true|I[ARTIFICIAL CONTAINER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP38.yaml'>VDP38</a>]:::blue
-    H --> |false|J[NATURAL CONTAINER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml'>VDP37</a>]:::blue
+    E --> |false|H{Is it within <br> a natural container?}:::white
+    H --> |false|I[ARTIFICIAL CONTAINER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP38.yaml'>VDP38</a>]:::blue
+    H --> |true|J[NATURAL CONTAINER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml'>VDP37</a>]:::blue
 
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
