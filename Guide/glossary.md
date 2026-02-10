@@ -1,8 +1,8 @@
 ## Glossary of I-ADOPT related concepts
 
-**Description components**: 
+**Description components**: An I-ADOPT variable is decomposed into different components which have different roles in the variable description.
 
-Variable Design Pattern: A pattern that provides a decomposition design guide by including this information:
+**Variable Design Pattern**: A pattern that provides a decomposition design guide by including this information:
 - id: a URL to the pattern
 - name
 - comment: description of the pattern
