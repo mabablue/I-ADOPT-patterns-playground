@@ -21,7 +21,7 @@ Example interpretation: *Mole per area of ozone in the atmosphere (measured from
 ## 2. Decompose
 Segment the text into atomic parts based on meaning rather than syntax. Ensure that composite terms remain intact if further decomposition would result in a loss of specialized context. 
 
-Example decomposition: mole per area; ozone; atmosphere; measured from Earth's surface to the upper edge of the amosphere;
+Example decomposition: *mole per area; ozone; atmosphere; measured from Earth's surface to the upper edge of the amosphere;*
 
 ## 3. Property
 
@@ -37,6 +37,11 @@ In case it is a quantitative property with units and the units are known for the
 - [derived properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd)
 - [flux properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd)
 - [ratio properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd)
+
+  Example property:
+ Are there units associated with the result values? yes -> quantitative property -> derived property -> ratio -> quantities of different types -> no time in the denominator -> mixture in a system -> denominator needed -> [density](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml) 
+
+
 
 ## 4. Object of Interest
 
