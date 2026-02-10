@@ -31,7 +31,7 @@ Determine the Property
 
 Be as precise as possible and use a known physical quantity rather than a community convention to increase the clarity and reusability of the terms. In case the description uses a community convention use the physical quantity and add a *constraint: type* on it. 
 
-Find one property pattern that applies for your variable using the decision trees.
+Find one property pattern that applies to your variable using the decision trees.
 
 **Decision trees:**
 - [qualitative properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT0.mmd)
