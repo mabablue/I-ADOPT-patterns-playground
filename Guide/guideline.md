@@ -75,10 +75,10 @@ Example: no statitistal modifier found
 ## 7. Constraint
 Determine <code>Constraints</code> and place them under the correct component. Ensure each constraint is concise yet informative, and present only one distinct constraint per argument. A constraint must be type-labeld, following this naming convention [type:]constraint.
 
-**Overview of patterns:**
--  [overview constraints](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/Constraints_patterns.csv)
+**Overview of constraint patterns:**
+-  [constraints](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/Constraints_patterns.csv)
 
-Example <code>Constraint</code>:  Context -> [defining entity](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml) on the <code>Property</code>
+Example <code>Constraint</code>:  Context -> [defining entity VDP85](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml) on the <code>Property</code>
 
 <img width="163" height="188" alt="image" src="https://github.com/user-attachments/assets/469ad8c9-d6c7-4852-a7ef-4accea4f71a7" />
 
