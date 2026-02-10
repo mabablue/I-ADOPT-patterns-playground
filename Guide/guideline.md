@@ -59,7 +59,7 @@ Find one <code>Matrix</code> pattern that applies for your variable using the de
 - As shortcut: [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
 - [Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT7.mmd)
 
-Example <code>Matrix</code>: *no material flow, no natural process, no reference area, no different embedding material, but a [natural container VDP37](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml)* 
+Example <code>Matrix</code>: *no material flow, no natural process, no reference area, no different embedding material, but a [natural container VDP37](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml) -> Simple Matrix* 
 
 ## 6. Statistical Modifier
 Determine if <code>Statistical Modifiers</code> are involved. If a statistical modifier modifies a value's unit, it turns into the <code>Property</code> instead. 
@@ -72,8 +72,9 @@ Determine <code>Constraints</code> and place them under the correct component. E
 **Overview of patterns:**
 -  [overview constraints](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/Constraints_patterns.csv)
 
-Example <code>Constraint</code>:  
+Example <code>Constraint</code>:  Context -> [defining entity](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml)
 
 ## 8. Context Object
 Add <code>Context Object</code>, if necessary, to add clarity. Typical context objects are spheres like atmosphere, biosphere, or any additional information required despite the matrix.
 
+Example: no context object needed
