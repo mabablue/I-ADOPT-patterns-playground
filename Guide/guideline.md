@@ -87,3 +87,8 @@ Example <code>Constraint</code>:  Context -> [defining entity](https://github.co
 Add <code>Context Object</code>, if necessary, to add clarity. Typical context objects are spheres like atmosphere, biosphere, or any additional information required despite the matrix. See for example sea in [eastward velocity of water current in the water body](https://github.com/mabablue/I-ADOPT-examples-playground/issues/37).
 
 Example: no context object needed
+
+Solution example: [turtle file](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/Ocean%20-%20HFR/EWCT.ttl)
+<img width="753" height="417" alt="image" src="https://github.com/user-attachments/assets/fc8e2419-a2d4-40a0-b039-0bed1c0af807" />
+
+
