@@ -1,15 +1,15 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP25.yaml
-name: Property: index
+name: property (index)
 comment: An index acts as a proxy property that normalizes data against a specific base point or reference value to provide relative context rather than absolute measurement. While it sometimes aggregates multiple variables into a single score, its primary function is to make diverse data sets comparable over time or across different subjects.
-design: The property requires a constraint: defined by to provide definition context. The object of interest is single.
+design: The property requires a constraint defined by to provide definition context. The object of interest is single.
 involved_components:
-    - Property
-    - Constraint (defined by)
-constrained_component: Property
+  - property
+  - constraint (defined by)
+constrained_component: property
 associated_patterns:
-    - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
-    - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml
 associated_mapping: ~
 example: BMI
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/107
