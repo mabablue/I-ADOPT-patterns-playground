@@ -35,7 +35,7 @@ Find one property pattern that applies for your variable using the decision tree
 
 **Decision trees:**
 - [qualitative properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT0.mmd)
-- [quantitative properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd)
+- [quantitative properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd) - look at the units used to identify the property!
 - [derived properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd)
 - [flux properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd)
 - [ratio properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd)
