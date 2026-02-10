@@ -41,8 +41,7 @@ In case it is a quantitative property with units and the units are known for the
 - [flux properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd)
 - [ratio properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd)
 
-## 4. Identify the Object of Interest
-Determine the <code>Object of Interest</code>
+## 4. <code>Object of Interest</code>
 
 Find one object of interest pattern that applies for your variable using the decision trees.
 
@@ -51,8 +50,7 @@ Find one object of interest pattern that applies for your variable using the dec
 - [Object of Interest](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT5.mmd)
 
 
-## 5. Identify the Matrix
-Determine the <code>Matrix</code>
+## 5. <code>Matrix</code>
 
 Find one matrix pattern that applies for your variable using the decision trees.
 
@@ -60,10 +58,10 @@ Find one matrix pattern that applies for your variable using the decision trees.
 - As shortcut: [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
 - [Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT7.mmd)
 
-## 6. I
+## 6. <code>Statistical Modifiers</code>
 Determine if <code>Statistical Modifiers</code> are involved. If a statistical modifier modifies a value's unit, it turns into the <code>Property</code> instead. 
 
-## 7. Step
+## 7. <code>Constraints</code>
 Determine <code>Constraints</code> and place them under the correct component. Ensure each constraint is concise yet informative, and present only one distinct constraint per argument. A constraint must be type-labeld, following this naming convention [type:]constraint.
 
 **Overview of patterns:**
