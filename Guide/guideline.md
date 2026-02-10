@@ -88,6 +88,7 @@ Add <code>Context Object</code>, if necessary, to add clarity. Typical context o
 
 Example: no context object needed
 
+##
 Solution example: [turtle file](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/ECV/Atmosphere/Ozone.ttl)
 
 <img width="754" height="385" alt="image" src="https://github.com/user-attachments/assets/03e011e4-dbf5-4746-baa2-fa98d8c82536" />
