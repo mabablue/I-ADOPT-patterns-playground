@@ -27,9 +27,9 @@ Compare: [Amospheric boundary layer height defined by temperture inversion](http
 Decomposed: height; atmospheric boundary layer; defined by temperature inversion; 
 
 ## 3. Step
-Determine the *PROPERTY*
+Determine the *Property*
 
-Be as precise as possible and use a known physical quantity rather than a community convention to increase the clarity and reusability of the terms. In case the description uses a community convention use the physical quantity and add a *constraint: type* on it (see step 7). 
+Be as precise as possible. Use a known physical quantity rather than a community convention to increase the clarity and reusability of the terms. In case the description uses a community convention use the physical quantity and add a *constraint: type* on it (see step 7). 
 
 Find one property pattern that applies to your variable using the decision trees.
 
@@ -43,7 +43,7 @@ In case it is a quantitative property with units and the units are known for the
 - [ratio properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd)
 
 ## 4. Step
-Determine the Object of Interest
+Determine the <code>Object of Interest</code>
 
 Find one object of interest pattern that applies for your variable using the decision trees.
 
