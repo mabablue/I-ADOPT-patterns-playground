@@ -1,14 +1,14 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP20.yaml
-name: Property: ratioless derived
+name: property (ratioless derived)
 comment: Derived property without ratio. 
 design: Use property with a single object of interest.
 instances:
   - angle
   - direction
 involved_components:
-    - Property
-    - Object of Interest (single)
+  - property
+  - object of interest (single)
 associated_patterns: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
 associated_mapping: ~
