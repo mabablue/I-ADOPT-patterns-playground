@@ -19,12 +19,25 @@ Example: [Atmospheric optical thickness of particulate organic matter at 550nm u
 Interpretation: *Optical thickness of organic particle in aerosol in atmosphere at 550nm* 
 (ambient conditions is already captured in the term atmosphere). 
 
+Example: [Ozone total column](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/ECV/Atmosphere/Ozone.ttl) - defined by: 2D field of total amount of O3 molecules per unit area in an atmospheric column extending from the Earth’s surface to the upper edge of the atmosphere.
+
+Interpretation: *Mole per area of ozone in the atmosphere (measured from Earth's surface to the upper edge of the amosphere)*
+
 ## 2. Decompose
 Segment the text into atomic parts based on meaning rather than syntax. Ensure that composite terms remain intact if further decomposition would result in a loss of specialized context. 
 
 Example: [Amospheric boundary layer height defined by temperture inversion](https://github.com/mabablue/I-ADOPT-examples-playground/issues/10) 
 
-Decomposed: *height; atmospheric boundary layer; defined by temperature inversion;* 
+Interpretation: *Optical thickness of organic particle in aerosol in atmosphere at 550nm* 
+(ambient conditions is already captured in the term atmosphere). 
+
+Decompostion: *height; atmospheric boundary layer; defined by temperature inversion;* 
+
+Example: [Ozone total column](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/ECV/Atmosphere/Ozone.ttl) - defined by: 2D field of total amount of O3 molecules per unit area in an atmospheric column extending from the Earth’s surface to the upper edge of the atmosphere.
+
+Interpretation: *Mole per area of ozone in the atmosphere (measured from Earth's surface to the upper edge of the amosphere)*
+
+Decomposition: mole per area; ozone; atmosphere; measured from Earth's surface to the upper edge of the amosphere;
 
 ## 3. Property
 
