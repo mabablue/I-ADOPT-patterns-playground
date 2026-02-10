@@ -6,7 +6,7 @@ with links to the [I-ADOPT ontology](https://w3id.org/iadopt/ont/Entity)
 
 **Description components**: An I-ADOPT variable is decomposed into different components which have different roles in the variable description.
 
-**[Entity](https://w3id.org/iadopt/ont/Entity)**
+**[Entity](https://w3id.org/iadopt/ont/Entity)** with description roles: Object of Interest, Matrix and Context Object
 
 **[Property](https://w3id.org/iadopt/ont/Property)**
 
