@@ -17,12 +17,9 @@ with links to the [I-ADOPT ontology](https://w3id.org/iadopt/ont/Entity)
 **[System](https://w3id.org/iadopt/ont/System)**: 
  - [Symmetric System](https://w3id.org/iadopt/ont/SymmetricSystem)
     - [hasPart](https://w3id.org/iadopt/ont/hasPart)
- 
-    - [Asymmetric System](https://w3id.org/iadopt/ont/AsymmetricSystem)
-    
-        - [hasNumerator](https://w3id.org/iadopt/ont/hasNumerator)/[hasDenominator](https://w3id.org/iadopt/ont/hasDenominator)
-        
-        - [hasSource](https://w3id.org/iadopt/ont/hasSource)/[hasTarget](https://w3id.org/iadopt/ont/hasTarget)
+  - [Asymmetric System](https://w3id.org/iadopt/ont/AsymmetricSystem)
+    - [hasNumerator](https://w3id.org/iadopt/ont/hasNumerator)/[hasDenominator](https://w3id.org/iadopt/ont/hasDenominator)
+    - [hasSource](https://w3id.org/iadopt/ont/hasSource)/[hasTarget](https://w3id.org/iadopt/ont/hasTarget)
 
 **[Variable](https://w3id.org/iadopt/ont/Variable)**
 
