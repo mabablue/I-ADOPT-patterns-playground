@@ -11,7 +11,7 @@
 
 Find definitions of I-ADOPT concepts in the [I-ADOPT ontology](https://i-adopt.github.io/ontology/) and some specific terms used here in this [glossary](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/glossary.md). 
 
-## 1. Step:
+## 1. Analyze the variable:
 Analyse the variable description and, if necessary, rewrite it to provide a clear interpretation of the measured phenomenon. The help of a domain expert might be useful. Leave out details about the unit of measurements, the method and the instrument but make sure to include the property, the measured entity and the context defining the measurement. 
 
 E.g. Atmospheric optical thickness of particulate organic matter at 550nm under ambient conditions.
@@ -19,15 +19,14 @@ E.g. Atmospheric optical thickness of particulate organic matter at 550nm under 
 -> Optical thickness of organic particle in aerosol in atmosphere at 550nm 
 (ambient conditions is already captured in the term atmosphere). 
 
-## 2. Step:
+## 2. Decompose the description:
 Segment the text into atomic parts based on meaning rather than syntax. Ensure that composite terms remain intact if further decomposition would result in a loss of specialized context. 
 
 Compare: [Amospheric boundary layer height defined by temperture inversion](https://github.com/mabablue/I-ADOPT-examples-playground/issues/10) 
 
 Decomposed: height; atmospheric boundary layer; defined by temperature inversion; 
 
-## 3. Step
-Determine the <code>Property</code>
+## 3. <code>Property</code>
 
 Be as precise as possible. Use a known physical quantity rather than a community convention to increase the clarity and reusability of the terms. In case the description uses a community convention use the physical quantity and add a *constraint: type* on it (see step 7). 
 
@@ -42,7 +41,7 @@ In case it is a quantitative property with units and the units are known for the
 - [flux properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd)
 - [ratio properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd)
 
-## 4. Step
+## 4. Identify the Object of Interest
 Determine the <code>Object of Interest</code>
 
 Find one object of interest pattern that applies for your variable using the decision trees.
@@ -52,7 +51,7 @@ Find one object of interest pattern that applies for your variable using the dec
 - [Object of Interest](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT5.mmd)
 
 
-## 5. Step
+## 5. Identify the Matrix
 Determine the <code>Matrix</code>
 
 Find one matrix pattern that applies for your variable using the decision trees.
@@ -61,7 +60,7 @@ Find one matrix pattern that applies for your variable using the decision trees.
 - As shortcut: [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
 - [Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT7.mmd)
 
-## 6. Step
+## 6. I
 Determine if <code>Statistical Modifiers</code> are involved. If a statistical modifier modifies a value's unit, it turns into the <code>Property</code> instead. 
 
 ## 7. Step
