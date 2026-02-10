@@ -68,7 +68,7 @@ Example <code>Matrix</code>: *no material flow, no natural process, no reference
 <img width="164" height="59" alt="image" src="https://github.com/user-attachments/assets/4b6a4dd5-8e48-4bec-ac16-5bbcc209d77f" />
 
 ## 6. Statistical Modifier
-Determine if <code>Statistical Modifiers</code> are involved. If a statistical modifier modifies a value's unit, it turns into the <code>Property</code> instead. 
+Determine if <code>Statistical Modifiers</code> (like mean, standard deviation, maximum) are involved. See for example maximum in [daily maximum hourly precipation rate](https://github.com/mabablue/I-ADOPT-examples-playground/issues/124) If a statistical modifier modifies a value's unit, it turns into the <code>Property</code> instead. 
 
 Example: no statitistal modifier found
 
@@ -84,6 +84,6 @@ Example <code>Constraint</code>:  Context -> [defining entity](https://github.co
 
 
 ## 8. Context Object
-Add <code>Context Object</code>, if necessary, to add clarity. Typical context objects are spheres like atmosphere, biosphere, or any additional information required despite the matrix.
+Add <code>Context Object</code>, if necessary, to add clarity. Typical context objects are spheres like atmosphere, biosphere, or any additional information required despite the matrix. See for example sea in [eastward velocity of water current in the water body](https://github.com/mabablue/I-ADOPT-examples-playground/issues/37).
 
 Example: no context object needed
