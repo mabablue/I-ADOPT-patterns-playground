@@ -14,7 +14,7 @@ Find definitions of I-ADOPT concepts and specific terms used here in this [gloss
 ## 1. Analyze
 Analyse the variable description and, if necessary, rewrite it to provide a clear interpretation of the measured phenomenon. The help of a domain expert might be useful. Leave out details about the unit of measurements, the method and the instrument but make sure to include the property, the measured entity and the context defining the measurement. 
 
-Example: Atmospheric optical thickness of particulate organic matter at 550nm under ambient conditions.
+Example: [Atmospheric optical thickness of particulate organic matter at 550nm under ambient conditions](https://github.com/mabablue/I-ADOPT-examples-playground/issues/11)
 
 Interpretation: *Optical thickness of organic particle in aerosol in atmosphere at 550nm* 
 (ambient conditions is already captured in the term atmosphere). 
