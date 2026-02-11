@@ -1,13 +1,13 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP73.yaml
-name: Constraint: interpretation
+name: constraint (interpretation)
 comment: provides specific information enabling better interpretation of the constrained component
-affected:
-  components:
-    - Constraint
-  constrained: 
-    - Property
-associated_pattern: 
-associated_mapping: 
-example: interpretation: Angle measured with the dip direction to the right
+design:
+involved_component:
+  - constraint
+constrained_component: 
+  - property
+associated_pattern: []
+associated_mapping: ~
+example: interpretation (Angle measured with the dip direction to the right when facing in the azimuth direction)
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/17
