@@ -1,10 +1,10 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP36.yaml
-name: Matrix - embedding material
-comment: The matrix must be of another material than the object of interest. If the material is the same, the description component has a context object role.
-design: Simple matrix
+name: matrix (embedding material)
+comment: The matrix must be of a different material than the object of interest. If the material is the same, the description component has a context object role.
+design: simple matrix
 involved_components:
-    - Matrix
+  - matrix
 associated_pattern: []
 associated_mapping: ~
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
