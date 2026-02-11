@@ -1,8 +1,8 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml
-name: property (density simple)
-comment: When density can be represented without an additional entity, but focused on the material or entity itself. The density of the solid material itself. It is "specific" to the chemical substance, regardless of how that substance is physically arranged (as a powder, a sponge, or a solid block).
-design: Density must be specified without using a constraint. Use single object in the object of interest.
+name: property (aeric simple)
+comment: When the ratio can be represented without an additional entity, but focused on the material or entity itself. The density of the solid material itself. It is "specific" to the chemical substance, regardless of how that substance is physically arranged (as a powder, a sponge, or a solid block).
+design: The property must be specified without using a constraint. Use single object in the object of interest.
 instances:
   - people per area
   - particle per area
