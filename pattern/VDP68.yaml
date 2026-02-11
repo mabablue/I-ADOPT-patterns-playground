@@ -4,11 +4,11 @@ name: constraint (datum)
 comment: provides a reference point or information for the constrained component
 design: Needs to constrain a property (length)
 involved_components:
-    - Constraint
+  - constraint
 constrained_component: 
-    - Property
-associated_patterns: 
+  - property
+associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP16.yaml
-associated_mapping: 
-example: (datum) above ground
+associated_mapping: ~
+example: datum (above ground)
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/10
