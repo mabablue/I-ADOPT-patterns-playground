@@ -1,17 +1,17 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP65.yaml
-name: Constraint: type
+name: constraint (type)
 comment: further specifies the type of the constrained component
-affected:
-  components:
-    - Constraint
-  constrained: 
-    - Property
-    - Object of Interest
-    - Matrix
-associated_pattern: 
-associated_mapping: 
-example: type: canalisation ON pipe
+design:
+involved_components:
+  - constraint
+constrained_components: 
+  - property
+  - object of interest
+  - matrix
+associated_pattern: []
+associated_mapping: ~
+example: type (canalisation ON pipe)
 gh_issue: 
   - https://github.com/mabablue/I-ADOPT-examples-playground/issues/2
   - https://github.com/mabablue/I-ADOPT-examples-playground/issues/38
