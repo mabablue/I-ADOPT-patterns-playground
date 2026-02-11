@@ -1,16 +1,16 @@
 type: Variable Design Rule
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP1.yaml
-name: all: meaning-clarifying addition
-affected:
-  components:
-    - Property
-    - Object Of Interest
-    - Matrix
-    - Context Object
-    - Statistical Modifier
-    - Constraint
-  constrained:
-associated_pattern: 
-associated_mapping: 
+name: all (meaning-clarifying addition)
+comment:
+design:
+involved_components:
+  - property
+  - object of interest
+  - matrix
+  - context object
+  - statistical modifier
+  - constraint
+associated_pattern: []
+associated_mapping: ~
 example: pipe connection
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/1
