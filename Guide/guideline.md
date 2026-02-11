@@ -83,7 +83,8 @@ Determine <code>Constraints</code> and place them under the correct component. E
 
 Example <code>Constraint</code> pattern:  Context -> [defining entity VDP85](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml) on the <code>Property</code>
 
-<img width="163" height="188" alt="image" src="https://github.com/user-attachments/assets/469ad8c9-d6c7-4852-a7ef-4accea4f71a7" />
+<img width="163" height="197" alt="image" src="https://github.com/user-attachments/assets/ce655c57-4ccd-404f-87f1-34e1bf4bdf2c" />
+
 
 
 ## 8. Context Object
@@ -94,7 +95,8 @@ Demo example: no context object needed
 ##
 Solution demo example: [turtle file](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/ECV/Atmosphere/Ozone.ttl)
 
-<img width="754" height="385" alt="image" src="https://github.com/user-attachments/assets/03e011e4-dbf5-4746-baa2-fa98d8c82536" />
+<img width="751" height="398" alt="image" src="https://github.com/user-attachments/assets/37b00348-5f0e-4c1a-bb28-b126643201d0" />
+
 
 
 IRIs for concepts:
