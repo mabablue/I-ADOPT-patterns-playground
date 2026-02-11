@@ -1,10 +1,10 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
-name: Property: specific
+name: property (specific)
 comment: Some physical property are composed terms and they should be kept as known.
 design: Property label should be as specific as possible without requiring to add details in a constraint
 involved_components:
-    - Property
+  - property
 constrained_component: ~
 associated_patterns: []
 associated_mapping: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR1.yaml
