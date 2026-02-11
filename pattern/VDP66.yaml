@@ -1,13 +1,13 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP66.yaml
-name: Constraint - sampling frequency
+name: constraint (sampling frequency)
 comment: provides the sampling frequency that applies for the constrained component
 design: constraint on statistical modifier
 involved_components:
-  - Constraint
-constrained_components: 
-  - Statistical modifier
-associated_pattern: ~
+  - constraint
+constrained_components:
+  - statistical modifier
+associated_pattern: []
 associated_mapping: ~
-example: sampling frequency - daily 
+example: sampling frequency (daily) 
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/8
