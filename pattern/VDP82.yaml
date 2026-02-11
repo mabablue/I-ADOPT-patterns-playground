@@ -1,14 +1,14 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP82.yaml
-name: Constraint - threshold
+name: constraint (threshold)
 comment: defines the value limit that triggers a quality flag, indicating whether the measurement satisfies the threshold criterion.
 design: a constraint of type 'threshold'
 involved_components:
-  - Constraint
+  - constraint
 constrained_components: 
-  - Property (binary)
+  - property (binary)
 associated_pattern: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP22.yaml
 associated_mapping: ~
-example: good if under threshold value
+example: treshold (good if under threshold value)
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/77
