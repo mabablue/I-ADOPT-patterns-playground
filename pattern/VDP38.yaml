@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP38.yaml
-name: Matrix: artificial container
-comment: A matrix is required when the Object of Interest is contained in an artificial vessel. 
+name: matrix (artificial container)
+comment: A matrix is required when the object of interest is contained in an artificial vessel. 
 design: 
 involved_components:
   - matrix
