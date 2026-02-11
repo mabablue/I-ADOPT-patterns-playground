@@ -1,14 +1,14 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP34.yaml
-name: Matrix: flow
+name: matrix (flow)
 comment: Flow of material from one source to a target.
 design: A matrix as asymmetric system is required for a flux property. The components associated with to the system are source and target, via the respective properties hasSource and hasTarget.
 involved_components:
-    - Matrix
-    - Asymmetric System
-    - Source
-    - Target
-    - Property
+  - matrix
+  - asymmetric system
+  - source
+  - target
+  - property
 associated_patterns: 
 - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP18.yaml
 associated_mapping: ~
