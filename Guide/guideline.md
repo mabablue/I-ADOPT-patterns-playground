@@ -38,7 +38,7 @@ In case it is a quantitative property with units and the units are known for the
 - [flux properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd)
 - [ratio properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd)
 
-Demo example <code>Property</code>:
+Demo example <code>Property</code> pattern:
 *Are there units associated with the result values? yes (mol/m2) -> quantitative property -> derived property -> ratio -> quantities of different types -> no time in the denominator -> mixture in a system -> denominator needed -> [density VDP14](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml)* 
 <img width="164" height="57" alt="image" src="https://github.com/user-attachments/assets/8631fc12-1d6c-4352-8f14-fbf0f9cdb0a5" />
 
@@ -51,7 +51,7 @@ Find one <code>Object of Interest</code> pattern that applies for your variable 
 - As shortcut: [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
 - [Object of Interest](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT5.mmd)
 
-Example <code>Object of Interest</code>: *[shortcut](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd) -> Density -> [Ratio VDP26](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml) -> Asymmetric System (numerator: ozone / denominator: ground surface)*
+Demo example <code>Object of Interest</code> pattern: *[shortcut](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd) -> Density -> [Ratio VDP26](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml) -> Asymmetric System (numerator: ozone / denominator: ground surface)*
 <img width="354" height="142" alt="image" src="https://github.com/user-attachments/assets/4fee90d1-638f-4094-89b1-83bfacb17793" />
 
 
@@ -63,7 +63,7 @@ Find one <code>Matrix</code> pattern that applies for your variable using the de
 - As shortcut: [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
 - [Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT7.mmd)
 
-Demo example <code>Matrix</code>: *no material flow, no natural process, no reference area, no different embedding material, but a [natural container VDP37](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml) -> Simple Matrix* 
+Demo example <code>Matrix</code> pattern: *no material flow, no natural process, no reference area, no different embedding material, but a [natural container VDP37](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml) -> Simple Matrix* 
 
 <img width="164" height="59" alt="image" src="https://github.com/user-attachments/assets/4b6a4dd5-8e48-4bec-ac16-5bbcc209d77f" />
 
@@ -78,7 +78,7 @@ Determine <code>Constraints</code> and place them under the correct component. E
 **Overview of constraint patterns:**
 -  [constraints](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/Constraints_patterns.csv)
 
-Example <code>Constraint</code>:  Context -> [defining entity VDP85](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml) on the <code>Property</code>
+Example <code>Constraint</code> pattern:  Context -> [defining entity VDP85](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml) on the <code>Property</code>
 
 <img width="163" height="188" alt="image" src="https://github.com/user-attachments/assets/469ad8c9-d6c7-4852-a7ef-4accea4f71a7" />
 
