@@ -1,14 +1,14 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP84.yaml
-name: Constraint - quality
+name: constraint (quality)
 comment: specifies the degree of quality or purity of a substance or generally of the component 
 design: constraint on entity
 involved_components:
-  - Constraint
+  - constraint
 constrained_components:
-  - Object of Interest
-  - Matrix
+  - object of interest
+  - matrix
 associated_patterns: []
 associated_mapping: ~
-example: purity 99.ß7%
+example: quality (purity 99.97%)
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/78
