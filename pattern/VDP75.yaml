@@ -1,14 +1,14 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP75.yaml
-name: Constraint: temporal extent
+name: constraint (temporal extent)
 comment: indicates the temporal coverage within which the constrained component applies
-affected:
-  components:
-    - Constraint
-  constrained: 
-    - Property
-    - Statistical Modifier
-associated_pattern: 
-associated_mapping:  
-example: temporal extent: over 1 year
+design:
+involved_component:
+  - constraint
+constrained_components: 
+  - property
+  - statistical modifier
+associated_pattern: []
+associated_mapping: ~
+example: temporal extent (over 1 year)
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/18
