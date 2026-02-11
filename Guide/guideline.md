@@ -39,8 +39,9 @@ In case it is a quantitative property with units and the units are known for the
 - [ratio properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd)
 
 Demo example <code>Property</code> pattern:
-*Are there units associated with the result values? yes (mol/m2) -> quantitative property -> derived property -> ratio -> quantities of different types -> no time in the denominator -> mixture in a system -> denominator needed -> [density VDP14](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml)* 
-<img width="164" height="57" alt="image" src="https://github.com/user-attachments/assets/8631fc12-1d6c-4352-8f14-fbf0f9cdb0a5" />
+*Are there units associated with the result values? yes (mol/m2) -> quantitative property -> derived property -> ratio -> quantities of different types -> no time in the denominator -> mixture in a system -> denominator needed -> [aeric VDP14](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml)* 
+<img width="228" height="56" alt="image" src="https://github.com/user-attachments/assets/d9e1bd75-8fff-469c-b9db-8ea785387d87" />
+
 
 
 ## 4. Object of Interest
