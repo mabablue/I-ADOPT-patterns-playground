@@ -6,7 +6,8 @@ design: A constraint of type 'threshold' should be added to explain when the qua
 involved_components:
   - property 
   - constraint (threshold)
-constrained_component: property
+constrained_component:
+  - property
 associated_pattern: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP82.yaml
 associated_mapping: ~
