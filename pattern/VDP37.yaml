@@ -2,6 +2,7 @@ type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml
 name: matrix (natural container)
 comment: A matrix is required when the object of interest is contained in a natural body. 
+design:
 involved_components:
   - matrix
 associated_pattern: []
