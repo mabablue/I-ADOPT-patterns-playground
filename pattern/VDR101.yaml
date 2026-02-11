@@ -1,13 +1,13 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP101.yaml
-name: Constraint - required
+name: constraint (required)
 comment: A condition (temperature, pressure) under which a property measurement is made is required to make contextual sense of the data
-affected:
-  components:
-    - Constraint
-  constrained: 
-    - Property
-associated_pattern: 
-associated_mapping: 
-example: condition - Thermodynamic temperature is required as measurement condition for validation of solubility measurements
+design:
+involved_component:
+  - constraint
+constrained_component: 
+  - property
+associated_pattern: []
+associated_mapping: ~
+example: condition (Thermodynamic temperature is required as measurement condition for validation of solubility measurements)
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/84
