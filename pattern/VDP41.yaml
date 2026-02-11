@@ -1,10 +1,10 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP41.yaml
-name: part - variable
+name: part (variable)
 comment: When two variables are compared in a system.
 design: Variable as part of a system.
 involved_components:
-  - Part
+  - part
 associated_pattern: []
 associated_mapping: ~
 example: position of receiver
