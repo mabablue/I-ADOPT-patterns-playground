@@ -5,7 +5,7 @@ comment: provides a size-specific information about the constrained component
 design:
 involved_components:
   - constraint
-constrained: 
+constrained_component: 
   - object of interest
 associated_pattern: []
 associated_mapping: ~
