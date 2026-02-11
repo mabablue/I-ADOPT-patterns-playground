@@ -1,15 +1,15 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP71.yaml
-name: Constraint: ratio
+name: constraint (ratio)
 comment: indicates that there is a ratio that requires an assymetric system for the object of interest
-affected:
-  components:
-    - Constraint
-  constrained: 
-    - Property
+design:
+involved_components:
+  - constraint
+constrained_component: 
+  - property
 associated_pattern: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP18.yaml
-associated_mapping: 
-example: ratio: mass per volume
+associated_mapping: ~
+example: ratio (mass per volume)
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/33
