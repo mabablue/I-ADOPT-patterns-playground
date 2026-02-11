@@ -1,16 +1,16 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP76.yaml
-name: Constraint: state
+name: constraint (state)
 comment: indicates the physical, chemical or qualitative condition, including phases, of the constrained component
-affected:
-  components:
-    - Constraint
-  constrained: 
-    - Object of Interest
-    - Matrix
-    - Source
-    - Target
-associated_pattern: 
-associated_mapping: 
-example: dry
+design:
+involved_components:
+  - constraint
+constrained_component: 
+  - object of interest
+  - matrix
+  - source
+  - target
+associated_pattern: []
+associated_mapping: ~
+example: state (dry)
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/25
