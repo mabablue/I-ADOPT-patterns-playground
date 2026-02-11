@@ -2,8 +2,8 @@ type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP18.yaml
 name: property (flux simple)
 comment: A flux is a flow from a source to a target and requires an asymmetric system for the matrix. In addition, the property must be specific and must include also the type (mass, energy). 
-Affected:
-  components:
+design:
+involved_components:
   - property
   - constraint
   - matrix
