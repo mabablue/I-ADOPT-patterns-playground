@@ -1,13 +1,14 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP77.yaml
-name: Constraint: role
+name: constraint (role)
 comment: indicates the role a person might have in the context of the variable
 design: constraint on entity, entity must be a human
 involved_components:
-  - Property 
-  - Object of Interest
-constrained_component: Entity
+  - property 
+  - object of interest
+constrained_component:
+  - entity
 associated_pattern: []
-associated_mapping: []
-example: patient
+associated_mapping: ~
+example: role (patient)
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/108
