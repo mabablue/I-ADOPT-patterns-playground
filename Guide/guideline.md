@@ -16,12 +16,12 @@ Find definitions of I-ADOPT concepts and specific terms used here in this [gloss
 ## 1. Analyze
 Analyse the variable description and, if necessary, rewrite it to provide a clear interpretation of the measured phenomenon. The help of a domain expert might be useful. Leave out details about the unit of measurements, the method and the instrument but make sure to include the property, the measured entity and the context defining the measurement. 
 
-Example interpretation: *Mole per area of ozone in the atmosphere (measured from Earth's surface to the upper edge of the amosphere)*
+Demo example interpretation: *Mole per area of ozone in the atmosphere (measured from Earth's surface to the upper edge of the amosphere)*
 
 ## 2. Decompose
 Segment the text into atomic parts based on meaning rather than syntax. Ensure that composite terms remain intact if further decomposition would result in a loss of specialized context. 
 
-Example decomposition: *mole per area; ozone; atmosphere; measured from Earth's surface to the upper edge of the amosphere;*
+Demo example decomposition: *mole per area; ozone; atmosphere; measured from Earth's surface to the upper edge of the amosphere;*
 
 ## 3. Property
 
@@ -38,7 +38,7 @@ In case it is a quantitative property with units and the units are known for the
 - [flux properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd)
 - [ratio properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd)
 
-Example <code>Property</code>:
+Demo example <code>Property</code>:
 *Are there units associated with the result values? yes (mol/m2) -> quantitative property -> derived property -> ratio -> quantities of different types -> no time in the denominator -> mixture in a system -> denominator needed -> [density VDP14](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml)* 
 <img width="164" height="57" alt="image" src="https://github.com/user-attachments/assets/8631fc12-1d6c-4352-8f14-fbf0f9cdb0a5" />
 
@@ -63,14 +63,14 @@ Find one <code>Matrix</code> pattern that applies for your variable using the de
 - As shortcut: [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
 - [Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT7.mmd)
 
-Example <code>Matrix</code>: *no material flow, no natural process, no reference area, no different embedding material, but a [natural container VDP37](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml) -> Simple Matrix* 
+Demo example <code>Matrix</code>: *no material flow, no natural process, no reference area, no different embedding material, but a [natural container VDP37](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml) -> Simple Matrix* 
 
 <img width="164" height="59" alt="image" src="https://github.com/user-attachments/assets/4b6a4dd5-8e48-4bec-ac16-5bbcc209d77f" />
 
 ## 6. Statistical Modifier
-Determine if <code>Statistical Modifiers</code> (like mean, standard deviation, maximum) are involved. See for example maximum in [daily maximum hourly precipation rate](https://github.com/mabablue/I-ADOPT-examples-playground/issues/124) If a statistical modifier modifies a value's unit, it turns into the <code>Property</code> instead. 
+Determine if <code>Statistical Modifiers</code> (like mean, standard deviation, maximum) are involved. See for example maximum in [daily maximum hourly precipation rate](https://github.com/mabablue/I-ADOPT-examples-playground/issues/124). If a statistical modifier modifies a value's unit, it turns into the <code>Property</code> instead. 
 
-Example: no statitistal modifier found
+Demo example: no statitistal modifier found
 
 ## 7. Constraint
 Determine <code>Constraints</code> and place them under the correct component. Ensure each constraint is concise yet informative, and present only one distinct constraint per argument. A constraint must be type-labeld, following this naming convention [type:]constraint.
@@ -86,7 +86,7 @@ Example <code>Constraint</code>:  Context -> [defining entity VDP85](https://git
 ## 8. Context Object
 Add <code>Context Object</code>, if necessary, to add clarity. Typical context objects are spheres like atmosphere, biosphere, or any additional information required despite the matrix. See for example sea in [eastward velocity of water current in the water body](https://github.com/mabablue/I-ADOPT-examples-playground/issues/37).
 
-Example: no context object needed
+Demo example: no context object needed
 
 ##
 Solution example: [turtle file](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/ECV/Atmosphere/Ozone.ttl)
