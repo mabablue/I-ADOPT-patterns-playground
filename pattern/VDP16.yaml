@@ -11,7 +11,8 @@ instances:
 involved_components:
   - property
   - constraint (datum)
-constrained_component: property
+constrained_component:
+  - property
 associated_patterns: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP68.yaml
 associated_mapping: ~
