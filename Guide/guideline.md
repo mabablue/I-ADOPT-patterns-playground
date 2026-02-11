@@ -3,11 +3,11 @@
 
 ## Workflow:
 
-1. Follow Variable Design Steps using Decision Trees (DT) leading to Variable Design Patterns (VDPs)
+1. Follow Variable Design Steps using Decision Trees (DT) leading to Variable Design Patterns (VDPs).
 2. Use the **[I-ADOPT Visualizer](https://sirkos.github.io/iadopt-vis/)** to compose your variable.
-3. Find appropriate semantic concepts from the vocabularies of your choice (or use this [lookup service](https://i-adopt.github.io/terminologies/list/all/)) and add their IRIs in the visualizer
-4. Copy RDF and safe it as turtle (.ttl) file in the [I-ADOPT Examples Repository](https://github.com/mabablue/I-ADOPT-examples-playground)
-5. Create an Issue in the [I-ADOPT Examples Repository](https://github.com/mabablue/I-ADOPT-examples-playground/issues), add the link to the turtle, copy the graphic into the issue, and use the labels to describe with patterns you used
+3. Find appropriate semantic concepts from the vocabularies of your choice (or use this [lookup service](https://i-adopt.github.io/terminologies/list/all/)) and add their IRIs in the visualizer.
+4. Copy RDF and safe it as turtle (.ttl) file in the [I-ADOPT Examples Repository](https://github.com/mabablue/I-ADOPT-examples-playground).
+5. Create an Issue in the [I-ADOPT Examples Repository](https://github.com/mabablue/I-ADOPT-examples-playground/issues), add the link to the turtle, copy the graphic into the issue, and use the labels to describe with patterns you used.
 
 Find definitions of I-ADOPT concepts and specific terms used here in this [glossary](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/glossary.md). 
 
