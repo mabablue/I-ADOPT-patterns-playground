@@ -1,15 +1,16 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP31.yaml
-name: Object of interest: flow
+name: object of interest (flow)
 comment: The variable compares two quantities by division and tells you how much of one thing there is relative to another.
-design: Object Of interest: Asymmetric System, with numerator and denominator description roles.
+design: object of interest (asymmetric system, with numerator and denominator description roles)
 involved_components:
-    - Object of Interest
-    - Asymmetric System
-    - Numerator
-    - Denominator
-constrained_component: 
+  - object of interest
+  - asymmetric system
+  - numerator
+  - denominator
+constrained_component: ~
 associated_patterns: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP19.yaml
 associated_mapping: ~
+example: 
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/18
