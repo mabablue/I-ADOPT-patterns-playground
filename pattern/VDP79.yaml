@@ -1,14 +1,14 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP79.yaml
-name: Constraint: origin
+name: constraint (origin)
 comment: specifies the source, provenance, or starting point of the constrained component
-affected:
-  components:
-    - Constraint
-  constrained: 
-    - Object of Interest
-    - Matrix
-associated_pattern: 
-associated_mapping: 
-example: detrital organic matter
+design:
+involved_components:
+  - constraint
+constrained_component: 
+  - object of interest
+  - matrix
+associated_pattern: []
+associated_mapping: ~
+example: origin (detrital organic matter)
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/68
