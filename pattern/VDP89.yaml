@@ -1,13 +1,13 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP89.yaml
-name: Constraint - interval
+name: constraint (interval)
 comment: defines the time window used to calculate the rate
 design: constraint on statistical modifier
 involved_components:
-  - Constraint
+  - constraint
 constrained_components:
   - statitistical modifier
 associated_patterns: []
 associated_mapping: ~
-example: interval - hourly
+example: interval (week)
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/110
