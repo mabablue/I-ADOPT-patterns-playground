@@ -1,15 +1,13 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP60.yaml
-name: Constraint: sufficiently specified
+name: constraint (sufficiently specified)
 comment: The constraint must include enough information without being verbose
-rules:
-  decomposition: false
-affected:
-  components:
-    - Constraint
-  constrained: 
-associated_pattern: 
-associated_mapping: 
-example: size: diameter of 30 cm
+design:
+involved_components:
+  - constraint
+constrained_component: ~
+associated_pattern: []
+associated_mapping: ~
+example: size (diameter of 30 cm)
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/1
 
