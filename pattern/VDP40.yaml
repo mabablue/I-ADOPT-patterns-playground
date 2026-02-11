@@ -1,10 +1,10 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP40.yaml
-name: context - environment
+name: context (environment)
 comment: Can be a natural or artificial environment, which is not the matrix itself. Sometimes it is required to distinguish it from another environment.
-design: Simple context object
+design: simple context object
 involved_components:
-  - Context Object
+  - context object
 associated_pattern: []
 associated_mapping: ~
 example: atmosphere
