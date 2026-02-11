@@ -1,15 +1,15 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP70.yaml
-name: Constraint: condition
+name: constraint (condition)
 comment: a contextual circumstance or environmental feature that limits or qualifies the constrained component
-affected:
-  components:
-    - Constraint
-  constrained: 
-    - Property
-    - Object of Interest
-    - Matrix
-associated_pattern: 
-associated_mapping: 
-example: condition: at 550nm wavelength
+design: 
+involved_components:
+  - constraint
+constrained_component: 
+  - property
+  - object of interest
+  - matrix
+associated_pattern: []
+associated_mapping: ~
+example: condition (at 550nm wavelength)
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/11
