@@ -1,11 +1,10 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml
-name: Matrix: natural container
-comment: A matrix is required when the Object of Interest is contained in a natural body. 
-affected:
-  components:
-    - Matrix
-associated_pattern: 
-associated_mapping: 
+name: matrix (natural container)
+comment: A matrix is required when the object of interest is contained in a natural body. 
+involved_components:
+  - matrix
+associated_pattern: []
+associated_mapping: ~
 example: organism
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/23
