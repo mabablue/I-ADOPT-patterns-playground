@@ -11,10 +11,7 @@ instances:
   - mole per area
 involved_components:
   - property
-  - object of interest
-  - asymmetric system
-  - numerator
-  - denominator
+  - object of interest (asymmetric system - numerator/denominator)
 constrained_component: ~
 associated_patterns: 
    - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
