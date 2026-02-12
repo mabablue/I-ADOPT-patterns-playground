@@ -49,7 +49,7 @@ Demo example <code>Property</code> pattern:
 Find one <code>Object of Interest</code> pattern that applies for your variable using the decision trees.
 
 **Decision trees:**
-- As shortcut: [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
+- As shortcut: [Property Ratio - Object of interst](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd) or [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
 - [Object of Interest](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT5.mmd)
 
 Demo example <code>Object of Interest</code> pattern: *[shortcut](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd) -> Areal density -> [RATIO VDP26](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml) -> Asymmetric System (numerator: ozone / denominator: ground surface)*
