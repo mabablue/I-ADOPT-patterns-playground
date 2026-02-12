@@ -1,0 +1,17 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml
+name: property (volumic density)
+comment: The ratio of a substance's mass to the volume it occupies. Quantity per volume.
+design: The property must be specified without using a constraint. Use single object in the object of interest.
+instances:
+  - mass density
+  - bulk density
+involved_components:
+  - property
+  - object of interest
+constrained_component: ~
+associated_patterns: 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
+associated_mapping: ~
+example: volumic number density
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/7
