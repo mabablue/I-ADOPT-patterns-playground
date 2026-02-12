@@ -2,7 +2,7 @@ type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
 name: object of interest (two equal)
 comment: A system with two parts having the same role in the description.
-design: symmetric system in the object of interest
+design: Symmetric system in the object of interest
 involved_components:
   - object of interest (symmetric system - part)
 constrained_component: ~
