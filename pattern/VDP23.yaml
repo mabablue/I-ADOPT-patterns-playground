@@ -1,21 +1,19 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP23.yaml
 name: property (flux complex)
-comment: A flux is a ratio rate which is represented as an asymmetric system for object of interest and with an asymmetric system for matrix, which is the flow from a source to a target. Complex representation is needed, when there needs to be a constraint on the denominator. 
-design: 
+comment: A flux is a ratio rate. Complex representation is needed, when there needs to be a constraint on the denominator. 
+design: Requires asymmetric system for object of interest (numerator/denominator) and matrix (source/target).
 instances: 
 involved_components:
   - property
   - constraint
-  - object of interest
-  - matrix
-  - asymmetric system
-constrained_components:
-  - deonminator  
+  - object of interest (asymmetric system - numerator/denominator)
+  - matrix (asymmetric system - source/target)
+constrained_component: denonminator  
 associated_patterns: 
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP34.yaml
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/edit/main/pattern/VDP71.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/edit/main/pattern/VDP34.yaml
 associated_mapping: ~
 example: mass flux of carbon into soil from vegetation
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/12
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/25
+
