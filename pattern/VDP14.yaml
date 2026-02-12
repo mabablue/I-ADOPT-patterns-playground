@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml
 name: property (aeric)
-comment: Amount per area. 
+comment: Quantity per area. 
 design: Use asymmetric system (numerator/denominator) in the object of interest.
 instances:
   - linear density (mass per length)
