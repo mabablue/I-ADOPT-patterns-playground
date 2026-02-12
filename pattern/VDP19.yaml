@@ -2,7 +2,7 @@ type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP19.yaml
 name: property (distance)
 comment: The length between two Cartesian coordinates in space (absolute length) requiring two objects to be specified.
-design: Asymmetric or symmetric system in the object of interest, depending if the parts have different roles.
+design: Asymmetric (with source/target) or symmetric system (with parts) in the object of interest, depending if the parts involved have different roles.
 involved_components:
   - property 
   - object of interest
@@ -15,6 +15,6 @@ constrained_component: ~
 associated_pattern: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
-associated_mapping: https://github.com/mabablue/I-ADOPT-patterns-playground/edit/main/pattern/VDP25.yaml
+associated_mapping: ~
 example: distance to nearest neighbour habitat patch
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/19
