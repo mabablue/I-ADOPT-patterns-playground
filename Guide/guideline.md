@@ -41,7 +41,8 @@ In case it is a quantitative property with units and the units are known for the
 Demo example <code>Property</code> pattern:
 *Are there units associated with the result values? yes (mol/m2) -> quantitative property -> derived property -> ratio -> quantities of different types -> no time in the denominator -> denominator is area -> [AREAL DENSITY VDP14](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml)* 
 
-<img width="163" height="69" alt="image" src="https://github.com/user-attachments/assets/01d44526-4c0d-4cbd-920b-181fcc90d791" />
+<img width="163" height="57" alt="image" src="https://github.com/user-attachments/assets/eef5ced4-1ea2-4551-b299-679fba0a9f35" />
+
 
 
 ## 4. Object of Interest
@@ -82,7 +83,8 @@ Determine <code>Constraints</code> and place them under the correct component. E
 
 Example <code>Constraint</code> pattern:  Context -> [defining entity VDP85](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml) on the <code>Property</code>
 
-<img width="163" height="197" alt="image" src="https://github.com/user-attachments/assets/ce655c57-4ccd-404f-87f1-34e1bf4bdf2c" />
+<img width="162" height="187" alt="image" src="https://github.com/user-attachments/assets/97f21e76-737c-4cef-9f73-d5aa1b83938d" />
+
 
 
 
@@ -94,7 +96,8 @@ Demo example: no context object needed
 ##
 Solution demo example: [turtle file](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/ECV/Atmosphere/Ozone.ttl)
 
-<img width="751" height="398" alt="image" src="https://github.com/user-attachments/assets/37b00348-5f0e-4c1a-bb28-b126643201d0" />
+<img width="750" height="385" alt="image" src="https://github.com/user-attachments/assets/50b3ec9d-7e7e-4f77-a379-9890c42b08e1" />
+
 
 
 
