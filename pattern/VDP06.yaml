@@ -1,5 +1,5 @@
 type: Variable Design Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP6.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP06.yaml
 name: property (massic density)
 comment: Quantity per mass. 
 design: Use asymmetric system (numerator/denominator) in the object of interest.
@@ -9,7 +9,8 @@ involved_components:
   - property
   - object of interest (asymmetric system - numerator/denominator)
 constrained_component: ~
-associated_patterns: []
+associated_patterns: 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml
 associated_mapping: ~
 example: atoms per mass
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/130
