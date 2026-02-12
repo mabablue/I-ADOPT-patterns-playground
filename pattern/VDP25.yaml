@@ -6,8 +6,8 @@ design: The property requires a constraint (defined by) to provide the definitio
 involved_components:
   - property
   - constraint (defined by)
-constrained_component:
-  - property
+  - object of interest 
+constrained_component: property
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml
