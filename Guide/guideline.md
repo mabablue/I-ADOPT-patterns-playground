@@ -43,8 +43,6 @@ Demo example <code>Property</code> pattern:
 <img width="163" height="69" alt="image" src="https://github.com/user-attachments/assets/01d44526-4c0d-4cbd-920b-181fcc90d791" />
 
 
-
-
 ## 4. Object of Interest
 
 Find one <code>Object of Interest</code> pattern that applies for your variable using the decision trees.
@@ -53,7 +51,7 @@ Find one <code>Object of Interest</code> pattern that applies for your variable 
 - As shortcut: [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
 - [Object of Interest](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT5.mmd)
 
-Demo example <code>Object of Interest</code> pattern: *[shortcut](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd) -> Density -> [Ratio VDP26](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml) -> Asymmetric System (numerator: ozone / denominator: ground surface)*
+Demo example <code>Object of Interest</code> pattern: *[shortcut](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd) -> Aeric -> [Aeric VDP14](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml) -> Asymmetric System (numerator: ozone / denominator: ground surface)*
 
 <img width="354" height="142" alt="image" src="https://github.com/user-attachments/assets/4fee90d1-638f-4094-89b1-83bfacb17793" />
 
