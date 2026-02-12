@@ -1,0 +1,16 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP07.yaml
+name: property (lineic density)
+comment: Quantity per line, linear mass density.
+design: Use asymmetric system (numerator/denominator) in the object of interest.
+instances:
+  - massic count per mass
+involved_components:
+  - property
+  - object of interest (asymmetric system - numerator/denominator)
+constrained_component: ~
+associated_patterns: 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml
+associated_mapping: ~
+example: ~
+gh_issue: ~
