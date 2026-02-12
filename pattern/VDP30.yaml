@@ -4,7 +4,7 @@ name: object of interest (two equal)
 comment: A system with two parts having the same role in the description.
 design: symmetric system in the object of interest
 involved_components:
-  - Object of Interest (Symmetric System - Part)
+  - object of interest (symmetric system - part)
 constrained_component: ~
 associated_pattern: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/edit/main/pattern/VDP19.yaml
