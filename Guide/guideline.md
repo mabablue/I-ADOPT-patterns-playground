@@ -40,6 +40,7 @@ In case it is a quantitative property with units and the units are known for the
 
 Demo example <code>Property</code> pattern:
 *Are there units associated with the result values? yes (mol/m2) -> quantitative property -> derived property -> ratio -> quantities of different types -> no time in the denominator -> denominator is area -> [aeric VDP14](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml)* 
+
 <img width="163" height="69" alt="image" src="https://github.com/user-attachments/assets/01d44526-4c0d-4cbd-920b-181fcc90d791" />
 
 
