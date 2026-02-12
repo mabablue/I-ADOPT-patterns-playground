@@ -2,12 +2,12 @@
 title: PROPERTY RATIO
 ---
 flowchart TD
-    A[Ratio without time <br> different quantities] --> B{Is it a mixture?}:::white
-    B --> |true|D{Is the denominator area?}:::white
-    B --> |false|E(mass density)
-    E --> F[RATIOLESS DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP20.yaml'>VDP20</a>]
-    D --> |false|T[CONCENTRATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
-    D --> |true|C[AERIC <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml'>VDP14</a>]
+    A[Ratio without time <br> different quantities] --> B{Is the denominator area}:::white
+    B --> |true|C[AERIC <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml'>VDP14</a>]
+    B --> |false|E{Is it a mixture?}:::white
+    E --> |false|F(mass density)
+    F --> G[RATIOLESS DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP20.yaml'>VDP20</a>]
+    E--> |true|H[CONCENTRATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
    classDef white fill:#f3f6f4
