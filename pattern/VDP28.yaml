@@ -2,7 +2,7 @@ type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
 name: object of interest (single)
 comment: A single, distinguishable "object" in the universe, for which a property is measured.
-design: simple object of interest
+design: object of interest with a single entity
 involved_components:
   - object of interest
 associated_pattern: []
