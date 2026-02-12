@@ -2,7 +2,7 @@ type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml
 name: property (aeric)
 comment: Amount per area. 
-design: Density must be specified without using a constraint. Use asymmetric system (numerator/denominator) in the object of interest.
+design: Use asymmetric system (numerator/denominator) in the object of interest.
 instances:
   - linear density (mass per length)
   - surface density (mass per area, mass per cell)
