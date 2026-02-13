@@ -2,11 +2,15 @@ type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP24.yaml
 name: property (count)
 comment: A count property is a derived data property that assigns to an entity a non-negative integer equal to the number of distinct related entities satisfying a declared relation and scope.
-design: Simple property using "count" or "number" as its label.
+design: Simple property using "count" or "number" as its concept label. Use single object of interest and a matrix of type reference area.
 involved_components:
   - property 
+  - object of interest (single)
+  - matrix (reference area)
 constrained_component: ~
-associated_pattern: []
+associated_pattern: 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP39.yaml
 associated_mapping: ~
 example: number
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/92
