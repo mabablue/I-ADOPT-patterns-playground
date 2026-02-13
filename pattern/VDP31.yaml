@@ -9,5 +9,5 @@ constrained_component: ~
 associated_patterns: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP19.yaml
 associated_mapping: ~
-example: 
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/18
+example: Distance to nearest neighbour habitat patch
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/19
