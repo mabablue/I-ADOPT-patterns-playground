@@ -10,5 +10,5 @@ involved_components:
 constrained_component: object of interest
 associated_pattern: []
 associated_mapping: ~
-example: particulate organic matter ambient aerosol
+example: Atmosphere optical thickness of particulate organic matter ambient aerosol
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/11
