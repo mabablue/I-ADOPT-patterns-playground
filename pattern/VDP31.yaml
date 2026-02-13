@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP31.yaml
 name: object of interest (flow)
-comment: The variable compares two quantities by division and tells you how much of one thing there is relative to another.
+comment: The variable compares two entities that have different roles.
 design: object of interest (asymmetric system, with source and target description roles)
 involved_components:
   - object of interest (asymmetrix system - source/target)
