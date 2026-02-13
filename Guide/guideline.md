@@ -19,7 +19,7 @@ Analyse the variable description and, if necessary, rewrite it to provide a clea
 Demo example interpretation: *Molecules per area of ozone in the atmosphere (measured from Earth's surface to the upper edge of the amosphere)*
 
 ## 2. Decompose
-Segment the text into atomic parts based on meaning rather than syntax. Ensure that composite terms remain intact if further decomposition would result in a loss of specialized context. 
+Segment the text into logical atomic parts based on meaning rather than syntax. Ensure that composite terms remain intact if further decomposition would result in a loss of specialized context. 
 
 Demo example decomposition: *molecules per area; ozone; atmosphere; measured from Earth's surface to the upper edge of the amosphere;*
 
