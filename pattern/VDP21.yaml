@@ -8,13 +8,9 @@ instances:
   - mass fraction
 involved_components:
   - property
-  - object of interest
-  - asymmetric system
-  - numerator
-  - denominator
+  - object of interest (asymmetric system - numerator/denominator)
 associated_pattern: 
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP91.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml
 associated_mapping: ~
-example: mass fraction
+example: mass fraction of DDT in soil
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/26
