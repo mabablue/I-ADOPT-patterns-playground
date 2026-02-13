@@ -1,12 +1,15 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml
 name: property (flux simplified)
-comment: Energy flux of photons
-design: Simplified design requiring only a simple object of interest.
+comment: Energy flux should be represented in a simplified way.
+design: Simplified design requiring only a simple object of interest. The matrix is a representated by a matrix of type natural container
 involved_components:
   - property
-  - object of interest
-associated_pattern: []
+  - object of interest (single)
+  - matrix (natural container)
+associated_pattern:
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml
 associated_mapping: ~
 example: Upwelling actinic flux
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/103
