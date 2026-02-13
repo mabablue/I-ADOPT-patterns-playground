@@ -41,6 +41,8 @@ In case it is a quantitative property with units and the units are known for the
 Demo example <code>Property</code> pattern:
 *Are there units associated with the result values? yes (mol/m2) -> quantitative property -> derived property -> ratio -> quantities of different types -> no time in the denominator -> denominator is area -> [AREAL DENSITY VDP14](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml)* 
 
+Click on the pattern description to find instruction in the design info (see [glossary](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/glossary.md)).
+
 <img width="163" height="56" alt="image" src="https://github.com/user-attachments/assets/84370a3d-9707-41a2-a705-579b4c0ffe7f" />
 
 
