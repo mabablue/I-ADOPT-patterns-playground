@@ -2,14 +2,15 @@ type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP22.yaml
 name: property (binary)
 comment: A binary or boolean property allows exactly two values: true/false, good/bad. Quality flags are boolean. 
-design: A constraint of type 'threshold' should be added to explain when the quality flag holds.
+design: A constraint of type 'threshold' should be added to explain when the quality flag holds. Use single object of interest.
 involved_components:
   - property 
   - constraint (threshold)
-constrained_component:
-  - property
+  - object of interest
+constrained_component: property
 associated_pattern: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP82.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
 associated_mapping: ~
 example: quality flag
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/77
