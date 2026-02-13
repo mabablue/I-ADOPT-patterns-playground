@@ -4,10 +4,7 @@ name: object of interest (flow)
 comment: The variable compares two quantities by division and tells you how much of one thing there is relative to another.
 design: object of interest (asymmetric system, with numerator and denominator description roles)
 involved_components:
-  - object of interest
-  - asymmetric system
-  - numerator
-  - denominator
+  - object of interest (asymmetrix system - numerator/denominator)
 constrained_component: ~
 associated_patterns: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP19.yaml
