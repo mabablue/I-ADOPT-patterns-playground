@@ -12,5 +12,5 @@ involved_components:
 associated_patterns: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
 associated_mapping: ~
-example: angle
+example: aircraft angle of attack
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/104
