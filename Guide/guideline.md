@@ -16,12 +16,12 @@ Find definitions of I-ADOPT concepts and specific terms used here in this [gloss
 ## 1. Analyze
 Analyse the variable description and, if necessary, rewrite it to provide a clear interpretation of the measured phenomenon. The help of a domain expert might be useful. Leave out details about the unit of measurements, the method and the instrument but make sure to include the property, the measured entity and the context defining the measurement. 
 
-Demo example interpretation: *Mole per area of ozone in the atmosphere (measured from Earth's surface to the upper edge of the amosphere)*
+Demo example interpretation: *Molecules per area of ozone in the atmosphere (measured from Earth's surface to the upper edge of the amosphere)*
 
 ## 2. Decompose
 Segment the text into atomic parts based on meaning rather than syntax. Ensure that composite terms remain intact if further decomposition would result in a loss of specialized context. 
 
-Demo example decomposition: *mole per area; ozone; atmosphere; measured from Earth's surface to the upper edge of the amosphere;*
+Demo example decomposition: *molecules per area; ozone; atmosphere; measured from Earth's surface to the upper edge of the amosphere;*
 
 ## 3. Property
 
