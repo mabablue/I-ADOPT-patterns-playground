@@ -11,9 +11,9 @@ involved_components:
   - matrix (asymmetric system - source/target)
 constrained_component: denonminator  
 associated_patterns: 
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml
   - https://github.com/mabablue/I-ADOPT-patterns-playground/edit/main/pattern/VDP34.yaml
 associated_mapping: ~
-example: mass flux of carbon into soil from vegetation
+example: weight-specific ingestion Carbon rate
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/25
 
