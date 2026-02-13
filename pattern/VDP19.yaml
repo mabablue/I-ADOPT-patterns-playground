@@ -9,7 +9,7 @@ involved_components:
   - object of interest (asymmetric system - source/target)
 constrained_component: ~
 associated_pattern: 
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP31.yaml
 associated_mapping: ~
 example: distance to nearest neighbour habitat patch
