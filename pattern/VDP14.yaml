@@ -17,5 +17,5 @@ associated_patterns:
    - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
    - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP71.yaml
 associated_mapping: ~
-example: number density
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/7
+example: molecules per area
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/138
