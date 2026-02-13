@@ -11,4 +11,5 @@ involved_components:
 associated_patterns: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP19.yaml
 associated_mapping: ~
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/18
+example: snow water equivalent
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/128
