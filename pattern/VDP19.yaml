@@ -5,16 +5,12 @@ comment: The length between two Cartesian coordinates in space (absolute length)
 design: Asymmetric (with source/target) or symmetric system (with parts) in the object of interest, depending if the parts involved have different roles.
 involved_components:
   - property 
-  - object of interest
-  - symmetric system
-  - asymmetric system
-  - part
-  - source
-  - target
+  - object of interest (symmetric system - part) 
+  - object of interest (asymmetric system - source/target)
 constrained_component: ~
 associated_pattern: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP31.yaml
 associated_mapping: ~
 example: distance to nearest neighbour habitat patch
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/19
