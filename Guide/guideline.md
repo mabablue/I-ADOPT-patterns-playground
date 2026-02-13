@@ -25,7 +25,7 @@ Demo example decomposition: *molecules per area; ozone; atmosphere; measured fro
 
 ## 3. Property
 
-Be as precise as possible. Use a known physical quantity rather than a community convention to increase the clarity and reusability of the terms. In case the description uses a community convention use the physical quantity and add a *constraint: type* on it (see step 7). 
+Be as precise as possible. Use a known physical quantity rather than a community convention to increase the clarity and reusability of the terms. In case the description uses a community convention use the physical quantity. Later (at step 7) add a *constraint: type* on it. 
 
 Find one <code>Property</code> pattern that applies to your variable using the decision trees.
 
