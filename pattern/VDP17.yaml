@@ -1,19 +1,16 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml
 name: property (concentration)
-comment: Concentration describes how much of one substance (the solute) is present in another substance (the solvent). Thus, using a concentration property always implies the existence of both a solute (object of interest) and a solvent (matrix of type embedding material). 
-design: Requires asymmetric system (numerator/denominator) in the object of interest.
+comment: Concentration describes how much of one substance (the solute) is present in another substance (the solvent). Thus, using a concentration property always implies the existence of both a solute and a solvent. 
+design: Requires asymmetric system (numerator/denominator) in the object of interest with the solute in the numerator and the solvent in the denominator.
 instances:
   - mass concentration
   - molar concentration
 involved_components:
   - property
-  - object of interest
-  - numerator
-  - denominator
+  - object of interest (asymmetric system - numerator/denominator)
 associated_patterns: 
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/edit/main/pattern/VDP71.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml
 associated_mapping: ~
 example: mass concentration of isobutylene in chloroform
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/33
