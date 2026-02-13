@@ -6,7 +6,7 @@ design: object of interest (asymmetric System, with numerator and denominator de
 involved_components:
   - object of interest (asymmetric system - numerator/denominator)
 associated_patterns: 
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP19.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml
 associated_mapping: ~
 example: snow water equivalent
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/128
