@@ -1,0 +1,60 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix iadopt: <https://w3id.org/iadopt/ont/> .
+@prefix shape: <https://w3id.org/iadopt/shacl/pattern/> .
+
+
+shape:VDP17Shape
+  a sh:NodeShape ;
+  rdfs:label "Property: Concentration" ;
+  sh:target [
+    a sh:SPARQLTarget ;
+    sh:prefixes [ sh:declare [ sh:prefix "iadopt" ; sh:namespace "https://w3id.org/iadopt/ont/"^^xsd:anyURI ; ] ] ,
+                [ sh:declare [ sh:prefix "qudt" ;   sh:namespace "https://qudt.org/vocab/quantitykind/"^^xsd:anyURI ; ] ] ,
+                [ sh:declare [ sh:prefix "wd" ;     sh:namespace "https://www.wikidata.org/entity/"^^xsd:anyURI ; ] ] ;
+    sh:select """
+      SELECT ?this
+      WHERE {
+
+        VALUES ?property {
+          wd:Q589446 # mass concentration
+          qudt:MassConcentration
+        }
+
+        ?this
+          a                   iadopt:Variable ;
+          iadopt:hasProperty  ?property .
+
+      }
+      """ ;
+  ] ;
+  sh:closed false ;
+
+  sh:property [
+    sh:message "VDP17: ObjectOfInterest is a singular AsymmetricSystem." ;
+    sh:path   iadopt:hasObjectOfInterest ;
+    sh:class  iadopt:AsymmetricSystem ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+  ] ;
+
+  sh:property [
+    sh:message "VDP17: ObjectOfInterest uses hasNumerator in AsymmetricSystem." ;
+    sh:path     ( iadopt:hasObjectOfInterest iadopt:hasNumerator ) ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+  ] ;
+
+  sh:property [
+    sh:message "VDP17: ObjectOfInterest uses hasDenominator in AsymmetricSystem." ;
+    sh:path     ( iadopt:hasObjectOfInterest iadopt:hasDenominator ) ;
+    sh:nodeKind sh:BlankNodeOrIRI ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+  ] ;
+
+  .
