@@ -4,15 +4,15 @@ title: MATRIX
 flowchart TD
     A(OBJECT OF INTEREST):::satblue  --> AB{Is it involved <br> in a material flow?}:::white
     AB --> |false|B{Is it involved <br> in a natural process?}:::white
-    AB --> |true|O[FLOW <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP34.yaml'>VDP34</a>]:::blue
-    B --> |true|C[NATURAL PROCESS <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP35.yaml'>VDP35</a>]:::blue
+    AB --> |true|O[FLOW <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP44.yaml'>VDP44</a>]:::blue
+    B --> |true|C[NATURAL PROCESS <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP45.yaml'>VDP45</a>]:::blue
     B --> |false|D{Does it require a <br> reference area?}:::white
     D --> |false|E{Is it embedded by a <br> different material?}:::white
-    D --> |true|F[REFERENCE AREA <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP39.yaml'>VDP39</a>]:::blue
-    E --> |true|G[EMBEDDING MATERIAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP36.yaml'>VDP36</a>]:::blue
+    D --> |true|F[REFERENCE AREA <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP49.yaml'>VDP49</a>]:::blue
+    E --> |true|G[EMBEDDING MATERIAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP46.yaml'>VDP46</a>]:::blue
     E --> |false|H{Is it within <br> a natural container?}:::white
-    H --> |false|I[ARTIFICIAL CONTAINER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP38.yaml'>VDP38</a>]:::blue
-    H --> |true|J[NATURAL CONTAINER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml'>VDP37</a>]:::blue
+    H --> |false|I[ARTIFICIAL CONTAINER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP48.yaml'>VDP48</a>]:::blue
+    H --> |true|J[NATURAL CONTAINER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP47.yaml'>VDP47</a>]:::blue
 
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
