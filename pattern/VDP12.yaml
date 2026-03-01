@@ -6,7 +6,8 @@ design: The property should be as generic as possible to be reusable.
 involved_components:
   - property
 constrained_component: ~
-associated_patterns: []
+associated_patterns:
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
 associated_mapping: ~
 example: condition of connection pipe (faulty, cracked, undamaged,...)
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/1
