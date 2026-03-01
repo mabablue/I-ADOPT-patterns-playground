@@ -1,5 +1,5 @@
 type: Variable Design Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP47.yaml
 name: matrix (natural container)
 comment: A matrix is required when the object of interest is contained in a natural body. 
 design:
