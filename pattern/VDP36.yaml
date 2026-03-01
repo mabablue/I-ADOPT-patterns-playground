@@ -1,5 +1,5 @@
 type: Variable Design Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP29.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP36.yaml
 name: object of interest (convoluted)
 comment: An object, that is semantically complex and overloaded
 design: Simple object of interest, constrained and potentially requires a matrix to be deconvoluted.
