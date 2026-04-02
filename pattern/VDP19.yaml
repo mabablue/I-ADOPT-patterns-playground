@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP19.yaml
 name: property (distance)
-comment: The length between two Cartesian coordinates in space (absolute length) requiring two objects to be specified.
+comment: Distance requires two Object of Interests, which is represented via a System. This can be symmetric or asymmetric, depending on the roles the parts have in the system.
 design: Asymmetric (with source/target) or symmetric system (with parts) in the object of interest, depending if the parts involved have different roles.
 involved_components:
   - property 
