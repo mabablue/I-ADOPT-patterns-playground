@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP87.yaml
-name: constraint (quality)
-comment: specifies the entity whose presence, activity, or concentration mathematically defines the property, but is not the main object being observed
+name: constraint (quantity)
+comment: specifies the quantity in which the entity occurs
 design: constraint on entity
 involved_components:
   - constraint
