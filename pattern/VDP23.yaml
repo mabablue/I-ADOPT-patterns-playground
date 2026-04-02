@@ -2,7 +2,6 @@ type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP23.yaml
 name: property (flux complex)
 comment: A flux is a ratio rate which is represented as a asymmetric system for OoI and with a asymmetric system for matrix, which is the flow from a source to a target. Complex representation is needed, when there needs to be a constraint on the denominator. 
-
 design: Requires asymmetric system for object of interest (numerator/denominator) and matrix (source/target).
 instances: 
 involved_components:
