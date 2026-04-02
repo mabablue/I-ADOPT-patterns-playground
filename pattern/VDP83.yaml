@@ -1,0 +1,13 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP83.yaml
+name: constraint (reporting frequency)
+comment: defines how often a final data point is reported
+design: constraint on statistical modifier
+involved_components:
+  - constraint
+constrained_components:
+  - statistical modifier
+associated_pattern: []
+associated_mapping: ~
+example: reporting frequency (daily) 
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/136
