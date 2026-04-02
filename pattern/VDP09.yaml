@@ -1,5 +1,5 @@
 type: Variable Design Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP08.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP09.yaml
 name: property (volumic number density)
 comment: Count per volume. 
 design: Use asymmetric system (numerator/denominator) in the object of interest.
