@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP16.yaml
 name: property (length)
-comment: Length is a fundamental quantity. 
+comment: Length in requires a reference point, a constraint: datum if not used for whole entities
 design: Length requires a reference point given by a constraint (datum).
 instances:
   - width
