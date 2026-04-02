@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP18.yaml
 name: property (flux simple)
-comment: A flux is a flow from a source to a target and requires an asymmetric system for the matrix. In addition, the property must be specific and must include also the type (mass, energy). 
+comment: A flux is a ratio rate which is represented as a asymmetric system for OoI and with a asymmetric system for matrix, which is the flow from a source to a target. Simplification: when the denominator is study area, the system can be replaced by a: Simple OoI
 design:
 involved_components:
   - property
