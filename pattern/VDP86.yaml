@@ -1,6 +1,6 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP86.yaml
-name: constraint (composed by)
+name: constraint (composition)
 comment: specifies which chemical composition the entity has
 design: constraint on entity
 involved_components:
