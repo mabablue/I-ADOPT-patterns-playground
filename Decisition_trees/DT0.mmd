@@ -9,7 +9,7 @@ flowchart TD
     C --> |true|H{Are the numbers normalized?}:::white
     H --> |true|HI{Are the numbers normalized to a standard range?}:::white
     HI --> |true|HJ[INDEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP25.yaml'>VDP25</a>]
-    HI --> |false|HL[RATIOLESS DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP20.yaml'>VDP20</a>]
+    HI --> |false|HL[RATIOLESS DIMENSIONLESS  <br> DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP05.yaml'>VDP05</a>]
     H --> |false|HK[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP24.yaml'>VDP24</a><br> count property] 
     E --> |true|F[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP22.yaml'>VDP22</a><br> binary property] 
     E --> |false|I{Are the result values <br> ordinal?}:::white
