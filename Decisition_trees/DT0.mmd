@@ -6,7 +6,7 @@ flowchart TD
     B --> |false|C{Are the results <br> numbers?}:::white
     B --> |true|D[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd'>DT1</a><br> quantitative property] 
     C --> |false|E{Are the result values <br> binary?}:::white
-    C --> |true|H{Are the numbers between 0 and 1?}:::white
+    C --> |true|H{Are the numbers between <br>a predefined range, <br> e.g. 0 and 1?}:::white
     H --> |true|HI[INDEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP25.yaml'>VDP25</a>]
     H --> |false|HK[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP24.yaml'>VDP24</a><br> count property] 
     E --> |true|F[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP22.yaml'>VDP22</a><br> binary property] 
