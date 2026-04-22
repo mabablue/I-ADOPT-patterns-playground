@@ -8,7 +8,7 @@ flowchart TD
     C --> |false|E{Are the result values <br> binary?}:::white
     C --> |true|H{Are the numbers normalized?}:::white
     H --> |true|HI{Are the numbers normalized to a standard range?}:::white
-    HI --> |true|HJ{Is it a fraction or a totality?}:::white
+    HI --> |true|HJ{Is it a proportion?}:::white
     HJ --> |true|HM{Comparing two areas?}:::white
     HM --> |true|HO[COVER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP15.yaml'>VDP15</a>]
     HM --> |false|HP[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
