@@ -5,6 +5,7 @@ comment: Quantity per mass.
 design: Use asymmetric system (numerator/denominator) in the object of interest.
 instances:
   - massic count per mass
+  - atomos per mass
 involved_components:
   - property
   - object of interest (asymmetric system - numerator/denominator)
