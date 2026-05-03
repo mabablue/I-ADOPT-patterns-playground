@@ -1,0 +1,13 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP04.yaml
+name: property (angle)
+comment: It is a ratio comparing to lengths.  
+design: Use single entity in the object of interest.
+involved_components:
+  - property
+  - object of interest (simple)
+constrained_component: ~
+associated_patterns: 
+associated_mapping: ~
+example: angle of attack
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/104
