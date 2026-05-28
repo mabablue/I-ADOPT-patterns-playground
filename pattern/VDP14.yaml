@@ -4,11 +4,10 @@ name: property (aeral density)
 comment: Quantity per area. 
 design: Use asymmetric system (numerator/denominator) in the object of interest.
 instances:
-  - linear density (mass per length)
   - surface density (mass per area, mass per cell)
-  - volumetric or mass density (mass per volume)
   - number density (atoms per unit volume)
   - mole per area
+  - molecule per area
 involved_components:
   - property
   - object of interest (asymmetric system - numerator/denominator)
