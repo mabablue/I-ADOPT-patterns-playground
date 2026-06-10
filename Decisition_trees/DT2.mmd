@@ -3,11 +3,8 @@ title: PROPERTY DERIVED
 ---
 flowchart TD
     A[Derived Property] --> B{A ratio?<br>check the units}:::white
-    B --> |true|C{Quantities of different types?}:::white
+    B --> |true|N{Time in the denominator?}:::white
     B --> |false|I[RATIOLESS DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP20.yaml'>VDP20</a>]
-    C --> |true|MN(Rate) 
-    MN --> N{Time in the denominator?}:::white
-    C --> |false|D[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd'>DT0a</a><br> decimal value] 
     N --> |true|E{Measure of an occurrence?}:::white
     N --> |false|O[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd'>RATIO DT4</a>]
     E --> |true|L(Event rate)
