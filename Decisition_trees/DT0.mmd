@@ -8,7 +8,7 @@ flowchart TD
     C --> |false|E{Are the result values <br> binary?}:::white
     C --> |true|H{Can the value be a decimal derived from a ratio/physical relationship?}:::white
     H --> |true|HI{Is it calculated from comparing the same physical quantity?}:::white
-    HI --> |true|HJ{Is it a proportion?}:::white
+    HI --> |true|HJ{Can the value exceed 1.0?}:::white
     HJ --> |true|HM{Comparing two areas?}:::white
     HM --> |true|HO[COVER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP15.yaml'>VDP15</a>]
     HM --> |false|HP[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
