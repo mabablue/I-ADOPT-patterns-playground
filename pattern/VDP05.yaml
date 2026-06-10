@@ -1,16 +1,14 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP05.yaml
-name: property (ratioless dimensionless derived)
+name: property (dimensionless physical coefficient)
 comment: tbd. 
 design: Use single entity in the object of interest.
-instances:
-  - massic count per mass
+instances: ~
 involved_components:
   - property
-  - object of interest (asymmetric system - numerator/denominator)
+  - object of interest 
 constrained_component: ~
-associated_patterns: 
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml
+associated_patterns: ~
 associated_mapping: ~
-example: atoms per mass
+example: optical thickness
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/11
