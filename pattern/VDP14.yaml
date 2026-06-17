@@ -5,16 +5,13 @@ comment: Quantity per area.
 design: Use asymmetric system (numerator/denominator) in the object of interest.
 instances:
   - surface density (mass per area, mass per cell)
-  - number density (atoms per unit volume)
   - mole per area
   - molecule per area
 involved_components:
   - property
   - object of interest (asymmetric system - numerator/denominator)
 constrained_component: ~
-associated_patterns: 
-   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
-   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP71.yaml
+associated_patterns: ~
 associated_mapping: ~
 example: molecules per area
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/138
