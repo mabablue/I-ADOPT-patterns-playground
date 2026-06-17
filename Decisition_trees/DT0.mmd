@@ -2,7 +2,7 @@
 title: PROPERTY UNITLESS
 ---
 flowchart TD
-    A[Property] --> B{Are units associated <br> with the result values?}:::white
+    A[Check observation results or description] --> B{Are units associated <br> with the result values?}:::white
     B --> |false|C{Are the results <br> numbers?}:::white
     B --> |true|D[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd'>DT1</a><br> quantitative property] 
     C --> |false|E{Are the result values <br> binary?}:::white
