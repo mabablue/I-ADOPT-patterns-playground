@@ -4,7 +4,8 @@ name: property (fraction)
 comment: A fraction is a ratio comparing a part to the whole where the quantities (quantitative property) are of the same kind. Fractions needs to be specified.
 design: Fractions needs to be specified. Requires an aymmetric system (numerator/deonominator) for the object of interest.
 instances:
-  - mole fraction
+  - volume fraction
+  - amount fraction
   - mass fraction
 involved_components:
   - property
