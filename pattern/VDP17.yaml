@@ -8,7 +8,7 @@ design: Requires asymmetric system (numerator/denominator) in the object of inte
 instances:
   - volume concentration
   - mass concentration
-  - molar concentration
+  - amount concentration
 involved_components:
   - property
   - object of interest (asymmetric system - numerator/denominator)
