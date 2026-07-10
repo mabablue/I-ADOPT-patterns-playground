@@ -6,7 +6,6 @@ Thus, using a concentration property always implies the existence of both a solu
 In addition, the property must be specific and include also the type (mass, molar, volume). 
 design: Requires asymmetric system (numerator/denominator) in the object of interest with the solute in the numerator and the solvent in the denominator.
 instances:
-  - volume concentration
   - mass concentration
   - amount concentration
 involved_components:
