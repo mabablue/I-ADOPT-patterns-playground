@@ -5,6 +5,7 @@ name: angle
 definition: A ratio comparing two geometric properties that retains units (e.g., degrees, radians) because the comparison is made against an external, universal geometric constant (a full circle/rotation).
 design: Use single entity in the object of interest.
 ObjectOfInterest: Entity
+Matrix: ~
 required_constraint: ~
 constrained_component: ~
 associated_patterns: []
