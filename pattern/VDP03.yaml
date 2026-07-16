@@ -1,6 +1,7 @@
 type: Variable Design Pattern
+subtype: property
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP03.yaml
-name: property (angle)
+name: angle
 comment: A ratio comparing two geometric properties that retains units (e.g., degrees, radians) because the comparison is made against an external, universal geometric constant (a full circle/rotation).
 design: Use single entity in the object of interest.
 involved_components:
