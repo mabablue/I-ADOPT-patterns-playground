@@ -11,5 +11,7 @@ constrained_component: ~
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
 associated_mapping: ~
+path: "DT1:SameQuantity(T) -> Exeed1(T) ->StaticSpatial(F) => VDP05"
+altpath: ~
 example: optical thickness
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/11
