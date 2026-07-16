@@ -8,7 +8,8 @@ ObjectOfInterest: Entity
 Matrix: ~
 required_constraint: ~
 constrained_component: ~
-associated_patterns: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
+associated_patterns: 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
 associated_mappings: []
 path: "DT1:SameQuantity(T) -> Exeed1(T) ->StaticSpatial(T) => VDP04"
 altpath: []
