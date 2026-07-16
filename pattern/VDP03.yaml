@@ -2,14 +2,14 @@ type: Variable Design Pattern
 subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP03.yaml
 name: angle
-comment: A ratio comparing two geometric properties that retains units (e.g., degrees, radians) because the comparison is made against an external, universal geometric constant (a full circle/rotation).
+definition: A ratio comparing two geometric properties that retains units (e.g., degrees, radians) because the comparison is made against an external, universal geometric constant (a full circle/rotation).
 design: Use single entity in the object of interest.
-involved_components:
-  - property
-  - object of interest (simple)
-constrained_component: []
+ObjectOfInterest: Entity
+required_constraint: ~
+constrained_component: ~
 associated_patterns: []
 associated_mapping: []
 path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) -> DT3:Ratio(T) -> Time(F) -> DifferentQuantities(F) -> DiffEntities(F) => VDP03"
+alt_path: ~
 example: angle of attack
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/104
