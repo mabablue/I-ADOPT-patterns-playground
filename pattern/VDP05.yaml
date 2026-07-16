@@ -10,6 +10,7 @@ required_constraint: ~
 constrained_component: ~
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP29.yaml
 associated_mapping: ~
 path: "DT1:SameQuantity(T) -> Exeed1(T) ->StaticSpatial(F) => VDP05"
 altpath: ~
