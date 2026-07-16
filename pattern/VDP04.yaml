@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP04.yaml
 name: property (geometric ratio)
-comment: It is a ratio comparing two geometric properties.  
+comment: A unitless ratio comparing two geometric properties of the same kind to describe the intrinsic, static shape of a single object (e.g., Aspect Ratio).
 design: Use single entity in the object of interest.
 involved_components:
   - property
@@ -9,5 +9,5 @@ involved_components:
 constrained_component: ~
 associated_patterns: 
 associated_mapping: ~
-example: angle of attack
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/104
+example: 
+gh_issue: 
