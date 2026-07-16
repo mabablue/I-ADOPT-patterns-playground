@@ -1,7 +1,8 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
 name: property (fundamental)
-comment: Fundamental properties are physical quantities that is conventionally accepted as functionally independent of all others. Length is excluded, see VDP16.
+comment: Fundamental properties are physical quantities that is conventionally accepted as functionally independent of all others. For length we use VDP16. 
+path: DT0:Units(T) -> DT2:Length(F) -> OtherFundamental(T) => VDP10
 design: Do not further decompose these terms. Use single object of interest.
 instances:
   - thermodynamic temperature
