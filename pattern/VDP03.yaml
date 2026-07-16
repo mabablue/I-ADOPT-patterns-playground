@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP03.yaml
 name: property (angle)
-comment: An angle pattern represents a ratio comparing two geometric properties where the "whole" refers to an open, universal geometric constant (such as a full rotation ($360^\circ$ or $2\pi$ rad) or a circular reference frame), and the resulting value has associated angular units.
+comment: A ratio comparing two geometric properties that retains units (e.g., degrees, radians) because the comparison is made against an external, universal geometric constant (a full circle/rotation).
 design: Use single entity in the object of interest.
 involved_components:
   - property
