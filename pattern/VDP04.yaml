@@ -1,13 +1,16 @@
 type: Variable Design Pattern
+subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP04.yaml
 name: property (geometric ratio)
-comment: A unitless ratio comparing two geometric properties of the same kind to describe the intrinsic, static shape of a single object (e.g., Aspect Ratio).
+definition: A unitless ratio comparing two geometric properties of the same kind to describe the intrinsic, static shape of a single object (e.g., Aspect Ratio).
 design: Use single entity in the object of interest.
-involved_components:
-  - property
-  - object of interest (simple)
+ObjectOfInterest: Entity
+Matrix: ~
+required_constraint: ~
 constrained_component: ~
-associated_patterns: 
-associated_mapping: ~
-example: 
-gh_issue: 
+associated_patterns: []
+associated_mappings: []
+path: "DT1:SameQuantity(T) -> Exeed1(T) ->StaticSpatial(T) => VDP04"
+altpath: []
+example: ~
+gh_issue: ~
