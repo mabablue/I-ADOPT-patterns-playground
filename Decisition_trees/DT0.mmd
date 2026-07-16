@@ -4,15 +4,15 @@ title: PROPERTY UNITLESS
 flowchart TD
     A[Check observation results or description] --> B{Are units associated <br> with the result values?}:::white
     B --> |false|C{Are the results <br> numbers?}:::white
-    B --> |true|D[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd'>DT2</a><br> quantitative property] 
+    B --> |true|D[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd'>DT2</a><br> QUANTITY] 
     C --> |false|E{Are the result values <br> binary?}:::white
     C --> |true|H{Can the value be a decimal derived from a ratio/physical relationship?}:::white
-    H --> |true|HI[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd'>DT1</a><br> decimal value] 
-    H --> |false|HK[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP24.yaml'>VDP24</a><br> count property] 
-    E --> |true|F[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP22.yaml'>VDP22</a><br> binary property] 
+    H --> |true|HI[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd'>DT1</a><br> DECIMAL] 
+    H --> |false|HK[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP24.yaml'>VDP24</a><br> COUNT] 
+    E --> |true|F[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP22.yaml'>VDP22</a><br> BINARY] 
     E --> |false|I{Are the result values <br> ordinal?}:::white
-    I --> |true|J[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP11.yaml'>VDP11</a><br> ordinal property] 
-    I --> |false|K[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP12.yaml'>VDP12</a><br> nominal property] 
+    I --> |true|J[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP11.yaml'>VDP11</a><br> ORDINAL] 
+    I --> |false|K[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP12.yaml'>VDP12</a><br> NOMINAL] 
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
    classDef white fill:#f3f6f4
