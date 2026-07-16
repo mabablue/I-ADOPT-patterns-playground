@@ -3,8 +3,6 @@ id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VD
 name: property (geometric ratio)
 comment: It is a ratio comparing two geometric properties.  
 design: Use single entity in the object of interest.
-instances:
-  - angle
 involved_components:
   - property
   - object of interest (simple)
