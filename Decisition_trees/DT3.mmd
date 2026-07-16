@@ -8,7 +8,9 @@ flowchart TD
     N --> |true|E{Measure of an occurrence?}:::white
     N --> |false|O{Involving different quantities?}:::white
     O --> |true|P[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT5.mmd'>RATIO DT5</a>]
-    O --> |false|Q[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
+    O --> |false|Q{Involving different physical entities?}:::white
+    Q --> |false|R[ANGLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP04.yaml'>VDP04</a>]
+    Q --> |true|S[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
     E --> |true|L(Event rate)
     E --> |false|K[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd'>FLUX DT4</a>]
     L --> I
