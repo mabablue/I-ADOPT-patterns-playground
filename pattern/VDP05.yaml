@@ -1,6 +1,7 @@
 type: Variable Design Pattern
+suptype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP05.yaml
-name: property (transport or interaction coefficient)
+name: dimensionless physical property
 comment: relative rate or probability of a physical process happening (like light being absorbed, fluid flowing, or heat transferring) as it passes through a distance or medium with open-ended scales that can exceed 1.0.
 design: Use single entity in the object of interest.
 instances: ~
