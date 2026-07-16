@@ -6,8 +6,8 @@ design: Use single entity in the object of interest.
 involved_components:
   - property
   - object of interest (simple)
-constrained_component: ~
-associated_patterns: 
+constrained_component: []
+associated_patterns: []
 associated_mapping: ~
 path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) -> DT3:Ratio(T) -> Time(F) -> DifferentQuantities(F) -> DiffEntities(F) => VDP03"
 example: angle of attack
