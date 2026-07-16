@@ -1,0 +1,13 @@
+type: Variable Design Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP03.yaml
+name: property (angle)
+comment: An angle pattern represents a ratio comparing two geometric properties where the "whole" refers to an open, universal geometric constant (such as a full rotation ($360^\circ$ or $2\pi$ rad) or a circular reference frame), and the resulting value has associated angular units.
+design: Use single entity in the object of interest.
+involved_components:
+  - property
+  - object of interest (simple)
+constrained_component: ~
+associated_patterns: 
+associated_mapping: ~
+example: angle of attack
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/104
