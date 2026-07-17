@@ -5,7 +5,7 @@ comment: Cover expresses the fraction (numerator) of a total reference area (den
 design: Asymmetric system (numerator/denominator) at the object of interest slot. The portion is represented by the numerator, the total reference area by the denominator.
 involved_components:
   - property 
-  - object of isoll ich da schon mal beispiele anfügen oder nterest
+  - object of interest
 constrained_component: ~
 associated_patterns: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP35.yaml
