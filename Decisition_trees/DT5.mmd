@@ -8,9 +8,9 @@ flowchart TD
     B -- Length -->D[LINEIC DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP07.yaml'>VDP07</a>]
     B -- Volume -->G{Is it a mixture <be> of substances?}:::white
     G --> |false|H[VOLUMIC DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml'>VDP13</a>]
-    G--> |true|H{Is it count per volume?}:::white
-    H --> |true|I[VOLUMIC NUMBER DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP09.yaml'>VDP09</a>]
-    H --> |false|K{Is it count per mass?}:::white
+    G--> |true|J{Is it count per volume?}:::white
+    J --> |true|I[VOLUMIC NUMBER DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP09.yaml'>VDP09</a>]
+    J --> |false|K{Is it count per mass?}:::white
     K --> |true|L[SPECIFIC NUMBER DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP06.yaml'>VDP06</a>]
     K --> |false|M[CONCENTRATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
     C --> N[RATIO <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml'>VDP27</a>]:::satblue
