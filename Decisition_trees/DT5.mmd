@@ -6,19 +6,21 @@ flowchart TD
     B -- Area -->C[AREAL DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml'>VDP14</a>]
     B -- Entity -->F[ENTITY DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP08.yaml'>VDP08</a>]
     B -- Length -->D[LINEIC DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP07.yaml'>VDP07</a>]
-    B -- Volume -->G{Is it a mixture <be> of substances?}:::white
+    B -- Mass -->E{What is the <br> nominator}:::white
+    E -- Entity --> L[MASSIC NUMBER DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP06.yaml'>VDP0</a>]
+    E -- Amount of Substance --> P[MASSIC AMOUNT OF SUBSTANCE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP02.yaml'>VDP02</a>]
+    B -- Volume -->G{Is it a mixture <br> of substances?}:::white
     G --> |false|H[VOLUMIC DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml'>VDP13</a>]
     G--> |true|J{Is it count per volume?}:::white
     J --> |true|I[VOLUMIC NUMBER DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP09.yaml'>VDP09</a>]
-    J --> |false|K{Is it count per mass?}:::white
-    K --> |true|L[MASSIC NUMBER DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP06.yaml'>VDP06</a>]
-    K --> |false|M[CONCENTRATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
+    J --> |false|M[CONCENTRATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
     I --> N
     C --> N[RATIO <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml'>VDP27</a>]:::satblue
     F --> N
     D --> O[SINGLE OBJECT <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP28</a>]:::satblue
     H --> O
     L --> N
+    P --> N
     M --> N
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
