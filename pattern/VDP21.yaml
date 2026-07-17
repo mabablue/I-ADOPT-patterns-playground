@@ -5,7 +5,7 @@ comment: A fraction is a ratio comparing a part to the whole where the quantitie
 design: Fractions needs to be specified. Requires an aymmetric system (numerator/deonominator) for the object of interest.
 instances:
   - volume fraction
-  - amount fraction
+  - amount of substance fraction
   - mass fraction
 involved_components:
   - property
