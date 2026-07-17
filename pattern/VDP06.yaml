@@ -1,7 +1,8 @@
 type: Variable Design Pattern
+subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP06.yaml
-name: property (massic density)
-comment: Quantity per mass. 
+name: massic number density
+comment: Count of individual entities per mass of a medium.
 design: Use asymmetric system (numerator/denominator) in the object of interest.
 instances:
   - massic count per mass
