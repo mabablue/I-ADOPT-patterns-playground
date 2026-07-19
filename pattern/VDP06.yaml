@@ -4,8 +4,6 @@ id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VD
 name: massic number density
 comment: Count of individual entities per mass of a medium.
 design: Use asymmetric system (numerator/denominator) in the object of interest.
-instances:
-  - massic count per mass
 involved_components:
   - property
   - object of interest (asymmetric system - numerator/denominator)
