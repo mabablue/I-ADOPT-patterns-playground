@@ -9,7 +9,7 @@ Matrix: ~
 required_constraint: ~
 constrained_component: Denominator
 associated_patterns:
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP15.yaml
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml
 associated_mapping: []
 path: ~
