@@ -1,0 +1,16 @@
+type: Variable Design Pattern
+subtype: Constraint Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP92.yaml
+name: normalization
+definition: Specifies the reference quantity to which a measurement is rescaled.
+design: Apply the constraint on the denominator of the asymmetric system.
+ObjectOfInterest: Asymmetric System (Num/Denom)
+Matrix: ~
+required_constraint: ~
+constrained_component: Denominator
+associated_patterns: []
+associated_mapping: []
+path: ~
+alt_path: ~
+example: CWD abundance per hectare
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/14
