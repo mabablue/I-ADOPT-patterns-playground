@@ -10,7 +10,7 @@ instances:
   - circumference
 involved_components:
   - property
-  - constraint (datum)
+  - constraint (reference)
 constrained_component:
   - property
 associated_patterns: 
