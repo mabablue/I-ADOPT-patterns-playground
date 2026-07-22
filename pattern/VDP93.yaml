@@ -1,0 +1,16 @@
+type: Variable Design Pattern
+subtype: Constraint Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP93.yaml
+name: method
+definition: Provides methodological or procedural details when the execution method is central to the identity and interpretation of the observed phenomenon—overriding the standard exclusion of methods in I-ADOPT decomposition.
+design: Apply the constraint on constrained component
+ObjectOfInterest: ~
+Matrix: ~
+required_constraint: ~
+constrained_component: ~
+associated_patterns: []
+associated_mapping: []
+path: ~
+alt_path: ~
+example: PCR-test by certified laboratory
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/36
