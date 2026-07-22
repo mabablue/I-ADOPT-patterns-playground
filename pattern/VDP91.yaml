@@ -1,0 +1,16 @@
+type: Variable Design Pattern
+subtype: Constraint Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP91.yaml
+name: event
+definition: Identifies a specific occurrence, that bounds or triggers the observation, serving as a contextual anchor when explicit calendar time or duration is unknown or non-applicable.
+design: Apply the constraint on the constrained component.
+ObjectOfInterest: ~
+Matrix: ~
+required_constraint: ~
+constrained_component: ~
+associated_patterns: []
+associated_mapping: []
+path: ~
+alt_path: ~
+example: latest test
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/36
