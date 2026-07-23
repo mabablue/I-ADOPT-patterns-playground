@@ -3,7 +3,9 @@ title: PROPERTY FLUX
 ---
 flowchart TD
     A[FLUX: Time-based Rate with <br> Physical Quantity <br> in the numerator] --> B{Area in the denominator?}:::white
-    B --> |true|F{Area constrained?}:::white
+    B --> |true|C{Is energy in the numerator?}:::white
+    C --> |true|D[FLUX SIMPLIFIED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml'>VDP26</a>]
+    C --> |false|F{Area constrained?}:::white
     B --> |false|K{Mass or volume <br> in the denominator?}:::white
     F --> |true|G[FLUX COMPLEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP23.yaml'>VDP23</a>]
     F --> |false|H[FLUX SIMPLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP18.yaml'>VDP18</a>]
@@ -13,7 +15,6 @@ flowchart TD
     M -- Length --> N[VELOCITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP99.yaml'>VDP99</a]
     M -- Volume --> H
     M -- Mass --> H
-    M -- Energy -->C[FLUX SIMPLIFIED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml'>VDP26</a>]
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
    classDef white fill:#f3f6f4
