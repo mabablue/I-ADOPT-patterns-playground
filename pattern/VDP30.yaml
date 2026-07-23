@@ -3,8 +3,8 @@ subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
 name: index
 definition:  An index acts as a proxy property that normalizes data against a specific base point or reference value to provide relative context rather than absolute measurement. While it sometimes aggregates multiple variables into a single score, its primary function is to make diverse data sets comparable over time or across different subjects.
-design: OoI is a simple entity.
-ObjectOfInterest: Single
+design: OoI is a single entity.
+ObjectOfInterest: Entity
 Matrix: ~
 required_constraint: ~
 constrained_component: ~
