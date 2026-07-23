@@ -7,7 +7,7 @@ flowchart TD
     C -- Energy--> D[FLUX SIMPLIFIED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml'>VDP26</a>]
     C -- Length --> E{Is it a vector ratio?}:::white
     E --> |true|J[VELOCITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP99.yaml'>VDP99</a] 
-    E --> |true|K[SPEED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP99.yaml'>VDP99</a] 
+    E --> |false|K[SPEED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP99.yaml'>VDP99</a] 
     C -- Mass/Volume --> F{Area in the denominator?}:::white
     F --> |true|G{Area constrained?}:::white 
     G --> |true|H[FLUX COMPLEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP23.yaml'>VDP23</a>]
