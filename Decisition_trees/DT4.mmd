@@ -4,14 +4,14 @@ title: PROPERTY FLUX
 flowchart TD
     A[FLUX: Time-based Rate <br> with Physical Quantity <br> in the numerator] --> B{mass or volume <br> in the denominator?}:::white
     B --> |false|C{What is the numerator?}:::white
-    C -- Energy--> D[FLUX SIMPLIFIED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml'>VDP26</a>]
+    C -- Energy--> D[FLUX SIMPLIFIED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP29.yaml'>VDP29</a>]
     C -- Length --> E{Is it a vector ratio?}:::white
-    E --> |true|J[VELOCITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP99.yaml'>VDP99</a] 
-    E --> |false|K[SPEED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP99.yaml'>VDP99</a] 
+    E --> |true|J[VELOCITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP20.yaml'>VDP20</a] 
+    E --> |false|K[SPEED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP19.yaml'>VDP19</a] 
     C -- Mass/Volume --> F{Area in the denominator?}:::white
     F --> |true|G{Area constrained?}:::white 
-    G --> |true|H[FLUX COMPLEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP23.yaml'>VDP23</a>]
-    F --> |false|I[FLUX SIMPLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP18.yaml'>VDP18</a>]
+    G --> |true|H[FLUX COMPLEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP31.yaml'>VDP31</a>]
+    F --> |false|I[FLUX SIMPLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml'>VDP30</a>]
     G --> |false|I
     B --> |true|H
    classDef blue fill:#90D5FF
