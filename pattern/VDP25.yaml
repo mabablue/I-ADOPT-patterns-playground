@@ -1,6 +1,6 @@
 type: Variable Design Pattern
 subtype: Property Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP23.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP25.yaml
 name: volumic number density
 definition: Count per volume.
 design: OoI with ratio and optional matrix patterns.
