@@ -4,7 +4,7 @@ title: PROPERTY UNITLESS
 flowchart TD
     A[Check observation results <br> or description] --> B{Are units associated <br> with the result values?}:::white
     B --> |false|C{Are the results <br> quantiative numbers<br> rather than symbolic codes?}:::white
-    B --> |true|D[QUANTITY <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd'>DT2</a><br>] 
+    B --> |true|D[QUANTITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd'>DT2</a><br>] 
     C --> |false|E{Are the result values <br> binary?}:::white
     C --> |true|G{Is the value represented <br> as a decimal?}:::white
     E --> |false|I{Are the result values <br> ordinal?}:::white
