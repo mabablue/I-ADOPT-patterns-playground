@@ -9,12 +9,12 @@ flowchart TD
     C --> |true|G{Is the value represented <br> as a decimal?}:::white
     E --> |true|F[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP22.yaml'>VDP22</a><br> BINARY] 
     E --> |false|I{Are the result values <br> ordinal?}:::white
-    G --> |true|L[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd'>DT1</a><br> DECIMAL] 
     G --> |false|H{Is it a count?}:::white
     H --> |true|M[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP24.yaml'>VDP24</a><br> COUNT] 
     H--> |false|F
     I --> |true|J[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP11.yaml'>VDP11</a><br> ORDINAL] 
     I --> |false|K[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP12.yaml'>VDP12</a><br> NOMINAL] 
+    G --> |true|L[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd'>DT1</a><br> DECIMAL] 
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
    classDef white fill:#f3f6f4
