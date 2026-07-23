@@ -1,11 +1,8 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP20.yaml
 name: property (ratioless derived)
-comment: Derived property without ratio. 
+comment: Derived property without ratio-transformation from fundamental quantities like volume or area. 
 design: Use property with a single object of interest.
-instances:
-  - angle
-  - direction
 involved_components:
   - property
   - object of interest (single)
