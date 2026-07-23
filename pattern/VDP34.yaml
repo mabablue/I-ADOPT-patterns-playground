@@ -1,5 +1,5 @@
 type: Variable Design Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP31.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP34.yaml
 name: object of interest (two equal)
 comment: A system with two parts having the same role in the description.
 design: Symmetric system in the object of interest
