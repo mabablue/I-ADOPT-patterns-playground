@@ -1,6 +1,6 @@
 type: Variable Design Pattern
 subtype: Property Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP29.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP31.yaml
 name: flux complex
 definition: A ratio rate with a material flow from a source to a target. Complex representation is needed when there needs to be a constraint on the denominator.
 design: OoI with ratio and Matrix with flow patterns.
