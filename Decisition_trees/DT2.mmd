@@ -3,12 +3,12 @@ title: QUANTITY
 ---
 flowchart TD
     A[Quantitative Property] --> C{Is it length?}:::white
-    C --> |true|E{Is it length between <br> two objects?}:::white
+    C --> |true|E{Is it length of a distinct object?}:::white
     C --> |false|F{Is it thermodynamic <br> temperature, time,  <br> mass, amount of substance <br> electric current or <br> luminous intensity?}:::white
     F --> |true|G[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml'>fundamental quantity <br> VDP10</a>] 
     F --> |false|M[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd'>Derived property <br> DT3</a>] 
-    E --> |false|N[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP16.yaml'>Length <br> VDP16</a>] 
-    E --> |true|O[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP19.yaml'>Distance <br> VDP19</a>] 
+    E --> |true|N[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP16.yaml'>Length <br> VDP16</a>] 
+    E --> |false|O[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP19.yaml'>Distance <br> VDP19</a>] 
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
    classDef white fill:#f3f6f4
