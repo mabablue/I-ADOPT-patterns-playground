@@ -1,0 +1,20 @@
+type: Variable Design Pattern
+subtype: Property Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml
+name: concentration
+definition: >-
+  Concentration describes how much of one substance (the solute) is present in
+  another substance (the solvent) as a volume. Examples are mass and amount of
+  substance concentration.
+design: OoI with ratio.
+ObjectOfInterest: Asymmetric System (Num/Denom)
+Matrix: null
+required_constraint: null
+constrained_component: null
+associated_patterns:
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP35.yaml
+associated_mapping: []
+path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) -> DT3:Ratio(T) -> Time(F) -> DifferentQuantities(F) -> DiffEntities(F) => VDP03"
+alt_path: null
+example: mass concentration of isobutylene in chloroform
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/33
