@@ -6,12 +6,12 @@ flowchart TD
     B --> |false|E{Area in the denominator?}:::white
     B --> |true|C[FLUX SIMPLIFIED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml'>VDP26</a>]
     E --> |true|F{Area constrained?}:::white
-    E --> |false|K{Mass in the denominator?}:::white
+    E --> |false|K{Mass or volume in the denominator?}:::white
     F --> |true|G[FLUX COMPLEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP23.yaml'>VDP23</a>]
     F --> |false|H[FLUX SIMPLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP18.yaml'>VDP18</a>]
     K --> |true|L(Specific rate)
     L --> G
-    K --> |false|M(Flow Rate)
+    K --> |false|M{Check numerator dimension}
     M --> H
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
