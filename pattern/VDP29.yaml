@@ -1,6 +1,6 @@
 type: Variable Design Pattern
 subtype: Property Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP29.yaml
 name: flux simplified
 definition: A ratio rate with an energy flow represented in a simplified way.
 design: OoI with single and Matrix with an optional natural container.
