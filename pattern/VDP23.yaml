@@ -1,0 +1,17 @@
+type: Variable Design Pattern
+subtype: Property Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP23.yaml
+name: volumic number density
+definition: Count per volume.
+design: OoI with ratio and optional matrix patterns.
+ObjectOfInterest: Asymmetric System (Num/Denom)
+Matrix: null
+required_constraint: null
+constrained_component: null
+associated_patterns:
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP35.yaml
+associated_mapping: []
+path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) -> DT3:Ratio(T) -> Time(F) -> DifferentQuantities(F) -> DiffEntities(F) => VDP03"
+alt_path: null
+example: electron density
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/7
