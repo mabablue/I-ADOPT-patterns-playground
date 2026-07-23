@@ -11,12 +11,12 @@ flowchart TD
     G --> |false|H{Is it a count?}:::white
     H--> |false|N{Is it derived from an <br> algorithm, composite <br> formula, or baseline ratio?}
     N --> |true|O[INDEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP32.yaml'>VDP32</a><br>] 
-    N --> |false|P[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP24.yaml'>VDP25</a><br> DISCRETE] 
-    H --> |true|M[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP24.yaml'>VDP99</a><br> COUNT] 
-    I --> |true|J[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP11.yaml'>VDP11</a><br> ORDINAL] 
-    I --> |false|K[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP12.yaml'>VDP12</a><br> NOMINAL] 
-    E --> |true|F[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP22.yaml'>VDP22</a><br> BINARY] 
-    G --> |true|L[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd'>DT1</a><br> DECIMAL] 
+    N --> |false|P[DISCRETE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP05.yaml'>VDP05</a><br>] 
+    H --> |true|M[COUNT <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP04.yaml'>VDP04</a><br>] 
+    I --> |true|J[ORDINAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP02.yaml'>VDP02</a><br>] 
+    I --> |false|K[NOMINAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP01.yaml'>VDP01</a><br>] 
+    E --> |true|F[BINARY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP03.yaml'>VDP03</a><br>] 
+    G --> |true|L[DECIMAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd'>DT1</a><br>] 
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
    classDef white fill:#f3f6f4
