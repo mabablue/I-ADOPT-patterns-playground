@@ -1,0 +1,17 @@
+type: Variable Design Pattern
+subtype: Property Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP08.yaml
+name: distance
+definition: Distance requires two Object of Interests, which is represented via a System. This can be symmetric or asymmetric, depending on the roles the parts have in the system.
+design: OoI with two equal. Length requires a reference point given by a constraint (reference).
+ObjectOfInterest: Symmetric System (Part)
+Matrix: null
+required_constraint: null
+constrained_component: null
+associated_patterns:
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP34.yaml
+associated_mapping: []
+path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) -> DT3:Ratio(T) -> Time(F) -> DifferentQuantities(F) -> DiffEntities(F) => VDP08"
+alt_path: null
+example: distance to nearest neighbour habitat patch
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/19
