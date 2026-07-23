@@ -4,7 +4,9 @@ title: PROPERTY DERIVED
 flowchart TD
     A[Derived quantitative <br> property] --> B{A ratio?<br>check the units}:::white
     B --> |true|N{Time in the denominator?}:::white
-    B --> |false|I[RATIOLESS DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP20.yaml'>VDP20</a>]
+    B --> |false|I{Is it normalized?}:::white
+    I --> |true|T[NORMALIZED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP03.yaml'>VDP03</a>]
+    I --> |false|U[RATIOLESS DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP20.yaml'>VDP20</a>]
     N --> |true|E{Measure of an occurrence?}:::white
     E --> |false|K[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd'>FLUX DT4</a>]
     E --> |true|J(Event rate)
