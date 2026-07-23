@@ -1,0 +1,17 @@
+type: Variable Design Pattern
+subtype: Property Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP01.yaml
+name: nominal
+definition: A nominal variable has values of equal importance that cannot be ranked in any particular order (non-ordinal), e.g., species of pests, colors. The values of these variables are usually indicated by words, ideally using controlled lists.
+design: OoI with single.
+ObjectOfInterest: Entity
+Matrix: null
+required_constraint: null
+constrained_component: null
+associated_patterns:
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
+associated_mapping: []
+path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) -> DT3:Ratio(T) -> Time(F) -> DifferentQuantities(F) -> DiffEntities(F) => VDP01"
+alt_path: null
+example: state of connection pipe
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/1
