@@ -1,0 +1,17 @@
+type: Variable Design Pattern
+subtype: Property Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP07.yaml
+name: length ref
+comment: Length is a fundamental property. Examples are width, depth, height, circumference.
+design: OoI with single. Length requires a reference point given by a constraint (reference). 
+ObjectOfInterest: Entity
+Matrix: null
+required_constraint: null
+constrained_component: null
+associated_patterns:
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
+associated_mapping: []
+path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) -> DT3:Ratio(T) -> Time(F) -> DifferentQuantities(F) -> DiffEntities(F) => VDP01"
+alt_path: null
+example: height of atmospheric boundary layer
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/10
