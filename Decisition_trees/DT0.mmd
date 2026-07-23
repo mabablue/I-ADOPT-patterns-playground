@@ -9,7 +9,7 @@ flowchart TD
     C --> |true|G{Is the value represented <br> as a decimal?}:::white
     E --> |false|I{Are the result values <br> ordinal?}:::white
     G --> |false|H{Is it a count?}:::white
-    H--> |false|N{Is it derived from an <br> algorithm, composite formula, <br> or baseline ratio?}
+    H--> |false|N{Is it derived from an <br> algorithm, composite <br> formula, or baseline ratio?}
     N --> |true|O[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP24.yaml'>VDP25</a><br> INDEX] 
     N --> |false|P[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP24.yaml'>VDP25</a><br> DISCRETE] 
     H --> |true|M[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP24.yaml'>VDP99</a><br> COUNT] 
