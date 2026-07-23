@@ -5,18 +5,18 @@ flowchart TD
     A[Derived quantitative <br> property] --> B{A ratio?<br>check the units}:::white
     B --> |true|N{Time in the denominator?}:::white
     B --> |false|I{Is it normalized?}:::white
-    I --> |true|T[NORMALIZED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP03.yaml'>VDP03</a>]
-    I --> |false|U[RATIOLESS DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP20.yaml'>VDP20</a>]
+    I --> |true|T[NORMALIZED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP15.yaml'>VDP15</a>]
+    I --> |false|U[RATIOLESS DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml'>VDP14</a>]
     N --> |true|E{Measure of an occurrence?}:::white
-    E --> |false|K[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd'>FLUX DT4</a>]
+    E --> |false|K[FLUX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd'> DT4</a>]
     E --> |true|J(Event rate)
     N --> |false|O{Involving different <br> quantities?}:::white
-    O --> |true|P[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT5.mmd'>RATIO DT5</a>]
+    O --> |true|P[RATIO <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT5.mmd'> DT5</a>]
     O --> |false|Q{Involving different <br> physical entities?}:::white
     Q --> |false|R{Is it a scalar ratio?}:::white
-    R --> |true|L[ANGLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP03.yaml'>VDP03</a>]
-    R --> |false|M[DIRECTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP03.yaml'>VDP03</a>]
-    Q --> |true|S[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
+    R --> |true|L[ANGLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP16.yaml'>VDP16</a>]
+    R --> |false|M[DIRECTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
+    Q --> |true|S[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml'>VDP10</a>]
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
    classDef white fill:#f3f6f4
