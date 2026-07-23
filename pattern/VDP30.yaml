@@ -1,6 +1,6 @@
 type: Variable Design Pattern
 subtype: Property Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP30.yaml
 name: flux simple
 definition: A ratio rate with a material flow from a source to a target while the denominator is represented by an area.
 design: OoI with single and Matrix with flow patterns.
