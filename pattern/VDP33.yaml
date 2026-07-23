@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
 name: object of interest (reference)
-comment: A system of entities representing a flow.
+comment: A system of entities where the source is the reference of the target.
 design: object of interest (asymmetric system, with source and target description roles)
 involved_components:
   - object of interest (asymmetrix system - source/target)
