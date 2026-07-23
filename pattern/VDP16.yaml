@@ -2,16 +2,16 @@ type: Variable Design Pattern
 subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP16.yaml
 name: angle
-definition: Quantity per length, example is linear mass density.
-design: OoI with single.
+definition: A ratio comparing two geometric properties that retains units (e.g., degrees, radians) because the comparison is made against an external, universal geometric constant (a full circle/rotation).
+design: Use single entity in the object of interest.
 ObjectOfInterest: Entity
-Matrix: null
-required_constraint: null
-constrained_component: null
-associated_patterns:
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
+Matrix: ~
+required_constraint: ~
+constrained_component: ~
+associated_patterns: 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
 associated_mapping: []
 path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) -> DT3:Ratio(T) -> Time(F) -> DifferentQuantities(F) -> DiffEntities(F) => VDP03"
-alt_path: null
-example: null
-gh_issue: null
+alt_path: ~
+example: angle of attack
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/104
