@@ -1,5 +1,5 @@
 type: Variable Design Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP36.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP39.yaml
 name: object of interest (variable)
 comment: When there is a property of a variable.
 design: the variable gets the role of the object of interest
