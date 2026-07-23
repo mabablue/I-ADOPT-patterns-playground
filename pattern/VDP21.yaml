@@ -1,6 +1,6 @@
 type: Variable Design Pattern
 subtype: Property Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP20.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml
 name: massic number density
 definition: Count of individual entities per mass of a medium.
 design: OoI with ratio.
