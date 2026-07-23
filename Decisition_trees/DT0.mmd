@@ -3,7 +3,7 @@ title: PROPERTY UNITLESS
 ---
 flowchart TD
     A[Check observation results or description] --> B{Are units associated <br> with the result values?}:::white
-    B --> |false|C{Are the results <br> numbers?}:::white
+    B --> |false|C{Are the results <br> quantiative numbers<br> rather than symbolic codes?}:::white
     B --> |true|D[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd'>DT2</a><br> QUANTITY] 
     C --> |false|E{Are the result values <br> binary?}:::white
     C --> |true|G{Is the value represented <br> as a decimal?}:::white
