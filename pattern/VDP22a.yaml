@@ -2,16 +2,16 @@ type: Variable Design Pattern
 subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP22.yaml
 name: massic amount of substance
-definition: Quantity per length, example is linear mass density.
-design: OoI with single.
-ObjectOfInterest: Entity
-Matrix: null
-required_constraint: null
-constrained_component: null
-associated_patterns:
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
+definition: Mole per mass including molality (denominator is mass of the solvent component) and substance content (denominator is mass of the total mixture).
+design: Use asymmetric system in the object of interest.
+ObjectOfInterest: Asymmetric System (Num/Denom)
+Matrix: ~
+required_constraint: ~
+constrained_component: ~
+associated_patterns: 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml
 associated_mapping: []
 path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) -> DT3:Ratio(T) -> Time(F) -> DifferentQuantities(F) -> DiffEntities(F) => VDP03"
-alt_path: null
-example: null
-gh_issue: null
+alt_path: ~
+example: 
+gh_issue: 
