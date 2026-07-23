@@ -3,17 +3,17 @@ title: PROPERTY RATIO - OBJECT OF INTEREST
 ---
 flowchart TD
     A[Ratio without time <br> different quantities] --> B{What is the <br> denominator?}:::white
-    B -- Area -->C[AREAL DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml'>VDP14</a>]
-    B -- Entity -->F[ENTITY DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP08.yaml'>VDP08</a>]
-    B -- Length -->D[LINEIC DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP07.yaml'>VDP07</a>]
+    B -- Area -->C[AREAL DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP27.yaml'>VDP27</a>]
+    B -- Entity -->F[ENTITY DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP24.yaml'>VDP24</a>]
+    B -- Length -->D[LINEIC DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP23.yaml'>VDP23</a>]
     B -- Mass -->E{What is the <br> numerator?}:::white
-    E -- Entity --> L[MASSIC NUMBER DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP06.yaml'>VDP06</a>]
-    E -- Amount of Substance --> P[MASSIC AMOUNT OF <br> SUBSTANCE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP02.yaml'>VDP02</a>]
+    E -- Entity --> L[MASSIC NUMBER DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
+    E -- Amount of Substance --> P[MASSIC AMOUNT OF <br> SUBSTANCE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP22.yaml'>VDP22</a>]
     B -- Volume -->G{Is it a mixture <br> of substances?}:::white
-    G --> |false|H[VOLUMIC DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml'>VDP13</a>]
+    G --> |false|H[VOLUMIC DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml'>VDP26</a>]
     G--> |true|J{Is it count per volume?}:::white
-    J --> |true|I[VOLUMIC NUMBER DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP09.yaml'>VDP09</a>]
-    J --> |false|M[CONCENTRATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml'>VDP17</a>]
+    J --> |true|I[VOLUMIC NUMBER DENSITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP25.yaml'>VDP25</a>]
+    J --> |false|M[CONCENTRATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml'>VDP28</a>]
     I --> N
     C --> N[RATIO <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP35.yaml'>VDP35</a>]:::satblue
     F --> N
