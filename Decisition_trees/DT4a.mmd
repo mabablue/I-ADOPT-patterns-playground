@@ -4,7 +4,7 @@ title: PROPERTY FLUX
 flowchart TD
     A[FLUX: Time-based Rate with <br> Physical Quantity <br> in the numerator] --> B{Area in the denominator?}:::white
     B --> |true|F{Area constrained?}:::white
-    B --> |false|K{Mass or volume in the denominator?}:::white
+    B --> |false|K{Mass or volume <br> in the denominator?}:::white
     F --> |true|G[FLUX COMPLEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP23.yaml'>VDP23</a>]
     F --> |false|H[FLUX SIMPLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP18.yaml'>VDP18</a>]
     K --> |true|L(Specific rate)
