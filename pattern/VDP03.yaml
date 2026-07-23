@@ -1,5 +1,5 @@
 type: Variable Design Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP22.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP03.yaml
 name: property (binary)
 comment: A binary or boolean property allows exactly two values: true/false, good/bad. Quality flags are boolean. 
 design: A constraint of type 'threshold' should be added to explain when the quality flag holds. Use single object of interest if applicable. Sometimes, however, the object of interest is a whole variable (property plus object of interest).
