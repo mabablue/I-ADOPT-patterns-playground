@@ -6,9 +6,9 @@ flowchart TD
     B --> |true|N{Time in the denominator?}:::white
     B --> |false|I[RATIOLESS DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP20.yaml'>VDP20</a>]
     N --> |true|E{Measure of an occurrence?}:::white
-    N --> |false|O{Involving different quantities?}:::white
+    N --> |false|O{Involving different <br> quantities?}:::white
     O --> |true|P[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT5.mmd'>RATIO DT5</a>]
-    O --> |false|Q{Involving different physical entities?}:::white
+    O --> |false|Q{Involving different <br> physical entities?}:::white
     Q --> |false|R[ANGLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP03.yaml'>VDP03</a>]
     Q --> |true|S[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP21.yaml'>VDP21</a>]
     E --> |true|L(Event rate)
