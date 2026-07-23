@@ -13,5 +13,5 @@ associated_patterns:
 associated_mapping: []
 path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) -> DT3:Ratio(T) -> Time(F) -> DifferentQuantities(F) -> DiffEntities(F) => VDP03"
 alt_path: ~
-example: angle of attack
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/104
+example: 
+gh_issue: 
