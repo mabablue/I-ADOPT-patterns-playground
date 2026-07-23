@@ -1,6 +1,6 @@
 type: Variable Design Pattern
 subtype: Property Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP24.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml
 name: volumic density
 definition: The ratio of a substance's mass to the volume it occupies. Quantity per volume. Examples are mass density and bulk density.
 design: OoI with single and optional matrix patterns.
