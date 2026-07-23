@@ -2,17 +2,17 @@ type: Variable Design Pattern
 subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP29.yaml
 name: flux complex
-definition: A flux is a ratio rate which is represented as a asymmetric system for OoI and with a asymmetric system for matrix, which is the flow from a source to a target. Complex representation is needed, when there needs to be a constraint on the denominator. 
+definition: A flux is a ratio rate which is represented as an asymmetric system for OoI and with an asymmetric system for matrix, which is the flow from a source to a target. Complex representation is needed when there needs to be a constraint on the denominator.
 design: OoI with ratio and Matrix with flow patterns.
 ObjectOfInterest: Asymmetric System (Num/Denom)
 Matrix: Asymmetric System (Source/Target)
-required_constraint: ~
-constrained_component: ~
-associated_patterns: 
+required_constraint: null
+constrained_component: null
+associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP35.yaml
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP40.yaml
 associated_mapping: []
 path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) -> DT3:Ratio(T) -> Time(F) -> DifferentQuantities(F) -> DiffEntities(F) => VDP03"
-alt_path: ~
+alt_path: null
 example: weight-specific ingestion Carbon rate
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/25
