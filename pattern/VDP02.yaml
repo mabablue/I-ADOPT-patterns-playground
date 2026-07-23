@@ -1,0 +1,17 @@
+type: Variable Design Pattern
+subtype: Property Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP02.yaml
+name: ordinal
+definition: An ordinal variable has values corresponding to a list of concepts that can be put in a certain order but are not measured. They are generally qualitative, and the classes can therefore only be ordered in relation to each other. Dates are also ordinal values.
+design: OoI with single.
+ObjectOfInterest: Entity
+Matrix: null
+required_constraint: null
+constrained_component: null
+associated_patterns:
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
+associated_mapping: []
+path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) -> DT3:Ratio(T) -> Time(F) -> DifferentQuantities(F) -> DiffEntities(F) => VDP01"
+alt_path: null
+example: grade (of pain)
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/108
