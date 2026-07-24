@@ -2,7 +2,7 @@ type: Variable Design Pattern
 suptype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP05.yaml
 name: discrete
-definition: A quantity that describes physical relationships or the physical state of a system without an associated physical unit.
+definition: TBD
 design: Use single entity in the object of interest.
 ObjectOfInterest: Entity
 Matrix: null
