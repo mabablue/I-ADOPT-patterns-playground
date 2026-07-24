@@ -5,14 +5,13 @@ name: discrete
 definition: A quantity that describes physical relationships or the physical state of a system without an associated physical unit.
 design: Use single entity in the object of interest.
 ObjectOfInterest: Entity
-Matrix: ~
-required_constraint: ~
-constrained_component: ~
+Matrix: null
+required_constraint: null
+constrained_component: null
 associated_patterns:
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP29.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
 associated_mapping: ~
-path: "DT1:SameQuantity(T) -> Exeed1(T) ->StaticSpatial(F) => VDP05"
-altpath: ~
-example: optical thickness
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/11
+path: "DT0:Units(F) -> Numbers(T) -> Decimal(F) -> Count(F)  -> Derived(F) => VDP05"
+altpath: null
+example: null
+gh_issue: null
