@@ -9,7 +9,9 @@ flowchart TD
     F --> |false|M[DERIVED PROPERTY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd'> DT3</a>] 
     E --> |true|N[LENGTH <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP06.yaml'> VDP06</a>] 
     E --> |false|O{Is it distance between <br> two equal objects?}:::white
-    O --> |true|P[DISTANCE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP08.yaml'> VDP08</a>] 
+    O --> |true|P{Is on object <br> constraint?}:::white
+    P --> |false|R[DISTANCE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP08a.yaml'> VDP08a</a>] 
+    P --> |true|S[DISTANCE REF<br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP08b.yaml'> VDP08b</a>] 
     O --> |false|Q[LENGTH REF <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP07.yaml'> VDP07</a>] 
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
