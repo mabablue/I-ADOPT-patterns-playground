@@ -2,7 +2,7 @@ type: Variable Design Pattern
 subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml
 name: ratioless derived
-definition: Derived property without ratio-transformation from fundamental quantities like volume or area.
+definition: A derived property without ratio-transformation from fundamental quantities like volume or area.
 design: OoI with single.
 ObjectOfInterest: Entity
 Matrix: null
