@@ -1,6 +1,6 @@
 type: Variable Design Pattern
 subtype: Constraint Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP93.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP96.yaml
 name: direction
 definition: A constraint that restricts a motion, velocity, or transport property to a specific spatial orientation, axis, or compass direction relative to a reference coordinate system.
 design: Apply the constraint on property
@@ -9,9 +9,9 @@ Matrix: ~
 required_constraint: ~
 constrained_component: property
 associated_patterns:
-  - 
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP20.yaml
 associated_mapping: []
 path: ~
 alt_path: ~
-example: PCR-test by certified laboratory
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/36
+example: null
+gh_issue: null
