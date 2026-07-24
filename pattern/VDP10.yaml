@@ -11,7 +11,7 @@ constrained_component: null
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP35.yaml
 associated_mapping: []
-path: "DT0:Units(F) -> Numbers(T) -> Decimal(T) ->  DT1:SameQuantity(T) -> Exeed1(F) -> 2Areas(T) => VDP11"
+path: "DT0:Units(F) -> Numbers(T) -> Decimal(T) -> DT1:SameQuantity(T) -> Exeed1(F) -> 2Areas(F) => VDP10"
 alt_path: null
 example: mass fraction of DDT in soil
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/26
