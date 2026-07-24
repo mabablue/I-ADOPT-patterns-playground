@@ -6,8 +6,8 @@ definition: Vector property that measures the rate of change of an object's posi
 design: OoI with single.
 ObjectOfInterest: Entity
 Matrix: null
-required_constraint: null
-constrained_component: null
+required_constraint: direction
+constrained_component: property
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
 associated_mapping: []
