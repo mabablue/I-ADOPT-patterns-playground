@@ -2,7 +2,7 @@ type: Variable Design Pattern
 subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP02.yaml
 name: count
-definition: A count property is a derived data property that assigns to an entity a non-negative integer equal to the number of distinct related entities satisfying a declared relation and scope.
+definition: Assigns to an entity a non-negative integer equal to the number of distinct related entities satisfying a declared relation and scope.
 design: OoI with single.
 ObjectOfInterest: Entity
 Matrix: null
