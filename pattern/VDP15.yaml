@@ -2,12 +2,12 @@ type: Variable Design Pattern
 subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP15.yaml
 name: normalized
-definition: Derived property without ratio-transformation from fundamental quantities like volume or area.
+definition: A relative quantity whose value is expressed relative to an explicit baseline, reference standard, or nominal state, rather than as an explicit physical ratio of two variable entities.
 design: OoI with single.
 ObjectOfInterest: Entity
 Matrix: null
-required_constraint: null
-constrained_component: null
+required_constraint: normalized
+constrained_component: property
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
 associated_mapping: []
