@@ -11,7 +11,7 @@ constrained_component: null
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
 associated_mapping: []
-path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) -> DT3:Ratio(T) -> Time(F) -> DifferentQuantities(F) -> DiffEntities(F) => VDP01"
+path: "DT0:Units(F) -> Numbers(F) -> Binary(F) -> Ordinal(T) => VDP02"
 alt_path: null
 example: grade (of pain)
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/108
