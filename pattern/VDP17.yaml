@@ -2,7 +2,7 @@ type: Variable Design Pattern
 subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml
 name: direction
-definition: Quantity per length, example is linear mass density.
+definition: A spatial or angular measurement indicating the orientation, heading, or trajectory of an entity relative to a specified reference frame.
 design: OoI with single.
 ObjectOfInterest: Entity
 Matrix: null
