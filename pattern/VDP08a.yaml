@@ -11,7 +11,7 @@ constrained_component: null
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP34.yaml
 associated_mapping: []
-path: "DT0:Units(T) -> DT2:Length(T) -> Distinct(F) -> 2Equal(T) => VDP08"
+path: "DT0:Units(T) -> DT2:Length(T) -> Distinct(F) -> 2Equal(T) -> Constrained(F) => VDP08a"
 alt_path: null
 example: distance to nearest neighbour habitat patch
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/19
