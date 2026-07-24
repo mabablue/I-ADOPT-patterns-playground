@@ -2,7 +2,7 @@ type: Variable Design Pattern
 subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP08a.yaml
 name: distance
-definition: Distance between two objects.
+definition: Length between two objects.
 design: OoI with two equal. 
 ObjectOfInterest: Symmetric System (Part)
 Matrix: null
