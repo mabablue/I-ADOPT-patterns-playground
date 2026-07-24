@@ -2,7 +2,7 @@ type: Variable Design Pattern
 suptype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP05.yaml
 name: discrete
-definition: TBD
+definition: A unitless property with integer values that are physically enforced. They can be constants or variable numbers.
 design: Use single entity in the object of interest.
 ObjectOfInterest: Entity
 Matrix: null
