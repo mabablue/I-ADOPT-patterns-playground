@@ -2,7 +2,7 @@ type: Variable Design Pattern
 subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP20.yaml
 name: velocity
-definition: Quantity per length, example is linear mass density.
+definition: Vector property that measures the rate of change of an object's position with respect to time, combining both speed (magnitude) and direction.
 design: OoI with single.
 ObjectOfInterest: Entity
 Matrix: null
