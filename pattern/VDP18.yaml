@@ -2,7 +2,7 @@ type: Variable Design Pattern
 subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP18.yaml
 name: event rate
-definition: Quantity per length, example is linear mass density.
+definition: A temporal property measuring the number of discrete, countable events or occurrences that take place within a specified period of time.
 design: OoI with single.
 ObjectOfInterest: Entity
 Matrix: null
