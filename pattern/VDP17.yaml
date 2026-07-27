@@ -6,8 +6,8 @@ definition: A spatial or angular measurement indicating the orientation, heading
 design: OoI with single. Reference constraint on the property.
 ObjectOfInterest: Entity
 Matrix: null
-required_constraint: Reference
-constrained_component: Property
+required_constraint: teference
+constrained_component: property
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
 associated_mapping: []
