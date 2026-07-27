@@ -3,15 +3,15 @@ subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP17.yaml
 name: direction
 definition: A spatial or angular measurement indicating the orientation, heading, or trajectory of an entity relative to a specified reference frame (vector).
-design: OoI with single.
+design: OoI with single. Reference constraint on the property.
 ObjectOfInterest: Entity
 Matrix: null
-required_constraint: null
-constrained_component: null
+required_constraint: Reference
+constrained_component: Property
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
 associated_mapping: []
 path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) -> DT3:Ratio(T) -> Time(F) -> DifferentQuantities(F) -> DiffEntities(F) => VDP03"
 alt_path: null
-example: null
-gh_issue: null
+example: direction of radial velocity
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/62
