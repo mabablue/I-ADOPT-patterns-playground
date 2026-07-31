@@ -1,6 +1,6 @@
 type: Variable Design Pattern
 subtype: Property Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP10.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP110.yaml
 name: fraction
 definition: A fraction is a ratio comparing a part to the whole where the quantities (quantitative property) are of the same kind.
 design: OoI with ratio.
