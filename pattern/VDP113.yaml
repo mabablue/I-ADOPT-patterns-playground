@@ -1,6 +1,6 @@
 type: Variable Design Pattern
 subtype: Property Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP13.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP113.yaml
 name: dimensionless physical ratio
 definition: A quantity that describes physical relationships or the physical state of a system without an associated physical unit.
 design: Use single entity in the object of interest.
