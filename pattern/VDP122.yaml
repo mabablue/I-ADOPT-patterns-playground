@@ -1,6 +1,6 @@
 type: Variable Design Pattern
 subtype: Property Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP22.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP122.yaml
 name: massic amount of substance
 definition: Mole per mass including molality (denominator is mass of the solvent component) and substance content (denominator is mass of the total mixture).
 design: Use asymmetric system in the object of interest.
