@@ -5,14 +5,14 @@ flowchart TD
     A[Quantitative Property] --> C{Is it length?}:::white
     C --> |true|E{Is it length of <br> a distinct object?}:::white
     C --> |false|F{Is it thermodynamic <br> temperature, time,  <br> mass, amount of substance <br> electric current or <br> luminous intensity?}:::white
-    F --> |true|G[FUNDAMENTAL QUANTITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP09.yaml'> VDP09</a>] 
+    F --> |true|G[FUNDAMENTAL QUANTITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP109.yaml'> VDP109</a>] 
     F --> |false|M[DERIVED PROPERTY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd'> DT3</a>] 
-    E --> |true|N[LENGTH <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP06.yaml'> VDP06</a>] 
+    E --> |true|N[LENGTH <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VD1P06.yaml'> VDP106</a>] 
     E --> |false|O{Is it distance between <br> two equal objects?}:::white
     O --> |true|P{Is one object <br> constrained?}:::white
-    P --> |false|R[DISTANCE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP08a.yaml'> VDP08a</a>] 
-    P --> |true|S[DISTANCE REF<br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP08b.yaml'> VDP08b</a>] 
-    O --> |false|Q[LENGTH REF <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP07.yaml'> VDP07</a>] 
+    P --> |false|R[DISTANCE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP108.yaml'> VDP108</a>] 
+    P --> |true|S[DISTANCE REF<br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP133.yaml'> VDP133</a>] 
+    O --> |false|Q[LENGTH REF <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP107.yaml'> VDP107</a>] 
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
    classDef white fill:#f3f6f4
