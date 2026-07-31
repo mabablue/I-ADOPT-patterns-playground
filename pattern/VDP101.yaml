@@ -1,6 +1,6 @@
 type: Variable Design Pattern
 subtype: Property Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP01.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP101.yaml
 name: nominal
 definition: A nominal variable has values of equal importance that cannot be ranked in any particular order (non-ordinal), e.g., species of pests, colors. The values of these variables are usually indicated by words, ideally using controlled lists.
 design: OoI with single.
