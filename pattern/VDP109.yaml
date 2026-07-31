@@ -1,6 +1,6 @@
 type: Variable Design Pattern
 subtype: Property Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP09.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP109.yaml
 name: fundamental
 definition: Fundamental properties are physical quantities that are conventionally accepted as functionally independent of all others, excluding lengths. These are thermodynamic temperature, time, mass, amount of substance, luminous intensity, electric current.
 design: OoI with single.
