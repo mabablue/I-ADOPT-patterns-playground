@@ -1,6 +1,6 @@
 type: Variable Design Pattern
 subtype: Property Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP06.yaml
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP106.yaml
 name: length
 comment: Length of a discrete object. Length is a fundamental property. Examples are width, depth, height, circumference.
 design: OoI with single. 
