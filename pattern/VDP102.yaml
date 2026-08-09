@@ -3,7 +3,7 @@ subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP102.yaml
 name: ordinal
 definition: An ordinal variable has values corresponding to a list of concepts that can be put in a certain order but are not measured. They are generally qualitative, and the classes can therefore only be ordered in relation to each other. Dates are also ordinal values.
-design: OoI with single.
+design: Generalize the property and put the specialization into the OoI (single). It requires a matrix.
 ObjectOfInterest: Entity
 Matrix: null
 required_constraint: null
