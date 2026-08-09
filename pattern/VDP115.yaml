@@ -6,10 +6,11 @@ definition: A relative quantity whose value is expressed relative to an explicit
 design: OoI with single.
 ObjectOfInterest: Entity
 Matrix: null
-required_constraint: normalized
+required_constraint: normalization
 constrained_component: property
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP92.yaml
 associated_mapping: []
 path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) -> DT3:Ratio(T) -> Time(F) -> DifferentQuantities(F) -> DiffEntities(F) => VDP03"
 alt_path: null
