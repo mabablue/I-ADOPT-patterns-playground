@@ -1,0 +1,17 @@
+type: Variable Design Pattern
+subtype: Property Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP135.yaml
+name: massic activity
+definition: Radioactivity content of chemical substance per mass.
+design: OoI with System.
+ObjectOfInterest: System (Num/Denom)
+Matrix: null
+required_constraint: null
+constrained_component: null
+associated_patterns:
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP35.yaml
+associated_mapping: []
+path: "DT0:Units(T) -> DT2:Length(T) -> Distinct(F) -> 2Equal(T) -> Constrained(T) => VDP08b"
+alt_path: null
+example: radioactivity content of Technetium
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/164
