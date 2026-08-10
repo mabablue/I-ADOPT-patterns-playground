@@ -11,7 +11,7 @@ constrained_component: null
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP35.yaml
 associated_mapping: []
-path: "DT0:Units(T) -> DT2:Length(T) -> Distinct(F) -> 2Equal(T) -> Constrained(T) => VDP08b"
+path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) ->DT3:Ratio(T) -> Time(F) -> DiffQuantities(T) -> DT5:Denom(Mass) -> Num(RadioactiveActivity) => VDP135"
 alt_path: null
 example: radioactivity content of Technetium
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/164
