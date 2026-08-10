@@ -3,7 +3,7 @@ subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP134.yaml
 name: energy per mole
 definition: Energy per amount of substance (molar energy).
-design: OoI with reference. 
+design: Single OoI. 
 ObjectOfInterest: Asymmetric System (Numerator/Denominator)
 Matrix: null
 required_constraint: null
