@@ -3,13 +3,14 @@ subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP134.yaml
 name: energy per mole
 definition: Energy per amount of substance (molar energy).
-design: Object of Interest with single.
-ObjectOfInterest: Asymmetric System (Num/Denom)
-Matrix: null
+design: OoI with single with matrix.
+ObjectOfInterest: Single
+Matrix: Natural process
 required_constraint: null
 constrained_component: null
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP36.yaml
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP43.yaml
 associated_mapping: []
 path: "DT0:Units(T) -> DT2:Length(T) -> Distinct(F) -> 2Equal(T) -> Constrained(T) => VDP08b"
 alt_path: null
