@@ -3,7 +3,7 @@ subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP116.yaml
 name: angle
 definition: A ratio comparing two geometric properties that retains units (e.g., degrees, radians) because the comparison is made against an external, universal geometric constant (a full circle/rotation).
-design: Use two equal in the Object of interest.
+design: OoI with two equal.
 ObjectOfInterest: Symmetric (part)
 Matrix: ~
 required_constraint: ~
