@@ -8,31 +8,18 @@ flowchart TD
     B --> |true|D[QUANTITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd'>DT2</a><br>]
     
     %% Branch: Unitless Path
-    B --> |false|C{Are the results <br> quantitative numbers<br> rather than symbolic codes?}:::white
+    B --> |false|C{Are the results categorical or quantitative?}:::white
     
     %% Categorical Branch (Binary, Nominal, Ordinal)
-    C --> |false|E{Are the result values <br> binary?}:::white
-    E --> |true|F[BINARY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP103.yaml'>VDP103</a><br>]
-    E --> |false|I{Which categorical scale applies?}:::white
-    I -- nominal --> K[NOMINAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP101.yaml'>VDP101</a><br>]
-    I -- ordinal --> J[ORDINAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP102.yaml'>VDP102</a><br>]
-    
-    %% Quantitative Unitless Branch (Interval, Count, Unitless Ratio/Decimal)
-    C --> |true|G{Is the value represented <br> as a decimal?}:::white
-    
-    %% Continuous / Decimal Path
-    G --> |true|L[DECIMAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd'>DT1</a><br>]
-    
-    %% Discrete Quantitative Path (Count, Interval, Discrete)
-    G --> |false|H{Is it a count?}:::white
-    H --> |true|M[COUNT <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP104.yaml'>VDP104</a><br>]
-    
-    H --> |false|Q{Is it an interval scale or date?}:::white
-    Q --> |true|R[DATE REF <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP137.yaml'> VDP137</a>]
-    Q --> |false|N{Is it derived from an <br> algorithm, composite <br> formula, or baseline ratio?}:::white
-    
-    N --> |true|O[DECIMAL VALUE UNITLESS <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd'>DT1</a><br>]
-    N --> |false|P[DISCRETE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP105.yaml'>VDP105</a><br>]
+    C -- categorical --> D{Which categorical scale applies?}:::white
+    D -- binary --> E[BOOLEAN <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP103.yaml'>VDP103</a><br>]
+    D -- nominal -->F[NOMINAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP101.yaml'>VDP101</a><br>]
+    E -- ordinal -->G[ORDINAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP102.yaml'>VDP102</a><br>]
+    C -- quantitative -->H{Which quantitative scale applies?}:::white
+    H -- integer -->I[COUNT <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP104.yaml'>VDP104</a><br>]
+    H -- time-instant -->K[INSTANT <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP137.yaml'>VDP137</a><br>]
+    H -- interval-points -->L[INTERVAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP105.yaml'>VDP105</a><br>]
+    H -- ratio -->M[DECIMAL VALUE UNITLESS <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd'>DT1</a><br>]
 
     classDef blue fill:#90D5FF
     classDef satblue fill:#57B9FF
