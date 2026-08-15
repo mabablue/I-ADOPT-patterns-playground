@@ -1,18 +1,22 @@
 ---
-title: PROPERTY FLUX
+title: PROPERTY UNITLESS
 ---
 flowchart TD
-    A[FLUX: Time-based Rate with <br> Physical Quantity <br> in the numerator] --> B{Energy flux?}:::white
-    B --> |false|E{Area in the denominator?}:::white
-    B --> |true|C[FLUX SIMPLIFIED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml'>VDP26</a>]
-    E --> |true|F{Area constrained?}:::white
-    E --> |false|K{Mass in the denominator?}:::white
-    F --> |true|G[FLUX COMPLEX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP23.yaml'>VDP23</a>]
-    F --> |false|H[FLUX SIMPLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP18.yaml'>VDP18</a>]
-    K --> |true|L(Specific rate)
-    L --> G
-    K --> |false|M(Flow Rate)
-    M --> H
+    A[Check observation results <br> or description] --> B{Are units associated <br> with the result values?}:::white
+    B --> |false|C{Are the results <br> quantitative numbers<br> rather than symbolic codes?}:::white
+    B --> |true|D[QUANTITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd'>DT2</a><br>] 
+    C --> |false|E{Are the result values <br> binary?}:::white
+    C --> |true|G{Is the value represented <br> as a decimal?}:::white
+    E --> |false|I{Are the result values <br> ordinal?}:::white
+    G --> |false|H{Is it a count?}:::white
+    H--> |false|N{Is it derived from an <br> algorithm, composite <br> formula, or baseline ratio?}
+    N --> |true|O[DECIMAL VALUE UNITLESS <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd'>DT1</a><br>] 
+    N --> |false|P[DISCRETE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP105.yaml'>VDP105</a><br>] 
+    H --> |true|M[COUNT <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP104.yaml'>VDP104</a><br>] 
+    I --> |true|J[ORDINAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP102.yaml'>VDP102</a><br>] 
+    I --> |false|K[NOMINAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP101.yaml'>VDP101</a><br>] 
+    E --> |true|F[BINARY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP103.yaml'>VDP103</a><br>] 
+    G --> |true|L[DECIMAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd'>DT1</a><br>] 
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
    classDef white fill:#f3f6f4
