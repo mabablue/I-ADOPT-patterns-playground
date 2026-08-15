@@ -1,0 +1,17 @@
+type: Variable Design Pattern
+suptype: Property Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP138.yaml
+name: interval
+definition: Properties resulting in quantitative numbers that represent ordered points along a continuous scale with equal, measurable distances between adjacent units, but without a true absolute zero point.
+design: Use single entity in the object of interest.
+ObjectOfInterest: Entity
+Matrix: null
+required_constraint: null
+constrained_component: null
+associated_patterns:
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
+associated_mapping: ~
+path: "DT0:Units(F) -> Numbers(T) -> Decimal(F) -> Count(F)  -> Derived(F) => VDP138"
+altpath: null
+example: null
+gh_issue: null
