@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP102.yaml
-name: binary
+name: boolean
 definition: A binary or boolean property allows exactly two values: true/false, good/bad. Quality flags are boolean. 
 design: OoI with single. A constraint of type 'threshold' should be added to explain when the quality flag holds. Sometimes, however, the object of interest is a whole variable (property plus object of interest).
 ObjectOfInterest: Entity
