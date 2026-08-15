@@ -6,7 +6,7 @@ flowchart TD
     B --> |true|N{Time in the denominator?}:::white
     B --> |false|C{Is it a property of a property?:::white
     C --> |true|D[STATISTICAL PROPERTY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP115.yaml'>VDP136</a>]
-    D -- |false|I{Is it normalized?}:::white
+    D --> |false|I{Is it normalized?}:::white
     I --> |true|T[NORMALIZED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP115.yaml'>VDP115</a>]
     I --> |false|U[RATIOLESS DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP114.yaml'>VDP114</a>]
     N --> |true|E{Measure of an occurrence?}:::white
