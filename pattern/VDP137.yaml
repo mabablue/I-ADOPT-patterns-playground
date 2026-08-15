@@ -1,0 +1,17 @@
+type: Variable Design Pattern
+suptype: Property Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP137.yaml
+name: instant
+definition: A time-instant value, e.g. 2026-08-15T13:29:14+02:00
+design: Use single entity in the object of interest.
+ObjectOfInterest: Entity
+Matrix: null
+required_constraint: null
+constrained_component: null
+associated_patterns:
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
+associated_mapping: ~
+path: "DT0:Units(F) -> Numbers(T) -> Decimal(F) -> Count(F)  -> Derived(F) => VDP137"
+altpath: null
+example: null
+gh_issue: null
