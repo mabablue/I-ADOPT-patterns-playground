@@ -1,0 +1,17 @@
+type: Variable Design Pattern
+subtype: Property Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP136.yaml
+name: statistical property
+definition: A statistical measure becomes a statistical property when it changes the dimension of the property of the measurement. 
+design: OoI is a variable.
+ObjectOfInterest: variable
+Matrix: null
+required_constraint: null
+constrained_component: null
+associated_patterns:
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP39.yaml
+associated_mapping: []
+path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) ->DT3:Ratio(T) -> Time(F) -> DiffQuantities(T) -> DT5:Denom(Mass) -> Num(RadioactiveActivity) => VDP135"
+alt_path: null
+example: radioactivity content of Technetium
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/64
