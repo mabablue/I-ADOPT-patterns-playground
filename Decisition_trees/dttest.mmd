@@ -8,14 +8,14 @@ flowchart TD
     B --> |true|N[QUANTITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd'>DT2</a><br>]
     
     %% Branch: Unitless Path
-    B --> |false|C{Are the results categorical or quantitative?}:::white
+    B --> |false|C{Are the results categorical <br> or quantitative?}:::white
     
     %% Categorical Branch (Binary, Nominal, Ordinal)
-    C -- categorical --> D{Which categorical scale applies?}:::white
+    C -- categorical --> D{Which categorical >br> scale applies?}:::white
     D -- binary --> E[BOOLEAN <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP103.yaml'>VDP103</a><br>]
     D -- nominal -->F[NOMINAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP101.yaml'>VDP101</a><br>]
     E -- ordinal -->G[ORDINAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP102.yaml'>VDP102</a><br>]
-    C -- quantitative -->H{Which quantitative scale applies?}:::white
+    C -- quantitative -->H{Which quantitative <br> scale applies?}:::white
     H -- integer -->I[COUNT <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP104.yaml'>VDP104</a><br>]
     H -- time-instant -->K[INSTANT <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP137.yaml'>VDP137</a><br>]
     H -- interval-points -->L[INTERVAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP105.yaml'>VDP105</a><br>]
