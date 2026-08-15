@@ -12,7 +12,7 @@ associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP92.yaml
 associated_mapping: []
-path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) -> DT3:Ratio(T) -> Time(F) -> DifferentQuantities(F) -> DiffEntities(F) => VDP03"
+path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(T) -> DT3: Ratio(F) -> PropOfProp(F) -> Normalized(T) => VDP115"
 alt_path: null
 example: null
 gh_issue: null
