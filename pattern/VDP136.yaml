@@ -2,7 +2,7 @@ type: Variable Design Pattern
 subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP136.yaml
 name: statistical property
-definition: A statistical measure becomes a statistical property when it changes the dimension of the property of the measurement. 
+definition: A statistical measure becomes a statistical property when it changes the dimension of the property of the measurement like variance and confidence interval.
 design: OoI is a variable.
 ObjectOfInterest: variable
 Matrix: null
