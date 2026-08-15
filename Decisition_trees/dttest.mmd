@@ -5,7 +5,7 @@ flowchart TD
     A[Check observation results <br> or description] --> B{Are units associated <br> with the result values?}:::white
     
     %% Branch: Units Present -> QUANTITY (Ratio Scale with Units)
-    B --> |true|D[QUANTITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd'>DT2</a><br>]
+    B --> |true|N[QUANTITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd'>DT2</a><br>]
     
     %% Branch: Unitless Path
     B --> |false|C{Are the results categorical or quantitative?}:::white
