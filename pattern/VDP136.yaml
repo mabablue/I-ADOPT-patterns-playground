@@ -11,7 +11,7 @@ constrained_component: null
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP39.yaml
 associated_mapping: []
-path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) ->DT3:Ratio(T) -> Time(F) -> DiffQuantities(T) -> DT5:Denom(Mass) -> Num(RadioactiveActivity) => VDP135"
+path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(T) -> DT3:Ratio(F) -> PropOfProp(T) -> StatMod(T) => VDP136"
 alt_path: null
-example: radioactivity content of Technetium
+example: variance of radial velocity
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/64
