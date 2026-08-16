@@ -2,7 +2,7 @@ type: Variable Design Pattern
 subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP116.yaml
 name: angle
-definition: A ratio comparing two geometric properties that retains units (e.g., degrees, radians) because the comparison is made against an external, universal geometric constant (a full circle/rotation).
+definition: An angle measured against a local/arbitrary reference frame (e.g., the angle between two intersecting pipes, or the joint angle of a knee).
 design: OoI with two equal.
 ObjectOfInterest: Symmetric (part)
 Matrix: ~
