@@ -20,7 +20,9 @@ flowchart TD
     Q --> |false|R{Is one of the two <br> an external reference?}:::white
     R --> |true|L[ANGLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP116.yaml'>VDP116</a>]
     R --> |true|M[DIRECTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP117.yaml'>VDP117</a>]
-    Q --> |false|S[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP110.yaml'>VDP110</a>]
+    Q --> |false|S{Is it cover?}:::white
+    S --> |true|U[COVER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP111.yaml'>VDP111</a>]
+    S --> |false|V[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP110.yaml'>VDP110</a>]
    classDef blue fill:#90D5FF
    classDef satblue fill:#57B9FF 
    classDef white fill:#f3f6f4
