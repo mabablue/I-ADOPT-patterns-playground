@@ -6,7 +6,7 @@ flowchart TD
     AB --> |true|U[INTRINSIC <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP126.yaml'>VDP126</a>]
     AB --> |false|ABB{Is the unit atomic derived?}:::white
     ABB --> |true|Z[ATOMIC DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP126.yaml'>VDP126</a>]
-    ABB -> |false|B{Is the unit a ratio?<br>Check the units}:::white
+    ABB --> |false|B{Is the unit a ratio?<br>Check the units}:::white
     B --> |true|N{Time in the denominator?}:::white
     B --> |false|C{Is it a property <br> of a property?}:::white
     C --> |true|D{Is involving a <br> statistical measure?}:::white
