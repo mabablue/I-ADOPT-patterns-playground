@@ -1,10 +1,10 @@
 type: Variable Design Pattern
 subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP126.yaml
-name: volumic density
-definition: The ratio of a substance's mass to the volume it occupies. Quantity per volume. Examples are mass density and bulk density.
-design: OoI with single and optional matrix patterns.
-ObjectOfInterest: Entity
+name: Intrinsic property
+definition: A property that is inherent to the substance's chemical composition and molecular structure, like plasticity, volumic density, absorbance.
+design: Single OoI.
+ObjectOfInterest: Single
 Matrix: null
 required_constraint: null
 constrained_component: null
