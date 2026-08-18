@@ -8,7 +8,7 @@ flowchart TD
     D --> |false|E{Is it cover?}:::white
     D --> |true|L{Does the number describe <br> a static spatial geometry?}:::white
     E --> |true|G[COVER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP111.yaml'>VDP111</a>]
-    F --> |false|H{Is it probability <br> of occurrence?}:::white
+    E --> |false|H{Is it probability <br> of occurrence?}:::white
     H --> |false|I[FRACTION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP110.yaml'>VDP110</a>]
     H --> |true|J[PROBABILITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP139.yaml'>VDP139</a>]
     L --> |true|M[GEOMETRIC RATIOS <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP112.yaml'>VDP112</a>] 
