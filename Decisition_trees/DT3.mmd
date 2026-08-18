@@ -8,13 +8,9 @@ flowchart TD
     ABB --> |true|Z[ATOMIC DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP126.yaml'>VDP126</a>]
     ABB --> |false|B{Is the unit a ratio?<br>Check the units}:::white
     B --> |true|N{Time in the denominator?}:::white
-    B --> |false|C{Is it a property <br> of a property?}:::white
-    C --> |true|D{Is involving a <br> statistical measure?}:::white
+    B --> |false|D{Is involving a <br> statistical measure?}:::white
     D --> |true|G[STATISTICAL PROPERTY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP136.yaml'>VDP136</a>]
     D --> |false|F[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd'>DT1</a>]
-    C --> |false|I{Is it normalized?}:::white
-    I --> |true|T[NORMALIZED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP115.yaml'>VDP115</a>]
-    I --> |false|U[RATIOLESS DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP114.yaml'>VDP114</a>]
     N --> |true|E{Measure of an occurrence?}:::white
     E --> |false|K[FLUX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd'> DT4</a>]
     E --> |true|J[EVENT RATE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP118.yaml'>VDP118</a>]
