@@ -8,7 +8,7 @@ flowchart TD
     ABB --> |true|Z[ATOMIC DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP126.yaml'>VDP126</a>]
     ABB --> |false|B{Is the unit a ratio?<br>Check the units}:::white
     B --> |true|N{Time in the denominator?}:::white
-    B --> |false|D{Is involving a <br> statistical measure?}:::white
+    B --> |false|D{Is it involving <br> variance or <br> confidence interval?}:::white
     D --> |true|G[STATISTICAL PROPERTY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP136.yaml'>VDP136</a>]
     D --> |false|F[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd'>DT1</a>]
     N --> |true|E{Measure of an occurrence?}:::white
