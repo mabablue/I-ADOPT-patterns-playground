@@ -7,9 +7,7 @@ flowchart TD
     C -- Energy/Quantum--> D[FLUX SIMPLIFIED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP129.yaml'>VDP129</a>]
     C -- Length --> E{Is it a vector quantity?}:::white
     E --> |true|J[VELOCITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP120.yaml'>VDP120</a] 
-    E --> |false|K{Is it a rate of change <br> of motion?}
-    K --> |true|L[ACCELERATION <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP141.yaml'>VDP141</a] 
-    K --> |false|M[SPEED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP119.yaml'>VDP119</a] 
+    E --> |false|K[ATOMIC DERIVED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP139.yaml'>VDP139</a] 
     C -- Mass/Volume --> F{Area in the denominator?}:::white
     F --> |false|I[FLUX SIMPLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP130.yaml'>VDP130</a>]
     F --> |true|G{Area constrained?}:::white 
