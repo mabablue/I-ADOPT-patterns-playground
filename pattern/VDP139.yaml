@@ -1,0 +1,17 @@
+type: Variable Design Pattern
+suptype: Property Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP139.yaml
+name: probability
+definition: Probability is a numerical measure of how likely a specific event is to occur. It quantifies chance or uncertainty on a scale strictly bounded between 0 and 1 (or 0% and 100%).
+design: Use single entity in the object of interest.
+ObjectOfInterest: Entity
+Matrix: null
+required_constraint: null
+constrained_component: null
+associated_patterns:
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
+associated_mapping: ~
+path: "DT0:Units(F) -> Numbers(T) -> Decimal(F) -> Count(F)  -> Derived(F) => VDP138"
+altpath: null
+example: probability of occurrence
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/18
