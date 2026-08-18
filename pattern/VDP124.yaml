@@ -1,9 +1,9 @@
 type: Variable Design Pattern
 subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP124.yaml
-name: entity density
-definition: Quantity per entity.
-design: Property with constraint of type normalization. OoI simple.
+name: normalized count
+definition: Count per entity.
+design: Property with constraint of type normalization. OoI single.
 ObjectOfInterest: Single
 Matrix: null
 required_constraint: Normalization
