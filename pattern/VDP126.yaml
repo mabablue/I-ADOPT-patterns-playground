@@ -1,7 +1,7 @@
 type: Variable Design Pattern
 subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP126.yaml
-name: Intrinsic property
+name: Intrinsic
 definition: A property that is inherent to the substance's chemical composition and molecular structure, like plasticity, volumic density, absorbance.
 design: Single OoI.
 ObjectOfInterest: Single
