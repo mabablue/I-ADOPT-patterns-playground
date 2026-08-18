@@ -6,8 +6,8 @@ definition: Quantity per entity.
 design: Property with constraint of type normalization. OoI simple.
 ObjectOfInterest: Single
 Matrix: null
-required_constraint: null
-constrained_component: null
+required_constraint: Normalization
+constrained_component: Property
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP35.yaml
 associated_mapping: []
