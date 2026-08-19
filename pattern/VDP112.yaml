@@ -11,7 +11,7 @@ constrained_component: ~
 associated_patterns: 
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
 associated_mappings: []
-path: "DT1:SameQuantity(T) -> Exeed1(T) ->StaticSpatial(T) => VDP04"
+path: "DT0:Units(F) -> Unitless(Quantitative) -> Quantitative(ratio) -> DT1:SameQuantity(T) -> Exeed1(T) -> StaticSpatial(T) => VDP112"
 altpath: []
 example: ~
 gh_issue: ~
