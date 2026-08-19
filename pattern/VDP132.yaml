@@ -11,7 +11,7 @@ constrained_component: null
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
 associated_mapping: []
-path: "DT0:Units(F) -> Numbers(T) -> Decimal(T) -> DT1:SameQuantity(F) => VDP132"
+path: "DT0:Units(F) -> Unitless(Quantitative) -> Quantitative(ratio) -> DT1:SameQuantity(F) => VDP132"
 alt_path: null
 example: BMI
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/107
