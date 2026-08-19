@@ -11,7 +11,7 @@ constrained_component: null
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
 associated_mapping: ~
-path: "DT0:Units(F) -> Numbers(T) -> Decimal(F) -> Count(F)  -> Derived(F) => VDP138"
+path: "DT0:Units(F) -> Unitless(Quantitative) -> Quantitative(continous-intermediates) => VDP138"
 altpath: null
 example: null
 gh_issue: null
