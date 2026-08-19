@@ -11,7 +11,7 @@ constrained_component: null
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
 associated_mapping: []
-path: "DT0:Units(T) -> DT2:Length(T) -> Distinct(T) => VDP06"
+path: "DT0:Units(T) -> DT2:Length(T) -> Distinct(T) => VDP106"
 alt_path: null
 example: null
 gh_issue: null
