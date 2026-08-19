@@ -14,4 +14,4 @@ associated_mapping: ~
 path: "DT0:Units(F) -> Unitless(Quantitative) -> Quantitative(time-instant) => VDP137"
 altpath: null
 example: null
-gh_issue: "https://github.com/mabablue/I-ADOPT-examples-playground/issues/113"
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/113
