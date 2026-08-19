@@ -14,4 +14,4 @@ associated_mapping: []
 path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) ->DT3:Intrinsic(F) -> Atomic(T) => VDP140"
 alt_path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) ->DT3:Intrinsic(F) -> Atomic(F) -> Ratio(T) -> Time(T) -> Occurence(F) --> DT4:Material(F) -> Numerator(Length) -> Vector(F) => VDP140"
 example: mass density
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/31
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/131
