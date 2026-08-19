@@ -12,7 +12,7 @@ associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP82.yaml
 associated_mapping: []
-path: "DT0:Units(F) -> Numbers(F) -> Binary(T) => VDP03"
+path: "DT0:Units(F) -> Unitless(Categorical) => Categorical(binary) => VDP103"
 alt_path: null
 example: quality flag
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/77
