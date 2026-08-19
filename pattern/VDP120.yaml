@@ -3,10 +3,10 @@ subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP120.yaml
 name: velocity
 definition: Vector property that measures the rate of change of an object's position with respect to time, combining both speed (magnitude) and direction.
-design: OoI with single.
+design: OoI with single. Requires a constraint of type direction or reference
 ObjectOfInterest: Entity
 Matrix: null
-required_constraint: direction
+required_constraint: direction or reference
 constrained_component: property
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
