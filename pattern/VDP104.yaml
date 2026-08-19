@@ -11,7 +11,7 @@ constrained_component: null
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
 associated_mapping: []
-path: "DT0:Units(F) -> Numbers(T) -> Decimal(F) -> Count(T) => VDP04"
+path: "DT0:Units(F) -> Unitless(Quantitative) -> Quantitative(natural-numbers) => Normalized(F)  => VDP104"
 alt_path: null
 example: number
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/92
