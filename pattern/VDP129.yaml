@@ -3,7 +3,7 @@ subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP129.yaml
 name: flux simplified
 definition: A ratio rate with an energy flow represented in a simplified way.
-design: OoI with single and Matrix with an optional natural container.
+design: OoI with single and Matrix with an optional natural container. Often the property is domain-specific labelled such as actinic flux.
 ObjectOfInterest: Entity
 Matrix: Entity
 required_constraint: null
