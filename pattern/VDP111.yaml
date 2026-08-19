@@ -11,7 +11,7 @@ constrained_component: null
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP35.yaml
 associated_mapping: []
-path: "DT0:Units(F) -> Unitless(Quantitative) -> Quantitative(ratio) -> DT1:SameQuantity(T) -> Exeed1(F) -> Cover(T) => VDP111"
+path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) ->DT3:Intrinsic(F) -> Atomic(F) -> Ratio(T) -> Time(F) -> DiffQuantities(F) -> DiffEntities(T) -> Cover(T) => VDP111"
 alt_path: null
 example: cloud cover
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/9
