@@ -11,7 +11,7 @@ constrained_component: null
 associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
 associated_mapping: ~
-path: "DT0:Units(F) -> Numbers(T) -> Decimal(F) -> Count(F)  -> Derived(F) => VDP138"
+path: "DT0:Units(F) -> Unitless(Quantitative) -> Quantitative(ratio) -> DT1:SameQuantity(T) -> Exeed1(F) -> Cover(F) -> Probability(T) => VDP139"
 altpath: null
 example: probability of occurrence
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/18
