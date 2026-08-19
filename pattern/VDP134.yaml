@@ -12,7 +12,7 @@ associated_patterns:
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP36.yaml
   - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP43.yaml
 associated_mapping: []
-path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) ->DT3:Ratio(T) -> Time(F) -> DiffQuantities(T) -> DT5:Denom(AmountOfSubstance) -> Num(Energy) => VDP134"
+path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) ->DT3:Intrinsic(F) -> Atomic(F) -> Ratio(T) -> Time(F) -> DiffQuantities(T) -> DT5:Denom(AmountOfSubstance) -> Num(Energy) => VDP134"
 alt_path: null
 example: energy of reaction per mole upon combustion of hexanol
 gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/81
