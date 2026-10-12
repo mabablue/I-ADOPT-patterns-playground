@@ -1,20 +1,17 @@
 type: Variable Design Pattern
-id: URI
-name: "..."
-rules:
-  decomposition: true/false
-affected:
-  components:
-    - OoI / ...
-    - OoI / ...
-  constrained:
-    - OoI / ...
-    - OoI / ...
-associated_pattern: 
-  - URI
-  - URI
-associated_mapping: 
-  - URI
-  - URI
-example: ""
-gh_issue: URL
+subtype: XX Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP101.yaml
+name: nominal
+definition: A nominal variable has values of equal importance that cannot be ranked in any particular order (non-ordinal), e.g., species of pests, colors. The values of these variables are usually indicated by words, ideally using controlled lists.
+design: The property must be specific. OoI with single.
+ObjectOfInterest: Entity
+Matrix: null
+required_constraint: null
+constrained_component: null
+associated_patterns:
+  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
+associated_mapping: []
+path: "DT0:Units(F) -> Unitless(Categorical) => Categorical(nominal) => VDP101"
+alt_path: null
+example: state of connection pipe
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/1
