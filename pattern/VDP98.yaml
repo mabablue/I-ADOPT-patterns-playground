@@ -1,0 +1,16 @@
+type: Variable Design Pattern
+subtype: Constraint Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP98.yaml
+name: process
+definition: A constraint defined as a series of systematic, ordered actions or steps taken to achieve a specific end or result.
+design: Apply the constraint on constrained component
+ObjectOfInterest: ~
+Matrix: ~
+required_constraint: ~
+constrained_component: ~
+associated_patterns: []
+associated_mapping: []
+path: ~
+alt_path: ~
+example: Global fallout of U-236
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/130
