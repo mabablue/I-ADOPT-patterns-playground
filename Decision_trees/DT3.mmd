@@ -9,13 +9,13 @@ flowchart TD
     ABB --> |false|B{Is the unit a <br> ratio?<br>Check the units}:::white
     B --> |true|N{Time in the <br> denominator?}:::white
     B --> |false|D{Is it involving <br>a variance or a<br> confidence <br> interval?}:::white
-    D --> |true|G[STATISTICAL PROPERTY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP136.yaml'>VDP136</a>]
-    D --> |false|F[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd'>DT1</a>]
+    D --> |true|G[STATISTICAL <br> PROPERTY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP136.yaml'>VDP136</a>]
+    D --> |false|F[<a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT2.mmd'>DT1</a>]
     N --> |true|E{Measure of an <br> occurrence?}:::white
-    E --> |false|K[FLUX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd'> DT4</a>]
+    E --> |false|K[FLUX <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT4.mmd'> DT4</a>]
     E --> |true|J[EVENT RATE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP118.yaml'>VDP118</a>]
     N --> |false|O{Involving <br> different <br> quantities?}:::white
-    O --> |true|P[RATIO <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT5.mmd'> DT5</a>]
+    O --> |true|P[RATIO <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT5.mmd'> DT5</a>]
     O --> |false|Q{Involving <br> different <br> physical <br> entities?}:::white
     Q --> |false|R{Is one of the <br> two an external <br> reference?}:::white
     R --> |true|L[ANGLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP116.yaml'>VDP116</a>]
