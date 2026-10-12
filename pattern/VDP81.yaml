@@ -1,6 +1,7 @@
 type: Variable Design Pattern
+suptype: Constraint Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP81.yaml
-name: constraint (range)
+name: range
 comment: provides the range of allowed values
 design: constraint on property
 involved_components:
