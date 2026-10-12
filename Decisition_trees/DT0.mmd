@@ -2,20 +2,20 @@
 title: PROPERTY UNITLESS
 ---
 flowchart TD
-    A[Check observation results <br> or description] --> B{Are units associated <br> with the result values? <br> Percentage is not a unit}:::white
+    A[Check observation <br> results or <br> description] --> B{Are units associated <br> with the <br> result values? <br> Percentage is not <br> a unit}:::white
     
     %% Branch: Units Present -> QUANTITY (Ratio Scale with Units)
     B --> |true|N[QUANTITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd'>DT2</a><br>]
     
     %% Branch: Unitless Path
-    B --> |false|C{Are the results categorical <br> or quantitative?}:::white
+    B --> |false|C{Are the results <br> categorical <br> or quantitative?}:::white
     
     %% Categorical Branch (Binary, Nominal, Ordinal)
-    C -- categorical --> D{Which categorical <br> scale applies?}:::white
+    C -- categorical --> D{Which <br> categorical <br> scale applies?}:::white
     D -- binary --> E[BOOLEAN <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP103.yaml'>VDP103</a><br>]
     D -- nominal -->F[NOMINAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP101.yaml'>VDP101</a><br>]
     D -- ordinal -->G[ORDINAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP102.yaml'>VDP102</a><br>]
-    C -- quantitative -->H{Which quantitative <br> scale applies?}:::white
+    C -- quantitative -->H{Which <br> quantitative <br> scale applies?}:::white
     H -- natural-numbers -->I{Normalized?}:::white
     I --> |true|Q[NORMALIZED COUNT <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP124.yaml'>VDP124</a><br>]
     I --> |false|P[COUNT <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP104.yaml'>VDP104</a><br>]
