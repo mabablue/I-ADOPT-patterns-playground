@@ -33,10 +33,10 @@ Find one <code>Property</code> pattern that applies to your variable using the d
 - [qualitative properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT0.mmd)
 
 In case it is a quantitative property with units and the units are known for the values, they can be useful for the recognition of the exact property addressed. [Here](https://i-adopt.github.io/terminologies/unit2property/) you can look up the property based on the unit. 
-- [quantitative properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT1.mmd)
-- [derived properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT2.mmd)
-- [flux properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT3.mmd)
-- [ratio properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd)
+- [quantitative properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT1.mmd)
+- [derived properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT2.mmd)
+- [flux properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT3.mmd)
+- [ratio properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT4.mmd)
 
 Demo example <code>Property</code> pattern:
 *Are there units associated with the result values? yes (mol/m2) -> quantitative property -> derived property -> ratio -> quantities of different types -> no time in the denominator -> denominator is area -> [AREAL DENSITY VDP14](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP14.yaml)* 
@@ -53,10 +53,10 @@ Click on the pattern description to find instruction in the design info (see [gl
 Find one <code>Object of Interest</code> pattern that applies for your variable using the decision trees.
 
 **Decision trees:**
-- As shortcut: [Property Ratio - Object of interst](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT4.mmd) or [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
-- [Object of Interest](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT5.mmd)
+- As shortcut: [Property Ratio - Object of interst](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT4.mmd) or [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT6.mmd)
+- [Object of Interest](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT5.mmd)
 
-Demo example <code>Object of Interest</code> pattern: *[shortcut](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd) -> Areal density -> [RATIO VDP26](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml) -> Asymmetric System (numerator: ozone / denominator: ground surface)*
+Demo example <code>Object of Interest</code> pattern: *[shortcut](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT6.mmd) -> Areal density -> [RATIO VDP26](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml) -> Asymmetric System (numerator: ozone / denominator: ground surface)*
 
 <img width="354" height="142" alt="image" src="https://github.com/user-attachments/assets/4fee90d1-638f-4094-89b1-83bfacb17793" />
 
@@ -66,8 +66,8 @@ Demo example <code>Object of Interest</code> pattern: *[shortcut](https://github
 Find one <code>Matrix</code> pattern that applies for your variable using the decision trees.
 
 **Decision trees:**
-- As shortcut: [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT6.mmd)
-- [Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT7.mmd)
+- As shortcut: [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT6.mmd)
+- [Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT7.mmd)
 
 Demo example <code>Matrix</code> pattern: *no material flow, no natural process, no reference area, no different embedding material, but a [natural container VDP37](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml) -> Simple Matrix* 
 
