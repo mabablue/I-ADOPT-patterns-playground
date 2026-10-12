@@ -1,6 +1,7 @@
 type: Variable Design Pattern
+subtype: Matrix Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP42.yaml
-name: matrix (artificial container)
+name: artificial container
 comment: A matrix is required when the object of interest is contained in an artificial vessel. 
 design: 
 involved_components:
