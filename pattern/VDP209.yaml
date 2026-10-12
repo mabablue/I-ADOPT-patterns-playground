@@ -1,0 +1,16 @@
+type: Variable Design Pattern
+subtype: Constraint Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP209.yaml
+name: physical form
+definition: A constraint defined refers to the visible, structural, or material state of an object or substance, describing its physical appearance, state of matter, or spatial shape.
+design: Apply the constraint on constrained component
+ObjectOfInterest: ~
+Matrix: ~
+required_constraint: ~
+constrained_component: ~
+associated_patterns: []
+associated_mapping: []
+path: ~
+alt_path: ~
+example: Snow water equivalent
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/128
