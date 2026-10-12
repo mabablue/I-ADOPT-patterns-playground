@@ -1,0 +1,14 @@
+type: Variable Design Pattern
+subtype: Constraint Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP88.yaml
+name: process
+comment: refers to a process that occurs when measuring the property
+design: constraint on entity
+involved_components:
+  - constraint
+constrained_components:
+  - entity
+associated_patterns: []
+associated_mapping: ~
+example: ~
+gh_issue: ~
