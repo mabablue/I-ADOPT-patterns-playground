@@ -1,6 +1,7 @@
 type: Variable Design Pattern
+subtype: ObjectOfInterest Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP39.yaml
-name: object of interest (variable)
+name: variable
 comment: When there is a property of a variable.
 design: the variable gets the role of the object of interest
 involved_components:
