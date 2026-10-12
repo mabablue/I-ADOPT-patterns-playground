@@ -1,0 +1,16 @@
+type: Variable Design Pattern
+subtype: Constraint Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP204.yaml
+name: vicinity
+definition: A constraint that specifies the surrounding area, neighborhood, or general proximity near a specific place or landmark.
+design: Apply the constraint on constrained component
+ObjectOfInterest: ~
+Matrix: ~
+required_constraint: ~
+constrained_component: ~
+associated_patterns: []
+associated_mapping: []
+path: ~
+alt_path: ~
+example: Overnight stays in 3-star hotel near the sea shore
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/34
