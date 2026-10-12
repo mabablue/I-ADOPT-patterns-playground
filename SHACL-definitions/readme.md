@@ -1,1 +1,1 @@
-This is a repository for I-ADOPT patterns expressed as SHACL definition files. 
+In this folder you can find I-ADOPT patterns expressed as SHACL definition files. 
