@@ -1,0 +1,16 @@
+type: Variable Design Pattern
+subtype: Constraint Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP208.yaml
+name: resistivity
+definition: A constraint defined as an intrinsic physical property of a material that measures how strongly it opposes or resists the flow of electric current.
+design: Apply the constraint on constrained component
+ObjectOfInterest: ~
+Matrix: ~
+required_constraint: ~
+constrained_component: ~
+associated_patterns: []
+associated_mapping: []
+path: ~
+alt_path: ~
+example: Solubility of naphthalene in water at room temperature
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/84
