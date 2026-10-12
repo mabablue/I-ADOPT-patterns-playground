@@ -2,7 +2,7 @@ type: Variable Design Pattern
 subtype: Property Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP140.yaml
 name: Atomic derived property
-definition: A property that acts as an atomic concept, derived from fundamental physical dimensions. Examples are acceleration
+definition: A property that acts as an atomic concept, derived from fundamental physical dimensions. Examples are acceleration and speed.
 design: Single OoI.
 ObjectOfInterest: Single
 Matrix: null
