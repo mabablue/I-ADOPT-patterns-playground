@@ -1,6 +1,7 @@
 type: Variable Design Pattern
+subtype: Constraint Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP68.yaml
-name: constraint (reference)
+name: reference
 comment: provides a reference point or information for the constrained component
 design: Needs to constrain a property (length)
 involved_components:
