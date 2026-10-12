@@ -1,0 +1,16 @@
+type: Variable Design Pattern
+subtype: Constraint Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP201.yaml
+name: wavelength
+definition: A constraint that specifies the distance in the line of advance of a wave from any one point to the next point of corresponding phase.
+design: Apply the constraint on constrained component
+ObjectOfInterest: ~
+Matrix: ~
+required_constraint: ~
+constrained_component: ~
+associated_patterns: []
+associated_mapping: []
+path: ~
+alt_path: ~
+example: Upwelling actinic flux
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/103
