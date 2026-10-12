@@ -1,6 +1,7 @@
 type: Variable Design Pattern
+subtype: Constraint Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP76.yaml
-name: constraint (state)
+name: state
 comment: indicates the physical, chemical or qualitative condition, including phases, of the constrained component
 design:
 involved_components:
