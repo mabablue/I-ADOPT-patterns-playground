@@ -21,7 +21,7 @@ Number,Category,Name,Definition,Type of observation,Property,Object of Interest,
 74,spatial,spatial extent,indicates the spatial coverage within which the constrained component applies,quantitative,TRUE,TRUE,TRUE,TRUE
 80,spatial,spatial distribution,defines the domain or criteria over which a statistical measure is calculated,quantitative,FALSE,FALSE,FALSE,TRUE
 94,spatial,part,"specifies a structural, anatomical, or biological sub-component (e.g., leaf, liver, root, surface layer) of an entity. ",qualitative,FALSE,TRUE,TRUE,FALSE
-96,spatial,direction,"specifies the spatial orientation, vector heading, or flow orientation (e.g., downward, northward, incoming, outward) of the observed phenomenon relative to a spatial coordinate system, physical boundary, or reference feature. When the direction is defined relative to an absolute, globally understood coordinate system, a reference constraint is redundant and unnecessary.",qualitative,TRUE,FALSE,FALSE,FALSE
+96,spatial,direction,"specifies the spatial orientation, vector heading, or flow orientation (e.g., downward, northward, incoming, outward) of the observed phenomenon relative to a spatial coordinate system, physical boundary, or reference feature.",qualitative,TRUE,FALSE,FALSE,FALSE
 97,spatial,region,"specifies an area of land or space that shares unifying characteristics, setting it apart from surrounding areas",qualitative,FALSE,TRUE,TRUE,FALSE
 204,spatial,vicinity,"the surrounding area, neighborhood, or general proximity near a specific place or landmark.",qualitative,FALSE,TRUE,TRUE,FALSE
 66,temporal,sampling frequency,provides the sampling frequency that applies for the constrained component,quantitative,FALSE,FALSE,FALSE,TRUE
