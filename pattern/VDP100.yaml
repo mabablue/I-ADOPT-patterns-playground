@@ -1,5 +1,5 @@
 type: Variable Design Pattern
-subtype: Variable Pattern
+subtype: System Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP100.yaml
 name: part
 comment: When two variables are compared in a system.
