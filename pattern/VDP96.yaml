@@ -1,8 +1,8 @@
 type: Variable Design Pattern
 subtype: Constraint Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP96.yaml
-name: region
-definition: A constraint that specifies an area of land or space that shares unifying characteristics, setting it apart from surrounding areas.
+name: direction
+definition: A constraint that specifies the spatial orientation, vector heading, or flow orientation (e.g., downward, northward, incoming, outward) of the observed phenomenon relative to a spatial coordinate system, physical boundary, or reference feature. When the direction is defined relative to an absolute, globally understood coordinate system, a reference constraint is redundant and unnecessary.
 design: Apply the constraint on property
 ObjectOfInterest: ~
 Matrix: ~
