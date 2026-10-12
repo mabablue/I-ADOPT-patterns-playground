@@ -1,6 +1,7 @@
 type: Variable Design Pattern
+subtype: Constraint Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP72.yaml
-name: constraint (cause)
+name: cause
 comment: indicates the cause or originating factor that explains why the constrained component occurs or holds
 design:
 involved_components:
