@@ -1,0 +1,16 @@
+type: Variable Design Pattern
+subtype: Constraint Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP62.yaml
+name: agent
+definition: A constraint that specifies an entity, either human, artificial, biological, or organizational, that senses its environment and acts upon it autonomously to achieve a specific goal or purpose.
+design: Apply the constraint on constrained component
+ObjectOfInterest: ~
+Matrix: ~
+required_constraint: ~
+constrained_component: ~
+associated_patterns: []
+associated_mapping: []
+path: ~
+alt_path: ~
+example: Date of last PCR-test
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/36
