@@ -7,7 +7,7 @@ flowchart TD
     C --> |false|F{Is it <br> thermodynamic <br> temperature, <br> time, mass, <br> amount of substance <br> electric current <br> or luminous <br> intensity?}:::white
     F --> |true|G{Is it normalized?}:::white
     G --> |true|H[NORMALIZED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP115.yaml'> VDP115</a>] 
-    G --> |false|I[FUNDAMENTAL QUANTITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP109.yaml'> VDP109</a>] 
+    G --> |false|I[FUNDAMENTAL <br> QUANTITY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP109.yaml'> VDP109</a>] 
     F --> |false|M[DERIVED PROPERTY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT3.mmd'> DT3</a>] 
     E --> |true|N[LENGTH <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VD1P06.yaml'> VDP106</a>] 
     E --> |false|O{Is it distance <br> between two <br> equal objects?}:::white
