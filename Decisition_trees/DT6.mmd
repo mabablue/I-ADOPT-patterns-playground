@@ -6,11 +6,11 @@ flowchart TD
     AB --> |false|B{Is the entity <br> semantically convoluted?}:::white
     AB --> |true|O{Is there more <br> than one <br> ObjectOfInterest <br> involved?}:::white
     B --> |true|C[CONVOLUTED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml'>VDP37</a>]:::satblue
-    B --> |false|D{Is it a system of entities?}:::white
+    B --> |false|D{Is it a system <br> of entities?}:::white
     D --> |false|E[SINGLE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml'>VDP33</a>]:::satblue
-    D --> |true|F{Are the entities equal <br> in the system?}:::white
+    D --> |true|F{Are the entities <br> equal <br> in the system?}:::white
     F --> |true|G[TWO EQUAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP34.yaml'>VDP34</a>]:::satblue
-    F --> |false|H{Is one entity <br> a reference for the other?}:::white
+    F --> |false|H{Is one entity <br> a reference <br> for the other?}:::white
     H --> |true|I[REFERENCE <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP36.yaml'>VDP36</a>]:::satblue
     H --> |false|J[RATIO <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP35.yaml'>VDP35</a>]:::satblue
     O --> |false|Q[PROPERTY <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP38.yaml'>VDP38</a>]:::satblue
