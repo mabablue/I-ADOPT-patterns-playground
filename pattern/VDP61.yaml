@@ -1,0 +1,16 @@
+type: Variable Design Pattern
+subtype: Constraint Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP61.yaml
+name: relationship
+definition: A constraint defined as a significant connection, association, or involvement between two or more people, groups, or entities, characterized by mutual interaction, influence, or relevance.
+design: Apply the constraint on constrained component
+ObjectOfInterest: ~
+Matrix: ~
+required_constraint: ~
+constrained_component: ~
+associated_patterns: []
+associated_mapping: []
+path: ~
+alt_path: ~
+example: Date of birth of mother
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/113
