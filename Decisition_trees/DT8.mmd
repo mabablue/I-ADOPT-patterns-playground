@@ -5,13 +5,13 @@ flowchart TD
     A(OBJECT_OF_INTEREST):::satblue  --> AB{Is it involved <br> in a material flow?}:::white
     AB --> |false|B{Is it involved <br> in a natural <br>process?}:::white
     AB --> |true|O[FLOW <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP45.yaml'>VDP45</a>]:::blue
-    B --> |true|C[NATURAL PROCESS <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP43.yaml'>VDP43</a>]:::blue
+    B --> |true|C[NATURAL <br> PROCESS <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP43.yaml'>VDP43</a>]:::blue
     B --> |false|D{Does it require a <br> reference area?}:::white
     D --> |false|E{Is it embedded <br> within a <br> different <br> material?}:::white
     D --> |true|F[REFERENCE AREA <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP44.yaml'>VDP44</a>]:::blue
     E --> |true|G[EMBEDDING <br> MATERIAL <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP40.yaml'>VDP40</a>]:::blue
     E --> |false|H{Is it within <br> a natural <br> container?}:::white
-    H --> |false|I[ARTIFICIAL CONTAINER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP42.yaml'>VDP42</a>]:::blue
+    H --> |false|I[ARTIFICIAL <br> CONTAINER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP42.yaml'>VDP42</a>]:::blue
     H --> |true|J[NATURAL <br> CONTAINER <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP41.yaml'>VDP41</a>]:::blue
 
    classDef blue fill:#90D5FF
