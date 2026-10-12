@@ -7,7 +7,7 @@ design: Apply the constraint on constrained component
 ObjectOfInterest: ~
 Matrix: ~
 required_constraint: ~
-constrained_component: ~
+constrained_component: Entity
 associated_patterns: []
 associated_mapping: []
 path: ~
