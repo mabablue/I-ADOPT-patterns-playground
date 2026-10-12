@@ -1,0 +1,43 @@
+Number,Category,Name,Definition,Type of observation,Property,Object of Interest,Matrix,Statistical Modifier
+200,conditional,criterion,"A single principle, standard, or rule used to make a judgment or decision.",qualitative,TRUE,FALSE,FALSE,FALSE
+202,conditional,order,An order relation that formalizes the notion of sorting elements.,qualitative,TRUE,FALSE,FALSE,FALSE
+70,conditional,condition,a contextual circumstance or environmental feature that limits or qualifies the constrained component,quantitative,TRUE,TRUE,TRUE,FALSE
+76,conditional,state,"indicates the physical, chemical or qualitative condition, including phases, of the constrained component",qualitative,FALSE,TRUE,TRUE,FALSE
+84,conditional,purity,specifies the degree of quality or purity of a substance or generally of the component ,qualitative,FALSE,TRUE,TRUE,FALSE
+205,conditional,rating,"an evaluation, assessment, or classification of something against a standardized scale or set of criteria.",qualitative,FALSE,TRUE,TRUE,FALSE
+209,conditional,physical form,"refers to the visible, structural, or material state of an object or substance, describing its physical appearance, state of matter, or spatial shape",qualitative,FALSE,TRUE,TRUE,FALSE
+60,conditional,education,"the systematic process of facilitating learning, acquiring knowledge, skills, values, beliefs, and habits through instruction, training, research, or discussion.",qualitative,FALSE,TRUE,TRUE,FALSE
+88,conditional,locomotion state,"refers to the distinct physiological, kinematic, or mechanical mode of self-propelled movement exhibited by an organism",quantitative,FALSE,TRUE,TRUE,FALSE
+61,context,relationship,"a significant connection, association, or involvement between two or more people, groups, or entities, characterized by mutual interaction, influence, or relevance.",qualitative,FALSE,TRUE,TRUE,FALSE
+62,context,agent,"an entity—either human, artificial, biological, or organizational—that senses its environment and acts upon it autonomously to achieve a specific goal or purpose.",qualitative,FALSE,TRUE,TRUE,FALSE
+72,context,cause,indicates the cause that explains why the constrained component occurs or holds,qualitative,TRUE,TRUE,TRUE,FALSE
+79,context,source,"specifies the source, provenance, or starting point of the constrained component",qualitative,FALSE,TRUE,TRUE,FALSE
+64,nature,material type,provides a material type information about the constrained component,qualitative,FALSE,TRUE,FALSE,FALSE
+77,nature,role,indicates the role a person might have in the context of the variable,qualitative,FALSE,TRUE,TRUE,FALSE
+207,nature,classification,systematic arrangement in groups or categories according to established criteria,qualitative,FALSE,TRUE,TRUE,FALSE
+67,spatial,location,provides a location-specific information about the constrained component ,qualitative,FALSE,TRUE,FALSE,FALSE
+68,spatial,reference,provides a reference point or information for the constrained component,qualitative,TRUE,FALSE,FALSE,FALSE
+69,spatial,layer,constraints the component specifying in which layer the variable is measured,qualitative,FALSE,TRUE,TRUE,FALSE
+74,spatial,spatial extent,indicates the spatial coverage within which the constrained component applies,quantitative,TRUE,TRUE,TRUE,TRUE
+80,spatial,spatial distribution,defines the domain or criteria over which a statistical measure is calculated,quantitative,FALSE,FALSE,FALSE,TRUE
+94,spatial,part,"specifies a structural, anatomical, or biological sub-component (e.g., leaf, liver, root, surface layer) of an entity. ",qualitative,FALSE,TRUE,TRUE,FALSE
+96,spatial,direction,"specifies the spatial orientation, vector heading, or flow orientation (e.g., downward, northward, incoming, outward) of the observed phenomenon relative to a spatial coordinate system, physical boundary, or reference feature.",qualitative,TRUE,FALSE,FALSE,FALSE
+97,spatial,region,"specifies an area of land or space that shares unifying characteristics, setting it apart from surrounding areas",qualitative,FALSE,TRUE,TRUE,FALSE
+204,spatial,vicinity,"the surrounding area, neighborhood, or general proximity near a specific place or landmark.",qualitative,FALSE,TRUE,TRUE,FALSE
+66,temporal,sampling frequency,provides the sampling frequency that applies for the constrained component,quantitative,FALSE,FALSE,FALSE,TRUE
+75,temporal,temporal extent,indicates the temporal coverage within which the constrained component applies,quantitative,TRUE,FALSE,FALSE,FALSE
+78,temporal,time,provides time-specific information about the constrained component,quantitative,TRUE,TRUE,FALSE,FALSE
+83,temporal,reporting frequency,defines how often a final data point is reported,qualitative,FALSE,FALSE,FALSE,TRUE
+90,temporal,process,refers to a process that occurs when measuring the property,qualitative,FALSE,TRUE,TRUE,FALSE
+91,temporal,event,"identifies a specific occurrence, process, or life-stage event (e.g., birth, flooding, surgical procedure) that bounds or triggers the observation, serving as a contextual anchor when explicit calendar time or duration is unknown or non-applicable.",qualitative,FALSE,FALSE,FALSE,FALSE
+95,temporal,age,"restricts the human subject or population to a defined age interval, specific age value, or life stage.",quantitative,FALSE,TRUE,TRUE,FALSE
+98,temporal,process,"a series of systematic, ordered actions or steps taken to achieve a specific end or result.",qualitative,TRUE,TRUE,TRUE,FALSE
+99,temporal,temporal reference,"a linguistic mechanism, point of origin, or benchmark used to locate events, actions, or states in time relative to another point in time.",qualitative,TRUE,FALSE,FALSE,TRUE
+87,value,quantity,specifies the quantity in which the entity occurs,qualitative,FALSE,TRUE,TRUE,FALSE
+81,value,range,provides the range of allowed values,quantitative,TRUE,FALSE,FALSE,FALSE
+82,value,threshold,"defines the value limit that triggers a quality flag, indicating whether the measurement satisfies the threshold criterion.",qualitative,TRUE,FALSE,FALSE,FALSE
+92,value,normalization,specifies the reference quantity to which a measurement is rescaled.,quantitative,FALSE,FALSE,FALSE,FALSE
+201,value,wavelength,the distance in the line of advance of a wave from any one point to the next point of corresponding phase,qualitative,TRUE,FALSE,FALSE,FALSE
+203,value,temperature,"the average kinetic energy of the particles in a substance, determining how hot or cold it is.",quantitative,TRUE,TRUE,TRUE,FALSE
+206,value,diameter,the length of a straight line through the center of an object or space,quantitative,TRUE,FALSE,FALSE,FALSE
+208,value,resistivity,an intrinsic physical property of a material that measures how strongly it opposes or resists the flow of electric current.,quantitative,FALSE,TRUE,TRUE,FALSE
