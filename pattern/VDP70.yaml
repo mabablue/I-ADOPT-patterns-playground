@@ -1,6 +1,7 @@
 type: Variable Design Pattern
+subtype: Constraint Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP70.yaml
-name: constraint (condition)
+name: condition
 comment: a contextual circumstance or environmental feature that limits or qualifies the constrained component
 design: 
 involved_components:
