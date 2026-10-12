@@ -1,6 +1,7 @@
 type: Variable Design Pattern
+subtype: Constraint Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP78.yaml
-name: constraint (time)
+name: time
 comment: provides time-specific information about the constrained component
 design:
 involved_components:
