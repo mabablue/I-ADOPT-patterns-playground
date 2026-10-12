@@ -1,7 +1,0 @@
-type: Mapping Rule
-id: URL
-title: ".."
-mapping_predicate: skos:..
-source: ""
-target: ""
-rule: source mapping_predicate target
