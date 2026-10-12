@@ -1,6 +1,7 @@
 type: Variable Design Pattern
+subtype: Constraint Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP74.yaml
-name: constraint (spatial extent)
+name: spatial extent
 comment: indicates the spatial coverage within which the constrained component applies
 design:
 involved_component:
