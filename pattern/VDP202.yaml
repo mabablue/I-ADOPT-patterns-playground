@@ -1,0 +1,16 @@
+type: Variable Design Pattern
+subtype: Constraint Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP200.yaml
+name: order
+definition: A constraint that specifies an order relation that formalizes the notion of sorting elements.
+design: Apply the constraint on constrained component
+ObjectOfInterest: ~
+Matrix: ~
+required_constraint: ~
+constrained_component: ~
+associated_patterns: []
+associated_mapping: []
+path: ~
+alt_path: ~
+example: Primary function of building
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/166
