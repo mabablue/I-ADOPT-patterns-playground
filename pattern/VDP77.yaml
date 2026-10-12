@@ -1,6 +1,7 @@
 type: Variable Design Pattern
+subtype: Constraint Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP77.yaml
-name: constraint (role)
+name: role
 comment: indicates the role a person might have in the context of the variable
 design: constraint on entity, entity must be a human
 involved_components:
