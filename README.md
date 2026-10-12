@@ -1,1 +1,1 @@
-This is a repository dedicated to developing Variable Design Patterns, Mapping Rules, and Decision Trees for consistent I-ADOPT variable modeling. It also contains a Guideline for machines and humans on how to model I-ADOPT Variables.
+This is a repository dedicated to developing Variable Design Patterns, Mapping Rules, and Decision Trees for consistent I-ADOPT variable modeling. It also contains a [Guideline](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/guideline.md) for machines and humans on how to model I-ADOPT Variables.
