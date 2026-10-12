@@ -1,6 +1,7 @@
 type: Variable Design Pattern
+suptype: Constraint Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP84.yaml
-name: constraint (quality)
+name: purity
 comment: specifies the degree of quality or purity of a substance or generally of the component 
 design: constraint on entity
 involved_components:
