@@ -1,0 +1,16 @@
+type: Variable Design Pattern
+subtype: Constraint Pattern
+id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP206.yaml
+name: diameter
+definition: A constraint defined as the length of a straight line through the center of an object or space.
+design: Apply the constraint on constrained component
+ObjectOfInterest: ~
+Matrix: ~
+required_constraint: ~
+constrained_component: ~
+associated_patterns: []
+associated_mapping: []
+path: ~
+alt_path: ~
+example: State of pipe
+gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/1
