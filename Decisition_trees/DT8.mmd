@@ -2,7 +2,7 @@
 title: MATRIX
 ---
 flowchart TD
-    A(OBJECT_OF_INTEREST):::satblue  --> AB{Is it involved <br> in a material <br> flow?}:::white
+    A(OBJECTOFINTEREST):::satblue  --> AB{Is it involved <br> in a material <br> flow?}:::white
     AB --> |false|B{Is it involved <br> in a natural <br>process?}:::white
     AB --> |true|O[FLOW <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP45.yaml'>VDP45</a>]:::blue
     B --> |true|C[NATURAL <br> PROCESS <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP43.yaml'>VDP43</a>]:::blue
