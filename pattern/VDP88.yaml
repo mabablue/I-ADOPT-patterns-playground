@@ -1,7 +1,8 @@
 type: Variable Design Pattern
+subtype: Constraint Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP88.yaml
-name: constraint (via)
-comment: specifies the instrument setting for observing the entity
+name: locomotion state
+comment: refers to the distinct physiological, kinematic, or mechanical mode of self-propelled movement exhibited by an organism.
 design: constraint on entity
 involved_components:
   - constraint
