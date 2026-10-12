@@ -1,6 +1,7 @@
 type: Variable Design Pattern
+subtype: ObjectOfInterest Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP44.yaml
-name: matrix (reference area)
+name: reference area
 comment: Is an area that acts as reference like a study area.
 design: matrix needed.
 involved_components:
