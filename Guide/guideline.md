@@ -85,7 +85,7 @@ Determine <code>Constraints</code> and place them under the correct component. E
 **Overview of constraint patterns:**
 -  [constraints](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/Constraint_patterns.csv)
 
-Example <code>Constraint</code> pattern:  Context -> [defining entity VDP85](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP85.yaml) on the <code>Property</code>
+Example <code>Constraint</code> pattern:  Spatial -> [reference VDP68](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP68.yaml) on the <code>Property</code>
 
 <img width="163" height="187" alt="image" src="https://github.com/user-attachments/assets/e4ba82ce-6d09-4d3e-93fe-071811a0419c" />
 
