@@ -99,7 +99,8 @@ Demo example: no context object needed
 ##
 Solution demo example: [turtle file](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/ECV/Atmosphere/Ozone.ttl)
 
-<img width="827" height="368" alt="image" src="https://github.com/user-attachments/assets/1060b2bb-01ca-41fd-a3fa-67960bd4c67d" />
+<img width="830" height="368" alt="image" src="https://github.com/user-attachments/assets/1af7148c-0475-4174-8398-6cff65cc28fa" />
+
 
 
 
