@@ -53,10 +53,11 @@ Click on the pattern description to find instruction in the design info (see [gl
 Find one <code>Object of Interest</code> pattern that applies for your variable using the decision trees.
 
 **Decision trees:**
-- As shortcut: [Property Ratio - Object of Interest](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT5.mmd) or [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT7.mmd)
-- [Object of Interest](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT5.mmd)
+- As shortcut (works for most variables) [Property vs Object of Interest vs Matrix](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT7.mmd)
+- [Ratio Object of Interests](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT5.mmd) including also specialized cases
+- [Complex Object of Interests](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT6.mmd) involving systems or more than one property in a variable
 
-Demo example <code>Object of Interest</code> pattern: *[shortcut](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT6.mmd) -> Areal density -> [RATIO VDP26](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP26.yaml) -> Asymmetric System (numerator: ozone / denominator: ground surface)*
+Demo example <code>Object of Interest</code> pattern: *[Ratio Object of Interests](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT5.mmd) -> Areal density -> [RATIO VDP127](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP127.yaml) -> Asymmetric System (numerator: ozone / denominator: ground surface)*
 
 <img width="354" height="142" alt="image" src="https://github.com/user-attachments/assets/4fee90d1-638f-4094-89b1-83bfacb17793" />
 
