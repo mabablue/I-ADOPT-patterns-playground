@@ -85,7 +85,8 @@ Determine <code>Constraints</code> and place them under the correct component. E
 **Overview of constraint patterns:**
 -  [constraints](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/Constraint_patterns.csv)
 
-Example <code>Constraint</code> pattern:  Spatial -> [reference VDP68](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP68.yaml) on the <code>Property</code>
+Example <code>Constraint</code> pattern:  Spatial -> [reference VDP68](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP68.yaml) on the <code>Property</code> as shown in the variable [Atmospheric boundary layer height defined by temperature inversion](https://github.com/mabablue/I-ADOPT-examples-playground/issues/10) for the property height. 
+
 
 <img width="202" height="133" alt="image" src="https://github.com/user-attachments/assets/c9e9817c-7e77-4138-ac05-9f6b59136083" />
 
@@ -98,7 +99,7 @@ Demo example: no context object needed
 ##
 Solution demo example: [turtle file](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/ECV/Atmosphere/Ozone.ttl)
 
-<img width="755" height="384" alt="image" src="https://github.com/user-attachments/assets/9c511017-4200-4c09-bc8a-1ce1af02c71b" />
+<img width="827" height="368" alt="image" src="https://github.com/user-attachments/assets/1060b2bb-01ca-41fd-a3fa-67960bd4c67d" />
 
 
 
