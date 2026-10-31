@@ -87,10 +87,7 @@ Determine <code>Constraints</code> and place them under the correct component. E
 
 Example <code>Constraint</code> pattern:  Spatial -> [reference VDP68](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP68.yaml) on the <code>Property</code>
 
-<img width="163" height="187" alt="image" src="https://github.com/user-attachments/assets/e4ba82ce-6d09-4d3e-93fe-071811a0419c" />
-
-
-
+<img width="202" height="133" alt="image" src="https://github.com/user-attachments/assets/c9e9817c-7e77-4138-ac05-9f6b59136083" />
 
 
 ## 8. Context Object
