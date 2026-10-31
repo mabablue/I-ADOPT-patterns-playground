@@ -30,7 +30,7 @@ Be as precise as possible. Use a known physical quantity rather than a community
 Find one <code>Property</code> pattern that applies to your variable using the decision trees.
 
 **Decision trees:**
-- [qualitative properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decisition_trees/DT0.mmd)
+- [qualitative properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT0.mmd)
 
 In case it is a quantitative property with units and the units are known for the values, they can be useful for the recognition of the exact property addressed. [Here](https://i-adopt.github.io/terminologies/unit2property/) you can look up the property based on the unit. 
 - [quantitative properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT1.mmd)
