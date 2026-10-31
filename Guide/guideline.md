@@ -102,13 +102,8 @@ Solution demo example: [turtle file](https://github.com/mabablue/I-ADOPT-example
 <img width="830" height="368" alt="image" src="https://github.com/user-attachments/assets/1af7148c-0475-4174-8398-6cff65cc28fa" />
 
 
-
-
-
-
 IRIs for concepts:
 - ozone: http://vocab.nerc.ac.uk/collection/S27/current/CS003171/
-- ground surface: http://vocab.nerc.ac.uk/collection/S20/current/S2000011/
 - atmosphere: http://vocab.nerc.ac.uk/collection/S21/current/S21S001/
 
 
