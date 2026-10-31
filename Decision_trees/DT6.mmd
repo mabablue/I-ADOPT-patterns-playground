@@ -3,7 +3,7 @@ title: OBJECT OF INTEREST
 ---
 flowchart TD
     A(VARIABLE):::green --> AB{Is there more <br> than one <br> property <br> involved?}:::white
-    AB --> |false|B{Is the entity <br> semantically convoluted?}:::white
+    AB --> |false|B{Is the entity <br> semantically <br> convoluted?}:::white
     AB --> |true|O{Is there more <br> than one <br> ObjectOfInterest <br> involved?}:::white
     B --> |true|C[CONVOLUTED <br> <a href='https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP37.yaml'>VDP37</a>]:::satblue
     B --> |false|D{Is it a system <br> of entities?}:::white
