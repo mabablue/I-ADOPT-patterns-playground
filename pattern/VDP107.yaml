@@ -4,12 +4,10 @@ id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VD
 name: length ref
 comment: Length in relation to another object. Lengh is a fundamental property. Examples are width, depth, height, circumference.
 design: OoI with single. Length requires a reference point given by a constraint (reference). 
-ObjectOfInterest: Entity
-Matrix: null
-required_constraint: reference
-constrained_component: property
-associated_patterns:
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
+PDP: PDP107 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/PDP107.yaml
+ODP: ODP33 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/ODP33.yaml
+MDP: null
+CT: Reference ON Property # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/CTP68.yaml
 associated_mapping: []
 path: "DT0:Units(T) -> DT2:Length(T) -> Distinct(F) -> 2Equal(F) => VDP107"
 alt_path: null
