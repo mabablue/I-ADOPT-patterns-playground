@@ -10,8 +10,7 @@ design: >-
 PDP: PDP127 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/PDP127.yaml
 ODP: ODP35 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/ODP35.yaml
 MDP: null
-associated_mapping:
-  - MR2 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR2.yaml
+associated_mapping: MR2 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR2.yaml
 associated_shacl: null
 associated_domain_pattern: VCP127 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/domain_patterns/VCP127.yaml
 path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) ->DT3:Intrinsic(F) -> Atomic(F) -> Ratio(T) -> Time(F) -> DiffQuantities(T) -> DT5:Denom(Area)  => VDP127"
