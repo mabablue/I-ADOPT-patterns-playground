@@ -101,7 +101,8 @@ Demo example: no context object needed
 ##
 Solution demo example: [turtle file](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/ECV/Atmosphere/Ozone.ttl)
 
-<img width="830" height="368" alt="image" src="https://github.com/user-attachments/assets/1af7148c-0475-4174-8398-6cff65cc28fa" />
+<img width="830" height="373" alt="image" src="https://github.com/user-attachments/assets/418f82c2-82d8-4754-baaa-86aca563503e" />
+
 
 
 IRIs for concepts:
