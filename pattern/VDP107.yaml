@@ -11,7 +11,7 @@ design: >-
 PDP: PDP107 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/PDP107.yaml
 ODP: ODP33 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/ODP33.yaml
 MDP: null
-CT: CTP68 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/CTP68.yaml
+CT: CT68 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/CT68.yaml
 associated_mapping: []
 path: "DT0:Units(T) -> DT2:Length(T) -> Distinct(F) -> 2Equal(F) => VDP107"
 alt_path: null
