@@ -12,7 +12,9 @@ PDP: PDP107 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/
 ODP: ODP33 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/ODP33.yaml
 MDP: null
 CT: CT68 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/CT68.yaml
-associated_mapping: []
+associated_shacl: null
+associated_domain_pattern: null
+associated_mapping: null
 path: "DT0:Units(T) -> DT2:Length(T) -> Distinct(F) -> 2Equal(F) => VDP107"
 alt_path: null
 gh_issue: 10 # https://github.com/mabablue/I-ADOPT-examples-playground/issues/10
