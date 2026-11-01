@@ -1,5 +1,5 @@
-type: Variable Design Pattern
-subtype: ObjectOfInterest Pattern
+type: Design Pattern
+subtype: ObjectOfInterest Design Pattern
 id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP33.yaml
 name: Single
 comment: A single, distinguishable "object" in the universe, for which a property is measured.
