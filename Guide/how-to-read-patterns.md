@@ -12,8 +12,8 @@ A **[Variable Design Pattern (VDP)](https://github.com/mabablue/I-ADOPT-patterns
 - **Object of Interest Design Pattern (ODP)**: Defines the entity or system structure (e.g., single entity, ratio, symmetric/asymmetric system).
 - **Matrix Design Pattern (MDP)** *(optional)*: Defines the environmental or embedding matrix context when relevant.
 - **Constraint Type (CT)** *(optional)*: Declares required qualifiers or reference points (e.g., reference, spatial, or temporal constraints).
-- **Variable Community Pattern (VCP)** *(optional, domain-specific)*: Specializes or overrules the core VDP according to domain conventions (e.g., atmospheric sciences).
-- **Mapping Rule (MR)** *(optional)*: Captures cross-pattern alignments, relationships, or community equivalences (`exactMatch`, `relatedMatch`, etc.).
+- **[Variable Community Pattern (VCP)](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/VCP.md)** *(optional, domain-specific)*: Specializes or overrules the core VDP according to domain conventions (e.g., atmospheric sciences).
+- **[Mapping Rule (MR)](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/MR.md)** *(optional)*: Captures cross-pattern alignments, relationships, or community equivalences (`exactMatch`, `relatedMatch`, etc.).
 - **SHACL Shapes (`associated_shacl`)** *(optional)*: Validates that instantiated variables conform to the selected pattern decomposition.
 
 For PDP, ODP, and MDP this [template](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/CDP.md) is used. 
