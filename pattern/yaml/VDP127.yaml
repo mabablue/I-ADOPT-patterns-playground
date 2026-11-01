@@ -10,6 +10,7 @@ design: >-
 PDP: PDP127 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/PDP127.yaml
 ODP: ODP35 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/ODP35.yaml
 MDP: null
+CT: null
 associated_shacl: null
 associated_domain_pattern: VCP127 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/domain_patterns/VCP127.yaml
 associated_mapping: MR2 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR2.yaml
