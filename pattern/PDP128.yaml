@@ -1,0 +1,9 @@
+type: Design Pattern
+subtype: Property Design Pattern
+id: PDP128 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/PDP128.yaml
+name: concentration
+definition: >-
+  Concentration describes how much of one substance (the solute) is present in
+  another substance (the solvent) as a volume. Examples are mass and amount of
+  substance concentration.
+gh_issue: 33 # https://github.com/mabablue/I-ADOPT-examples-playground/issues/33
