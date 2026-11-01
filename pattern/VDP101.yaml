@@ -1,6 +1,6 @@
 type: Design Pattern
 subtype: Variable Design Pattern
-id: [VDP101](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP101.yaml)
+id: VDP101 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP101.yaml
 name: nominal
 definition: A nominal variable has values of equal importance that cannot be ranked in any particular order (non-ordinal), e.g., species of pests, colors. The values of these variables are usually indicated by words, ideally using controlled lists.
 PDP: [PDP101](https://github.com/mabablue/I-ADOPT-patterns-playground/edit/main/pattern/PDP101.yaml)
