@@ -1,76 +1,70 @@
-## How PATTERNS relate to each other:
-<img width="1225" height="427" alt="image" src="https://github.com/user-attachments/assets/7f880d50-5107-4a57-97cf-368967375fe4" />
+# How to Read and Use I-ADOPT Patterns
+
+## How PATTERNS Relate to Each Other
+
+<img width="1225" height="427" alt="image" src="https://github.com/user-attachments/assets/87bf4b6c-f82a-4735-8849-0ad8677593cf" />
 
 
-The **Decision Trees (DT)** can be used to find the appropriate Variable Design Pattern.
+The **Decision Trees (DT)** guide you to the appropriate **Variable Design Pattern (VDP)**.
 
-A **Variable Design Pattern (VDP)** includes the whole instruction for humans and machines to decompose the whole variable and links to:
-- the Property Design Pattern (PDP)
-- the Object of Interest Pattern (ODP)
-- optionally a Matrix Design Pattern (MDP)
-- optionally a Constraint Type (CT)
-- SHACL validation to check if the correct decomposition pattern is used for a property also linked to potential vocabulary terms to be used
-- optionally a Variable Domain Pattern (VCP), that can be used to overrule the Variable Design Pattern, when the researcher prefers this. 
-- optionally a Mapping Rule for allowing mappings to correct, domain-specific patterns
+A **Variable Design Pattern (VDP)** acts as the orchestrator. It contains the complete set of instructions for humans and machines to decompose a variable and formally links to:
+- **Property Design Pattern (PDP)**: Defines requirements on the property being observed or quantified.
+- **Object of Interest Design Pattern (ODP)**: Defines the entity or system structure (e.g., single entity, ratio, symmetric/asymmetric system).
+- **Matrix Design Pattern (MDP)** *(optional)*: Defines the environmental or embedding matrix context when relevant.
+- **Constraint Type (CT)** *(optional)*: Declares required qualifiers or reference points (e.g., reference, spatial, or temporal constraints).
+- **Variable Community Pattern (VCP)** *(optional, domain-specific)*: Specializes or overrules the core VDP according to domain conventions (e.g., atmospheric sciences).
+- **Mapping Rule (MR)** *(optional)*: Captures cross-pattern alignments, relationships, or community equivalences (`exactMatch`, `relatedMatch`, etc.).
+- **SHACL Shapes (`associated_shacl`)** *(optional)*: Validates that instantiated variables conform to the selected pattern decomposition.
 
-## How to use and read PATTERNS:
-Use one PATTERN for each description component (apart from constraints for which more might be needed), guided by decision trees
+---
 
-A Pattern is a decomposition design guide including this information:
+## How to Use and Read PATTERNS
 
-## 1. Field Specification Table
+Decompose variables using **one pattern per component role** (Property, Object of Interest, Matrix), supplemented by **Constraint Types** where needed.
 
-| Field Name | Description | Instructions / Values | Required | Multiplicity |
+Pattern files are written as flat bullet lists designed for direct GitHub browsing and navigation:
+- Every internal pattern reference and GitHub issue must be an inline Markdown hyperlink: `[LABEL](URL)`.
+- Use explicit `null` for unassigned single references.
+- Use explicit bullet lists under a key when multiple entries are present.
+
+---
+
+## 1. Field Specification: Variable Design Pattern (VDP)
+
+| Field Name | Description | Value / Format | Required | Multiplicity |
 | :--- | :--- | :--- | :---: | :---: |
-| **`type`** | Top-level classification of the schema pattern. | Fixed to `Variable Design Pattern`. | **Yes** | No |
-| **`subtype`** | Granular classification within the main pattern type. | Specifies which I-ADOPT component is addressed (e.g., *Property Pattern*, *ObjectOfInterest*, *Matrix*, *Constraint*, *Variable*). | **Yes** | No |
-| **`id`** | Unique, persistent global identifier (URI) for the pattern file. | Direct URL to the pattern file in the GitHub repository. | **Yes** | No |
-| **`name`** | Short, human-readable label for the pattern. | e.g., `angle` | **Yes** | No |
-| **`definition`** | Formal text description explaining physical/mathematical nature. | Details boundary rules separating this pattern from others. | **Yes** | No |
-| **`design`** | Pragmatic modeling instructions for mapping into I-ADOPT. | Guidance on how components should be populated. | **Yes** | No |
-| **`ObjectOfInterest`** | Target class expected for the `ObjectOfInterest` slot. | Options: `Entity`, `Asymmetric System (Num/Denom)`, `Asymmetric System (Source/Target)`, `Symmetric System (Part)`. | No | No |
-| **`Matrix`** | Target class expected, if required, for the `Matrix` slot. | Options: `Entity`, `Asymmetric System (Num/Denom)`, `Asymmetric System (Source/Target)`, `Symmetric System (Part)`. | No | No |
-| **`required_constraint`** | Constraint type required for validity. | Specifies mandatory constraint class. | No | No |
-| **`constrained_component`** | Target component constrained by `required_constraint`. | Indicates which slot receives the constraint. | No | No |
-| **`associated_patterns`** | List of links to related design patterns in repository. | Use GitHub file URIs as list entries. | No | **Yes** |
-| **`associated_mappings`** | List of links to mappings defined in repository. | Use GitHub file URIs as list entries. | No | **Yes** |
-| **`path`** | Tracking choices taken through Decision Tree to reach pattern. | Must be wrapped in quotes (`"..."`) for YAML safety. | No | No |
-| **`alt_paths`** | Alternative Decision Tree paths leading to this pattern. | Must be wrapped in quotes (`"..."`) for YAML safety. | No | **Yes** |
-| **`example`** | Real-world I-ADOPT variable short name demonstrating pattern. | Short string label. | No | No |
-| **`gh_issue`** | URI link to issue discussion demonstrating pattern application. | Direct URL to GitHub issue. | No | No |
+| **`type`** | Top-level entity class. | Fixed: `Design Pattern` | **Yes** | No |
+| **`subtype`** | Granular pattern category. | Fixed: `Variable Design Pattern` | **Yes** | No |
+| **`id`** | Persistent pattern identifier link. | `[VDP<ID>](URL)` | **Yes** | No |
+| **`name`** | Short human-readable title. | String (e.g., `length ref`, `areal density`) | **Yes** | No |
+| **`definition`** | Physical/mathematical definition. | Text string | **Yes** | No |
+| **`design`** | Structural modeling instructions. | Text string | **Yes** | No |
+| **`PDP`** | Target Property Design Pattern link. | `[PDP<ID>](URL)` or `null` | **Yes** | No |
+| **`ODP`** | Target Object of Interest Pattern link. | `[ODP<ID>](URL)` or `null` | **Yes** | No |
+| **`MDP`** | Target Matrix Design Pattern link. | `[MDP<ID>](URL)` or `null` | No | No |
+| **`CT`** | Constraint Type attached at variable level. | `[CT<ID>](URL)` or `null` | No | No |
+| **`associated_shacl`** | Path to SHACL shape definition. | Markdown link or `null` | No | No |
+| **`associated_domain_pattern`** | Community pattern specializing this VDP. | `[VCP<ID>](URL)` or `null` | No | No |
+| **`associated_mapping`** | Associated mapping rule link(s). | List of `[MR<ID>](URL)` or `null` | No | **Yes** |
+| **`path`** | Decision tree trace reaching this pattern. | Quoted string (`"DT0:... => VDP..."`) | No | No |
+| **`alt_path`** | Alternative decision tree trace. | Quoted string or `null` | No | No |
+| **`gh_issue`** | GitHub issue reference link. | `[issue #<ID>](URL)` | No | No |
 
----
-
-## 2. Formatting Guidelines (YAML)
-
-* **Multiple Entries (Lists):**
-  * Indent with two spaces followed by `- ` (e.g., `  - https://...`)
-  * When no list entries exist, represent explicitly as empty list: `[]`
-* **Single Entries:**
-  * When no value is provided, represent explicitly as `null`
-* **String Safety:**
-  * Enclose decision tree paths (`path` and `alt_paths`) in double quotes (`"..."`) to prevent parsing errors due to special characters (`->`, `=>`, `:`, etc.).
-
----
-
-## 3. Example YAML Definition
-
-```yaml
-type: Variable Design Pattern
-subtype: Property Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP03.yaml
-name: angle
-definition: A ratio comparing two geometric properties that retains units (e.g., degrees, radians) because the comparison is made against an external, universal geometric constant (a full circle/rotation).
-design: Use single entity in the object of interest.
-ObjectOfInterest: Entity
-Matrix: null
-required_constraint: null
-constrained_component: null
-associated_patterns:
-  - https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP28.yaml
-associated_mappings: []
-path: "DT0:Units(T) -> DT2:Length(F) -> OtherFund(F) -> DT3:Ratio(T) -> Time(F) -> DifferentQuantities(F) -> DiffEntities(F) => VDP03"
-alt_paths: null
-example: angle of attack
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/104
-```
+### Markdown Template (`VDP<ID>.md`)
+```markdown
+- type: Design Pattern
+- subtype: Variable Design Pattern
+- id: [VDP<ID>](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP<ID>.md)
+- name: <pattern_name>
+- definition: <definition_text>
+- design: <design_rationale_and_structure>
+- PDP: [PDP<ID>](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/PDP<ID>.md)
+- ODP: [ODP<ID>](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/ODP<ID>.md)
+- MDP: null
+- CT: null
+- associated_shacl: null
+- associated_domain_pattern: null
+- associated_mapping: null
+- path: "<decision_tree_path>"
+- alt_path: null
+- gh_issue: [issue #<ISSUE_NUM>](https://github.com/mabablue/I-ADOPT-examples-playground/issues/<ISSUE_NUM>)
