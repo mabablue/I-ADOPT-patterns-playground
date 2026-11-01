@@ -17,7 +17,7 @@ A **[Variable Design Pattern (VDP)](https://github.com/mabablue/I-ADOPT-patterns
 - **SHACL Shapes (`associated_shacl`)** *(optional)*: Validates that instantiated variables conform to the selected pattern decomposition.
 
 For PDP, ODP, and MDP this [template](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/CDP.md) is used. 
----
+
 
 ## How to Use and Read PATTERNS
 
