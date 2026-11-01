@@ -3,8 +3,12 @@ subtype: Variable Design Pattern
 id: VDP128 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP128.yaml
 name: concentration
 definition: >-
-    Concentration describes how much of one substance (the solute) is present in another substance (the solvent) as a volume. Examples are mass and amount of substance concentration.
-design: Requires an ObjectOfInterest to be a asymmetric system of type ratio with numerator and denominator. 
+  Concentration describes how much of one substance (the solute) is present in
+  another substance (the solvent) as a volume. Examples are mass and amount of
+  substance concentration.
+design: >-
+  Requires an ObjectOfInterest to be an asymmetric system of type ratio with
+  numerator and denominator.
 PDP: PDP128 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/PDP128.yaml
 ODP: ODP35 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/ODP35.yaml
 MDP: null
