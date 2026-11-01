@@ -1,0 +1,7 @@
+- type: Design Pattern
+- subtype: ObjectOfInterest Design Pattern
+- id: [ODP35](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/ODP35.md)
+- name: ratio
+- definition: An asymmetric system that compares two entities or quantities by division, characterizing one relative to another through distinct numerator and denominator roles.
+- design: Object of interest with an asymmetric system having numerator and denominator description roles.
+- gh_issue: [issue #128](https://github.com/mabablue/I-ADOPT-examples-playground/issues/128)
