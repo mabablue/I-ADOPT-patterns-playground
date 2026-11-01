@@ -1,3 +1,18 @@
+## How PATTERNS relate to each other:
+<img width="1225" height="427" alt="image" src="https://github.com/user-attachments/assets/7f880d50-5107-4a57-97cf-368967375fe4" />
+
+
+The **Decision Trees (DT)** can be used to find the appropriate Variable Design Pattern.
+
+A **Variable Design Pattern (VDP)** includes the whole instruction for humans and machines to decompose the whole variable and links to:
+- the Property Design Pattern (PDP)
+- the Object of Interest Pattern (ODP)
+- optionally a Matrix Design Pattern (MDP)
+- optionally a Constraint Type (CT)
+- SHACL validation to check if the correct decomposition pattern is used for a property also linked to potential vocabulary terms to be used
+- optionally a Variable Domain Pattern (VCP), that can be used to overrule the Variable Design Pattern, when the researcher prefers this. 
+- optionally a Mapping Rule for allowing mappings to correct, domain-specific patterns
+
 ## How to use and read PATTERNS:
 Use one PATTERN for each description component (apart from constraints for which more might be needed), guided by decision trees
 
