@@ -3,7 +3,7 @@
 
 ## Workflow:
 
-1. Follow Variable Design Steps using Decision Trees (DT) leading to Variable Design Patterns (VDPs).
+1. Follow Variable Design Steps using Decision Trees (DT) leading to Variable Design Patterns (VDPs). Find here [instructions](https://github.com/mabablue/I-ADOPT-patterns-playground/edit/main/Guide/guideline.md) on how to interprete patterns. 
 2. Use the **[I-ADOPT Visualizer](https://sirkos.github.io/iadopt-vis/)** to compose your variable.
 3. Find appropriate semantic concepts from the vocabularies of your choice (or use this [lookup service](https://i-adopt.github.io/terminologies/list/all/)) and add their IRIs in the visualizer.
 4. Copy RDF and safe it as turtle (.ttl) file in the [I-ADOPT Examples Repository](https://github.com/mabablue/I-ADOPT-examples-playground).
@@ -11,7 +11,7 @@
 
 Find definitions of I-ADOPT concepts and specific terms used here in this [glossary](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/glossary.md). 
 
-**Demo Example: [Ozone total column](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/ECV/Atmosphere/Ozone.ttl)** - Definition: 2D field of total amount of O3 molecules per unit area in an atmospheric column extending from the Earth’s surface to the upper edge of the atmosphere.
+**Demo Example: [Ozone column molecular content](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/ECV/Atmosphere/Ozone.ttl)** - Definition: 2D field of total amount of O3 molecules per unit area in an atmospheric column extending from the Earth’s surface to the upper edge of the atmosphere.
 
 ## 1. Analyze
 Analyse the variable description and, if necessary, rewrite it to provide a clear interpretation of the measured phenomenon. The help of a domain expert might be useful. Leave out details about the unit of measurements, the method and the instrument but make sure to include the property, the measured entity and the context defining the measurement. 
