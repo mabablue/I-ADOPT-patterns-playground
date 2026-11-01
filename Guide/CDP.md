@@ -1,14 +1,15 @@
 ## Field Specification: Component Design Patterns (PDP, ODP, MDP)
 Streamlined pattern definitions decouple property and object definitions from variable-level constraint and matrix bindings.
 
-Field Name,Description,Value / Format,Required,Multiplicity
-type,Top-level entity class.,Fixed: Design Pattern,Yes,No
-subtype,Component pattern category.,"Property Design Pattern, ObjectOfInterest Design Pattern, or Matrix Design Pattern",Yes,No
-id,Persistent component identifier link.,`[<PDP,ODP,MDP>](URL)`
-name,Short human-readable name.,"String (e.g., nominal, ratio, single)",Yes,No
-definition,Formal semantic definition.,Text string,Yes,No
-design,Conceptual component rule.,"Text string (e.g., The property must be specific.)",Yes,No
-gh_issue,GitHub issue reference link.,[issue #<ID>](URL),No,No
+| Field Name | Description | Value / Format | Required | Multiplicity |
+| :--- | :--- | :--- | :---: | :---: |
+| **`type`** | Top-level entity class. | Fixed: `Design Pattern` | **Yes** | No |
+| **`subtype`** | Component pattern category. | `Property Design Pattern`, `ObjectOfInterest Design Pattern`, or `Matrix Design Pattern` | **Yes** | No |
+| **`id`** | Persistent component identifier link. | `[<PDP|ODP|MDP><ID>](URL)` | **Yes** | No |
+| **`name`** | Short human-readable name. | String (e.g., `nominal`, `ratio`, `single`) | **Yes** | No |
+| **`definition`** | Formal semantic definition. | Text string | **Yes** | No |
+| **`design`** | Conceptual component rule. | Text string (e.g., `The property must be specific.`) | **Yes** | No |
+| **`gh_issue`** | GitHub issue reference link. | `[issue #<ID>](URL)` | No | No |
 
 ### Markdown Template (<TYPE><ID>.md)
 
