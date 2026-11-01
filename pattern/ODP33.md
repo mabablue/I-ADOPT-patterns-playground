@@ -1,0 +1,13 @@
+- type: Design Pattern
+- subtype: ObjectOfInterest Design Pattern
+- id: [ODP33](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/ODP33.md)
+- name: Single
+- definition: A single, distinguishable "object" in the universe, for which a property is measured.
+- design: Object of interest with a single entity.
+- involved_components:
+  - object of interest
+- constrained_component: null
+- associated_pattern: []
+- associated_mapping: null
+- example: Water turbidity of stagnant surface water
+- gh_issue: [issue #132](https://github.com/mabablue/I-ADOPT-examples-playground/issues/132)
