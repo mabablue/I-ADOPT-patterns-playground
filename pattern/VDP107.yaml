@@ -1,15 +1,18 @@
-type: Variable Design Pattern
-subtype: Property Pattern
-id: https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP107.yaml
+type: Design Pattern
+subtype: Variable Design Pattern
+id: VDP107 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP107.yaml
 name: length ref
-comment: Length in relation to another object. Lengh is a fundamental property. Examples are width, depth, height, circumference.
-design: OoI with single. Length requires a reference point given by a constraint (reference). 
+definition: >-
+  Length in relation to another object. Length is a fundamental property.
+  Examples are width, depth, height, circumference.
+design: >-
+  OoI with single. Length requires a reference point given by a
+  constraint (reference).
 PDP: PDP107 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/PDP107.yaml
 ODP: ODP33 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/ODP33.yaml
 MDP: null
-CT: Reference ON Property # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/CTP68.yaml
+CT: CTP68 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/CTP68.yaml
 associated_mapping: []
 path: "DT0:Units(T) -> DT2:Length(T) -> Distinct(F) -> 2Equal(F) => VDP107"
 alt_path: null
-example: height of atmospheric boundary layer
-gh_issue: https://github.com/mabablue/I-ADOPT-examples-playground/issues/10
+gh_issue: 10 # https://github.com/mabablue/I-ADOPT-examples-playground/issues/10
