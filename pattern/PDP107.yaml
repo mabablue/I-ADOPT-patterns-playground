@@ -7,4 +7,5 @@ definition: >-
   Examples are width, depth, height, circumference.
 design: >-
   The property represents a spatial extent or distance requiring a reference point.
+CT: CTP68 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/CTP68.yaml  
 gh_issue: 10 # https://github.com/mabablue/I-ADOPT-examples-playground/issues/10
