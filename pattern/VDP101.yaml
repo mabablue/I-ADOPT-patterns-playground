@@ -1,0 +1,15 @@
+type: Design Pattern
+subtype: Variable Design Pattern
+id: VDP101 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP101.yaml
+name: nominal
+definition: >-
+  A nominal variable has values of equal importance that cannot be ranked in
+  any particular order (non-ordinal), e.g., species of pests, colors. The values
+  of these variables are usually indicated by words, ideally using controlled lists.
+PDP: PDP101 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/PDP101.yaml
+ODP: ODP33 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/ODP33.yaml
+MDP: null
+associated_mapping: null
+path: "DT0:Units(F) -> Unitless(Categorical) => Categorical(nominal) => VDP101"
+alt_path: null
+gh_issue: 1 # https://github.com/mabablue/I-ADOPT-examples-playground/issues/1
