@@ -12,6 +12,7 @@ design: >-
 PDP: PDP128 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/PDP128.yaml
 ODP: ODP35 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/ODP35.yaml
 MDP: null
+CT: null
 associated_domain_pattern: null
 associated_shacl: 128 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/SHACL-definitions/128.sh.ttl
 associated_mapping: MR2 # https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR2.yaml
