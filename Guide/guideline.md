@@ -39,7 +39,7 @@ In case it is a quantitative property with units and the units are known for the
 - [ratio properties](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT5.mmd)
 
 Demo example <code>Property</code> pattern:
-*Are there units associated with the result values? yes (molecules/m2) -> quantitative property -> derived property -> ratio -> quantities of different types -> no time in the denominator -> denominator is area -> [AREAL DENSITY VDP127](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP127.yaml)* 
+*Are there units associated with the result values? yes (molecules/m2) -> quantitative property -> derived property -> ratio -> quantities of different types -> no time in the denominator -> denominator is area -> numerator is entity -> [AREAL NuMBER DENSITY VDP127](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP127.yaml)* 
 
 Click on the pattern description to find instruction in the design info (see [glossary](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Guide/glossary.md)).
 
