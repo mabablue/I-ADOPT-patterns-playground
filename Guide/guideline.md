@@ -116,18 +116,18 @@ IRIs for concepts:
 - atmosphere: http://vocab.nerc.ac.uk/collection/S21/current/S21S001/
 
 ## 9. Alternative Community Pattern
-As the demo example is a recurring variable in Atmospheric Sciences, Variable Community Patterns can be used instead of the generic core decomposition to align directly with domain conventions and established vocabularies like CF Conventions.
+As the demo example is a recurring variable in Atmospheric Sciences, <code>Variable Community Patterns</code> can be used instead of the generic core decomposition to align directly with domain conventions and established vocabularies like CF Conventions.
 
-<img width="829" height="377" alt="image" src="https://github.com/user-attachments/assets/83e1d4f2-b0fc-416e-a91e-0a24719a6c4d" />
+<img width="829" height="377" alt="image" src="https://github.com/user-attachments/assets/83e1d4f2-b0fc-416e-a91e-0a24719a6c4d"/>
 
 Here we use a domain-specific property: column molecular content, which incorporates two simplifications over the neutral pattern:
 
 1. The constraint on the denominator (the vertical integration scope) is encapsulated directly within the domain property (column molecular content). However a constraint is still needed to specify if the total or the partial column is meant.
-2. The focus shifts from an abstract mathematical system (substance per unit area) to the physical target substance itself. The <code>Object of Interest</code> resolves to the substance of interest (`ozone`, using `ODP33: Single Entity` or a defined chemical mixture), while the surrounding physical column environment is explicitly captured as the *<code>Matrix</code> (`MDP41: atmosphere`).
+2. The focus shifts from an abstract mathematical system (substance per unit area) to the physical target substance itself. The <code>Object of Interest</code> resolves to the substance of interest (ozone, using [ODP33]([url](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/addf99e99a37f1b09a74e31678efb23b9b92ee53/pattern/ODP33.md)): Single Entity or a defined chemical mixture), while the surrounding physical column environment is explicitly captured as the *<code>Matrix</code> (MDP41: atmosphere).
 
 ### Mapping to Core Pattern
 
-To maintain semantic interoperability across domains without losing atmospheric community semantics, this pattern is formally bridged back to the generic areal density pattern (**`VDP127`**) via **`MR2`**:
+To maintain semantic interoperability across domains without losing atmospheric community semantics, this pattern is formally bridged back to the generic areal density pattern ([VDP127]([url](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/addf99e99a37f1b09a74e31678efb23b9b92ee53/pattern/VDP127.md))) via [MR2]([url](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/addf99e99a37f1b09a74e31678efb23b9b92ee53/mapping/MR2.md)):
 
-* **`VCP127` (Community):** `Property: column molecular content` + `ObjectOfInterest: ozone` + `Matrix: atmospheric column`
-* **`VDP127` (Generic Core):** `Property: areal number density` + `ObjectOfInterest: ozone/area ratio system` + `Constraint: vertical atmospheric column extent`
+* VCP127 (Community): _Property: column molecular content + ObjectOfInterest: ozone + Matrix: atmospheric column_
+* VDP127 (Generic Core): _Property: areal number density + ObjectOfInterest: ozone/area ratio system + Constraint: vertical atmospheric column extent_
