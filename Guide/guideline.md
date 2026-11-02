@@ -58,9 +58,9 @@ Find one <code>Object of Interest</code> pattern that applies for your variable 
 - [Ratio Object of Interests](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT5.mmd) including also specialized cases
 - [Complex Object of Interests](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT6.mmd) involving systems or more than one property in a variable
 
-Demo example <code>Object of Interest</code> pattern: *[Ratio Object of Interests](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT5.mmd) -> Areal density -> [RATIO VDP127](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP127.yaml) -> Asymmetric System (numerator: ozone / denominator: atmospheric column)*
+Demo example <code>Object of Interest</code> pattern: *[Ratio Object of Interests](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/DT5.mmd) -> Areal density -> [RATIO VDP127](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP127.yaml) -> Asymmetric System (numerator: ozone / denominator: area)*
 
-<img width="395" height="154" alt="image" src="https://github.com/user-attachments/assets/d36dd44a-493a-46df-b143-dc7b7d5c27d4" />
+<img width="383" height="151" alt="image" src="https://github.com/user-attachments/assets/b9d1aba0-57c9-40a6-8454-8bf4c67a02d4" />
 
 
 
