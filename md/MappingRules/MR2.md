@@ -1,0 +1,6 @@
+- type: Mapping Rule
+- id: [MR2](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/mapping/MR2.md)
+- title: Ratio vs Single
+- subject: [ODP35](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/ODP35.md)
+- mapping_predicate: exactMatch
+- object: [ODP33](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/ODP33.md)
