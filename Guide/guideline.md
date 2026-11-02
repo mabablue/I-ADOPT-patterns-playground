@@ -101,7 +101,8 @@ Demo example: no context object needed
 ##
 Solution demo example: [turtle file](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/ECV/Atmosphere/Ozone.ttl)
 
-<img width="830" height="373" alt="image" src="https://github.com/user-attachments/assets/418f82c2-82d8-4754-baaa-86aca563503e" />
+<img width="831" height="530" alt="image" src="https://github.com/user-attachments/assets/9c49a25f-2f0d-4fe1-b06f-603cad710d24" />
+
 
 
 
