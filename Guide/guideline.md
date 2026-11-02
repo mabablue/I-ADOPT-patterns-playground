@@ -109,7 +109,9 @@ Solution demo example: [turtle file](https://github.com/mabablue/I-ADOPT-example
 
 
 IRIs for concepts:
+- areal number density: https://www.wikidata.org/data/Q108914965 
 - ozone: http://vocab.nerc.ac.uk/collection/S27/current/CS003171/
+- area: http://vocab.nerc.ac.uk/collection/S06/current/S0600146/
 - atmosphere: http://vocab.nerc.ac.uk/collection/S21/current/S21S001/
 
 
