@@ -87,7 +87,7 @@ Determine <code>Constraints</code> and place them under the correct component. E
 **Overview of constraint patterns:**
 -  [constraints](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/Constraint_patterns.csv)
 
-Demo Example <code>Constraint</code>: The Variable specifies that the unit area is related to the total atmospheric column extending from the Earth's surface to the upper edge of the atmosphere. Thus we require a constraint on the denominator of the object of interest. 
+Demo Example <code>Constraint</code>: The Variable specifies that the unit area is related to the total atmospheric column extending from the Earth's surface to the upper edge of the atmosphere. Thus we require a spatial constraint on the denominator of the object of interest. 
 
 
 <img width="184" height="208" alt="image" src="https://github.com/user-attachments/assets/fbd28431-2dfb-4d28-8351-79dbe19e2f15" />
