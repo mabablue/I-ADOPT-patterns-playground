@@ -87,10 +87,11 @@ Determine <code>Constraints</code> and place them under the correct component. E
 **Overview of constraint patterns:**
 -  [constraints](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/Decision_trees/Constraint_patterns.csv)
 
-Example <code>Constraint</code> pattern:  Spatial -> [reference VDP68](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VDP68.yaml) on the <code>Property</code> as shown in the variable [Atmospheric boundary layer height defined by temperature inversion](https://github.com/mabablue/I-ADOPT-examples-playground/issues/10) for the property height. 
+Demo Example <code>Constraint</code>: The Variable specifies that the unit area is related to the total atmospheric column extending from the Earth's surface to the upper edge of the atmosphere. Thus we require a constraint on the denominator of the object of interest. 
 
 
-<img width="202" height="133" alt="image" src="https://github.com/user-attachments/assets/c9e9817c-7e77-4138-ac05-9f6b59136083" />
+<img width="184" height="208" alt="image" src="https://github.com/user-attachments/assets/fbd28431-2dfb-4d28-8351-79dbe19e2f15" />
+
 
 
 ## 8. Context Object
@@ -101,7 +102,8 @@ Demo example: no context object needed
 ##
 Solution demo example: [turtle file](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/ECV/Atmosphere/Ozone.ttl)
 
-<img width="831" height="530" alt="image" src="https://github.com/user-attachments/assets/9c49a25f-2f0d-4fe1-b06f-603cad710d24" />
+<img width="832" height="535" alt="image" src="https://github.com/user-attachments/assets/3a567d3d-f324-40d7-9829-1db0bc38498d" />
+
 
 
 
