@@ -1,0 +1,11 @@
+- type: Design Pattern
+- subtype: Variable Community Pattern
+- id: [VCP127](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/VCP127.md)
+- name: column content
+- definition: Quantity per unit area
+- domain: atmospheric sciences
+- design: Uses Single for ObjectOfInterest and Entity for Matrix.
+- PDP: [PDP127](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/PDP127.md)
+- ODP: [ODP33](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/ODP33.md)
+- MDP: [MDP41](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/pattern/MDP41.md)
+- gh_issue: [issue #138](https://github.com/mabablue/I-ADOPT-examples-playground/issues/138)
