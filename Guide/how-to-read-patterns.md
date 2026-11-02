@@ -2,7 +2,8 @@
 
 ## How PATTERNS Relate to Each Other
 
-<img width="1225" height="427" alt="image" src="https://github.com/user-attachments/assets/87bf4b6c-f82a-4735-8849-0ad8677593cf" />
+<img width="1311" height="455" alt="image" src="https://github.com/user-attachments/assets/2046bfd4-95cc-45fc-a302-5035e8d083c9" />
+
 
 
 The **Decision Trees (DT)** guide you to the appropriate **Variable Design Pattern (VDP)**.
