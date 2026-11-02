@@ -123,7 +123,7 @@ As the demo example is a recurring variable in Atmospheric Sciences, Variable Co
 Here we use a domain-specific property: column molecular content, which incorporates two simplifications over the neutral pattern:
 
 1. The constraint on the denominator (the vertical integration scope) is encapsulated directly within the domain property (column molecular content). However a constraint is still needed to specify if the total or the partial column is meant.
-2. The focus shifts from an abstract mathematical system (substance per unit area) to the physical target substance itself. The <code>Object of Interest</code resolves to the substance of interest (`ozone`, using `ODP33: Single Entity` or a defined chemical mixture), while the surrounding physical column environment is explicitly captured as the *<code>Matrix</code (`MDP41: atmosphere`).
+2. The focus shifts from an abstract mathematical system (substance per unit area) to the physical target substance itself. The <code>Object of Interest</code> resolves to the substance of interest (`ozone`, using `ODP33: Single Entity` or a defined chemical mixture), while the surrounding physical column environment is explicitly captured as the *<code>Matrix</code> (`MDP41: atmosphere`).
 
 ### Mapping to Core Pattern
 
