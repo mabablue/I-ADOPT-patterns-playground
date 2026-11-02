@@ -102,8 +102,8 @@ Demo example: no context object needed
 ##
 Solution demo example: [turtle file](https://github.com/mabablue/I-ADOPT-examples-playground/blob/main/ECV/Atmosphere/Ozone.ttl)
 
-<img width="828" height="531" alt="image" src="https://github.com/user-attachments/assets/fee4b5c6-65d7-4ce6-8a2d-83f94c3014dd" />
 
+<img width="830" height="531" alt="image" src="https://github.com/user-attachments/assets/ba7c6b70-8295-46cb-89d6-6ebc4afcc9f6" />
 
 
 
@@ -115,4 +115,19 @@ IRIs for concepts:
 - area: http://vocab.nerc.ac.uk/collection/S06/current/S0600146/
 - atmosphere: http://vocab.nerc.ac.uk/collection/S21/current/S21S001/
 
+## 9. Alternative Community Pattern
+As the demo example is a recurring variable in Atmospheric Sciences, Variable Community Patterns can be used instead of the generic core decomposition to align directly with domain conventions and established vocabularies like CF Conventions.
 
+<img width="829" height="377" alt="image" src="https://github.com/user-attachments/assets/83e1d4f2-b0fc-416e-a91e-0a24719a6c4d" />
+
+Here we use a domain-specific property: column molecular content, which incorporates two simplifications over the neutral pattern:
+
+1. The constraint on the denominator (the vertical integration scope) is encapsulated directly within the domain property (column molecular content). However a constraint is still needed to specify if the total or the partial column is meant.
+2. The focus shifts from an abstract mathematical system (substance per unit area) to the physical target substance itself. The <code>Object of Interest</code resolves to the substance of interest (`ozone`, using `ODP33: Single Entity` or a defined chemical mixture), while the surrounding physical column environment is explicitly captured as the *<code>Matrix</code (`MDP41: atmosphere`).
+
+### Mapping to Core Pattern
+
+To maintain semantic interoperability across domains without losing atmospheric community semantics, this pattern is formally bridged back to the generic areal density pattern (**`VDP127`**) via **`MR2`**:
+
+* **`VCP127` (Community):** `Property: column molecular content` + `ObjectOfInterest: ozone` + `Matrix: atmospheric column`
+* **`VDP127` (Generic Core):** `Property: areal number density` + `ObjectOfInterest: ozone/area ratio system` + `Constraint: vertical atmospheric column extent`
