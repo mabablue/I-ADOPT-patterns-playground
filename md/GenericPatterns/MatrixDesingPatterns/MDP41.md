@@ -1,0 +1,7 @@
+- type: Design Pattern
+- subtype: Matrix Design Pattern
+- id: MDP41
+- name: natural container
+- definition: A matrix is required when the object of interest is contained in a natural body.
+- design: The matrix represents an enclosing or hosting natural body containing the target entity.
+- gh_issue: issue #142
