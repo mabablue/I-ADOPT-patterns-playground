@@ -1,6 +1,6 @@
 - type: Design Pattern
 - subtype: Matrix Design Pattern
-- id: MDP41
+- id: [MDP41](https://github.com/mabablue/I-ADOPT-patterns-playground/blob/main/md/GenericPatterns/MatrixDesingPatterns/MDP41.md)
 - name: natural container
 - definition: A matrix is required when the object of interest is contained in a natural body.
 - design: The matrix represents an enclosing or hosting natural body containing the target entity.
